@@ -46,12 +46,40 @@ namespace Channel9Plugin.Tests.Integration
         public virtual void ScenarioSetup(TechTalk.SpecFlow.ScenarioInfo scenarioInfo)
         {
             testRunner.OnScenarioStart(scenarioInfo);
+            this.FeatureBackground();
         }
         
         [NUnit.Framework.TearDownAttribute()]
         public virtual void ScenarioTearDown()
         {
             testRunner.OnScenarioEnd();
+        }
+        
+        public virtual void FeatureBackground()
+        {
+#line 6
+#line 7
+testRunner.Given("an RSS file \'Channel9.rss\'");
+#line 8
+testRunner.And("a Channel 9 provider");
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Have an RSS root folder")]
+        public virtual void HaveAnRSSRootFolder()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Have an RSS root folder", ((string[])(null)));
+#line 10
+this.ScenarioSetup(scenarioInfo);
+#line 11
+testRunner.When("I retrieve the children of the root");
+#line 12
+testRunner.Then("there should be only 1 child");
+#line 13
+testRunner.And("it should be named \'RSS\'");
+#line hidden
+            testRunner.CollectScenarioErrors();
         }
     }
 }

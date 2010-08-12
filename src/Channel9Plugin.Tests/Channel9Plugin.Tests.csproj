@@ -67,6 +67,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Channel9Plugin.feature</DependentUpon>
     </Compile>
+    <Compile Include="Integration\Steps\Channel9Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +76,13 @@
       <LastGenOutput>Channel9Plugin.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Channel9Plugin\Channel9Plugin.csproj">
+      <Project>{B2BAFE7D-3F20-4251-A144-70D327623D34}</Project>
+      <Name>Channel9Plugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
