@@ -6,8 +6,20 @@
 Background:
 	Given an RSS file 'Channel9.rss'
 	And a Channel 9 provider
+    And a settings object
+
+Scenario: Description
+    Then the settings should have a description of 'Channel 9 (MSDN)'
+    And the settings should have an image
+    
 
 Scenario: Have an RSS root folder
 	When I retrieve the children of the root
 	Then there should be only 1 child
-	And it should be named 'RSS'
+	And child 0 should be named 'RSS'
+
+Scenario: Retrieve RSS items
+    When I retrieve the children of 'root=>RSS'
+    Then child 1 should have these attributes:
+    |Name       |Value                                      |
+    |Title       |Visual Studio LightSwitch - Beyond the Basics|

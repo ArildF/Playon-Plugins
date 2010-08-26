@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/App_Themes/default/rss.xslt"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:evnet="http://www.mscommunities.com/rssmodule/">
+    <channel>
+        <title>Channel 9</title>
+        <atom:link rel="self" type="application/rss+xml" href="http://channel9.msdn.com/feeds/rss/default.aspx" />
+        <image>
+            <url>http://mschnlnine.vo.llnwd.net/d1/Dev/App_Themes/C9/images/feedimage.png</url>
+            <title>Channel 9</title>
+            <link>http://channel9.msdn.com/</link>
+        </image>
+        <description>Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with. From LINQ to SilverLight – Watch videos and hear about all the cool technologies coming and the people behind them. </description>
+        <link>http://channel9.msdn.com/</link>
+        <language>en-us</language>
+        <pubDate>Mon, 09 Aug 2010 23:56:37 GMT</pubDate>
+        <lastBuildDate>Mon, 09 Aug 2010 23:56:37 GMT</lastBuildDate>
+        <generator>EvNet (EvNet, Version=1.0.3713.3727, Culture=neutral, PublicKeyToken=null)</generator>
+        <item>
+            <title>Visual Studio LightSwitch - Beyond the Basics</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_85_ch9.png" border="0" /&gt;In this interview with Joe Binder, a Program Manager on the LightSwitch team, we discuss the LightSwitch application framework architecture and how a LightSwitch application is built on top of well-known technologies like Silverlight, MVVM, RIA Services, and Entity Framework. Joe shows us how to modify the behavior of a screen and how it exposes the commanding pattern in an easy-to-use way. He also shows us how to extend the UI with our own custom Silverlight controls, as well as how to connect our own data sources using RIA Services. &lt;br /&gt;
+                &lt;br /&gt;
+                For an introduction to LightSwitch please see this interview:&lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/posts/Dan/Jay-Schmelzer-Introducing-Visual-Studio-LightSwitch/shape="&gt;Jay Schmelzer: Introducing Visual Studio LightSwitch&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                For more information on LightSwitch, please see:&lt;br /&gt;
+                &lt;li&gt;&lt;a href="http://msdn.com/lightswitch" target="_blank"&gt;Visual Studio LightSwitch Developer Center&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blogs.msdn.com/b/lightswitch" target="_blank"&gt;Visual Studio LightSwitch Team Blog&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://social.msdn.microsoft.com/Forums/en-us/category/vslightswitch" target="_blank"&gt;Visual Studio LightSwitch Forums&lt;/a&gt;
+                &lt;p&gt; &lt;/p&gt;
+                &lt;p&gt;Enjoy,&lt;br /&gt;
+                -&lt;a href="http://blogs.msdn.com/bethmassi"&gt;Beth Massi&lt;/a&gt;, Visual Studio Community&lt;/p&gt;
+                &lt;/li&gt;&lt;img src="http://channel9.msdn.com/566296/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/funkyonex/Visual-Studio-LightSwitch-Beyond-the-Basics/</comments>
+            <link>http://channel9.msdn.com/posts/funkyonex/Visual-Studio-LightSwitch-Beyond-the-Basics/</link>
+            <pubDate>Wed, 11 Aug 2010 19:04:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv</guid>
+            <evnet:views>1156</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/566296/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>In this interview with Joe Binder, a Program Manager on the LightSwitch team, we discuss the LightSwitch application framework architecture and how a LightSwitch application is built on top of well-known technologies like Silverlight, MVVM, RIA Services, and Entity Framework. Joe shows us how to modify the behavior of a screen and how it exposes the commanding pattern in an easy-to-use way. He also shows us how to extend the UI with our own custom Silverlight controls, as well as how to connect our own data sources using RIA Services...</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.mp4" expression="full" duration="2604" fileSize="381335125" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.mp3" expression="full" duration="2604" fileSize="20835411" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wma" expression="full" duration="2604" fileSize="21072029" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv" expression="full" duration="2604" fileSize="284933056" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_2MB_ch9.wmv" expression="full" duration="2604" fileSize="984462389" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_Zune_ch9.wmv" expression="full" duration="2604" fileSize="180085110" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_512_ch9.png" expression="full" duration="2604" fileSize="131728" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_2MB_ch9.wmv" expression="full" duration="2604" fileSize="984462389" type="video/x-ms-asf" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv" length="284933056" type="video/x-ms-wmv" />
+            <dc:creator>Beth Massi</dc:creator>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/funkyonex/Visual-Studio-LightSwitch-Beyond-the-Basics/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/566296/Trackback.aspx</trackback:ping>
+            <category>LightSwitch</category>
+            <category>Programming</category>
+            <category>programming-tools</category>
+            <category>Silveright</category>
+            <category>Visual Studio</category>
+        </item>
+        <item>
+            <title>DirectCompute Lecture Series 230: GPU Accelerated Physics</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_85_ch9.png" border="0" /&gt;Join Lee Howes, a Senior SDE at ATI/AMD, as he gives you a deep dive into GPU accelerated physics. &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;p&gt;This lecture explains how DirectCompute can be employed to create solutions simulating physical systems such as fluid and cloth systems. It also covers how to employ some of the libraries powered by DirectCompute and how to integrate these libraries into your application.  &lt;br /&gt;
+                &lt;br /&gt;
+                After completing the lecture, you will be able to understand the underlying algorithms of some of the physics systems written in DirectCompute, as well as how to make use of the libraries that implement them, such as &lt;a href="http://bulletphysics.org/wordpress/"&gt;Bullet&lt;/a&gt;.&lt;br /&gt;
+                &lt;br /&gt;
+                For more information on DirectCompute, &lt;a href="http://code.msdn.microsoft.com/directcomputehol"&gt;download the PDC 2009 DirectCompute HOL&lt;/a&gt;, &lt;a href="http://channel9.msdn.com/posts/gclassy/DirectCompute-Expert-Roundtable-Discussion/"&gt;watch the DirectCompute Roundtable discussion&lt;/a&gt;, see the &lt;a href="http://go.microsoft.com/fwlink/?LinkId=194362"&gt;full DirectCompute lecture series&lt;/a&gt;, and &lt;a href="http://code.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=DirectComputeLecture&amp;amp;DownloadId=12985"&gt;download the slides for this lecture&lt;/a&gt;.&lt;/p&gt;&lt;img src="http://channel9.msdn.com/558236/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/gclassy/DirectCompute-Lecture-Series-230-GPU-Accelerated-Physics/</comments>
+            <link>http://channel9.msdn.com/posts/gclassy/DirectCompute-Lecture-Series-230-GPU-Accelerated-Physics/</link>
+            <pubDate>Wed, 11 Aug 2010 15:00:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_ch9.wmv</guid>
+            <evnet:views>7698</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/558236/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>This lecture explains how DirectCompute can be employed to create solutions simulating physical systems such as fluid and cloth systems.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_ch9.mp4" expression="full" duration="1683" fileSize="104838076" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_ch9.mp3" expression="full" duration="1683" fileSize="13470157" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_ch9.wma" expression="full" duration="1683" fileSize="13625113" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_ch9.wmv" expression="full" duration="1683" fileSize="101629095" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_2MB_ch9.wmv" expression="full" duration="1683" fileSize="70381922" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_Zune_ch9.wmv" expression="full" duration="1683" fileSize="116687581" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_512_ch9.png" expression="full" duration="1683" fileSize="194291" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/6/3/2/8/5/5/DirectCompute230GpuPhysics_ch9.wmv" length="101629095" type="video/x-ms-wmv" />
+            <dc:creator>Gus Class</dc:creator>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/gclassy/DirectCompute-Lecture-Series-230-GPU-Accelerated-Physics/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/558236/Trackback.aspx</trackback:ping>
+            <category>compute-shader</category>
+            <category>D3D</category>
+            <category>Direct3D</category>
+            <category>DirectCompute</category>
+            <category>DirectCompute-Lecture-Series</category>
+            <category>DirectX</category>
+            <category>DirectX-11</category>
+            <category>GPGPU</category>
+            <category>GPU</category>
+            <category>HLSL</category>
+            <category>Lecture-Series</category>
+        </item>
+        <item>
+            <title>endpoint.tv - Meet SO-Aware (Part 1)</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_85_ch9.png" border="0" /&gt;SO-Aware is an exciting new tool you can use with your WCF Services. This is not just another UDDI registry. Rather, this is a tool that works for SOAP, REST, and OData services and...you just have to see it in action.&lt;br /&gt;
+                &lt;br /&gt;
+                    &lt;a href="http://www.tellagostudios.com/products/so-aware%E2%84%A2"&gt;Tellago Studios SO-Aware&lt;/a&gt;&lt;br /&gt;
+                    endpoint.tv - Meet SO-Aware (Part 2 - coming soon)&lt;br /&gt;
+                &lt;br /&gt;
+                Ron Jacobs&lt;br /&gt;
+                blog        &lt;a href="http://blogs.msdn.com/rjacobs"&gt;http://blogs.msdn.com/rjacobs&lt;/a&gt;&lt;br /&gt;
+                twitter    &lt;a href="http://twitter.com/ronljacobs"&gt;@ronljacobs&lt;/a&gt;&lt;img src="http://channel9.msdn.com/565512/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/Endpoint/endpointtv-Meet-SO-Aware-Part-1/</comments>
+            <link>http://channel9.msdn.com/shows/Endpoint/endpointtv-Meet-SO-Aware-Part-1/</link>
+            <pubDate>Wed, 11 Aug 2010 14:57:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_2MB_ch9.wmv</guid>
+            <evnet:views>2523</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565512/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>SO-Aware is an exciting new tool you can use with your WCF Services. This is not just another UDDI registry. Rather, this is a tool that works for SOAP, REST, and OData services and...you just have to see it in action.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_ch9.mp4" expression="full" duration="2037" fileSize="387957310" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_ch9.mp3" expression="full" duration="2037" fileSize="16297401" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_ch9.wma" expression="full" duration="2037" fileSize="16478913" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_2MB_ch9.wmv" expression="full" duration="2037" fileSize="639474314" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_2MB_ch9.wmv" expression="full" duration="2037" fileSize="639474314" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_Zune_ch9.wmv" expression="full" duration="2037" fileSize="250353702" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_512_ch9.png" expression="full" duration="2037" fileSize="184773" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5512/565512/endpointSOAwarePart1_2MB_ch9.wmv" length="639474314" type="video/x-ms-wmv" />
+            <dc:creator>Ron Jacobs</dc:creator>
+            <slash:comments>3</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/Endpoint/endpointtv-Meet-SO-Aware-Part-1/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565512/Trackback.aspx</trackback:ping>
+            <category>WCF</category>
+            <category>WCF4</category>
+            <category>WF4</category>
+        </item>
+        <item>
+            <title>C9 Lectures: Dr. Ralf Lämmel - Advanced Functional Programming - The Expression Problem</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_85_ch9.png" border="0" /&gt;&lt;em&gt;"The Expression Problem is a new name for an old problem. The goal is to define a datatype by cases, where one can add new cases to the datatype and new functions over the datatype, without recompiling existing code, and while retaining static type safety (e.g., no casts)."&lt;/em&gt; - Philip Wadler&lt;br /&gt;
+                &lt;br /&gt;
+                Welcome to another series of &lt;a href="http://channel9.msdn.com/tags/C9+Lectures" target="_blank"&gt;C9 Lectures&lt;/a&gt; covering &lt;a href="http://channel9.msdn.com/tags/functional+programming" target="_blank"&gt;functional programming&lt;/a&gt;. For this series, &lt;a href="http://www.uni-koblenz.de/~laemmel/Site/Bio.html" target="_blank"&gt;Dr. Ralf Lämmel&lt;/a&gt; has generously taken the time to produce videos for Channel 9 from his office at the University of Koblenz-Landau (Germany), where he is a professor of computer science. The idea here is to take the next step from Erik Meijer's fantastic introductory series on functional programming. Accordingly, Ralf's series will dive into more advanced areas of functional programming, again focusing on the Haskell language (the functional concepts here span beyond any one functional language, however).&lt;br /&gt;
+                &lt;br /&gt;
+                To begin, Dr. Lämmel teaches us about the &lt;a href="http://en.wikipedia.org/wiki/Expression_Problem" target="_blank"&gt;Expression Problem&lt;/a&gt;. Now put on your thinking caps, make yourself comfortable, and enjoy this installment of functional programming lectures on Channel 9. Huge thanks to Dr. Lämmel, both for doing this series for Channel 9 and for filming and producing it all by himself! Finally, thanks to &lt;a href="http://channel9.msdn.com/tags/erik+meijer" target="_blank"&gt;Erik Meijer&lt;/a&gt; for suggesting this series and putting me in touch with Ralf.&lt;br /&gt;
+                &lt;br /&gt;
+                See Dr. Lämmel's blog post about the new lecture series here: &lt;a href="http://professor-fish.blogspot.com/2010/08/lecture-series-on-advanced-functional.html"&gt;http://professor-fish.blogspot.com/2010/08/lecture-series-on-advanced-functional.html&lt;/a&gt; &lt;br /&gt;
+                &lt;br /&gt;
+                [Homework assignment is on slide 26 - &lt;a href="http://vegkfg.bay.livefilestore.com/y1ps28dTqLK4LH8IGQUise4kqgbiEBS9XJW3oXcg2nvxgIhS3wy05TmdLg6WdRH3KmR76vzOwhhiYi0wHl5YZ78RDCFKe_E8bUX/RalfLaemmelLectures.pdf?download&amp;amp;psid=2" target="_blank"&gt;&lt;strong&gt;Get the slides&lt;/strong&gt;&lt;/a&gt;]&lt;img src="http://channel9.msdn.com/563672/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/Going+Deep/C9-Lectures-Dr-Ralf-Laemmel-Advanced-Functional-Programming-The-Expression-Problem/</comments>
+            <link>http://channel9.msdn.com/shows/Going+Deep/C9-Lectures-Dr-Ralf-Laemmel-Advanced-Functional-Programming-The-Expression-Problem/</link>
+            <pubDate>Tue, 10 Aug 2010 18:22:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_ch9.wmv</guid>
+            <evnet:views>9800</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/563672/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                &lt;em&gt;"The Expression Problem is a new name for an old problem. The goal is to define a datatype by cases, where one can add new cases to the datatype and new functions over the datatype, without recompiling existing code, and while retaining static type safety (e.g., no casts)."&lt;/em&gt; - Philip Wadler&lt;br /&gt;
+                &lt;br /&gt;
+                Welcome to another series of &lt;a href="http://channel9.msdn.com/tags/C9+Lectures" target="_blank"&gt;C9 Lectures&lt;/a&gt; covering &lt;a href="http://channel9.msdn.com/tags/functional+programming" target="_blank"&gt;functional programming&lt;/a&gt;. For this series, &lt;a href="http://www.uni-koblenz.de/~laemmel/Site/Bio.html" target="_blank"&gt;Dr. Ralf Lämmel&lt;/a&gt; has generously taken the time to produce videos for Channel 9 from his office at the University of Koblenz-Landau (Germany), where he is a professor of computer science. The idea here is to take the next step from Erik Meijer's fantastic introductory series on functional programming. Accordingly, Ralf's series will dive into more advanced areas of functional programming, again focusing on the Haskell language (the functional concepts here span beyond any one functional language, however).&lt;br /&gt;
+                &lt;br /&gt;
+                To begin, Dr. Lämmel teaches us about the &lt;a href="http://en.wikipedia.org/wiki/Expression_Problem" target="_blank"&gt;Expression Problem&lt;/a&gt;.
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_ch9.mp4" expression="full" duration="2871" fileSize="401981301" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_ch9.mp3" expression="full" duration="2871" fileSize="22976908" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_ch9.wma" expression="full" duration="2871" fileSize="23237913" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_ch9.wmv" expression="full" duration="2871" fileSize="230086658" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_2MB_ch9.wmv" expression="full" duration="2871" fileSize="277031039" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_Zune_ch9.wmv" expression="full" duration="2871" fileSize="164326718" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_512_ch9.png" expression="full" duration="2871" fileSize="81445" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_2MB_ch9.wmv" expression="full" duration="2871" fileSize="277031039" type="video/x-ms-asf" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3672/563672/C9LecturesRalfLaemmelExpressionProblem_ch9.wmv" length="230086658" type="video/x-ms-wmv" />
+            <dc:creator>Charles</dc:creator>
+            <slash:comments>9</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/Going+Deep/C9-Lectures-Dr-Ralf-Laemmel-Advanced-Functional-Programming-The-Expression-Problem/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/563672/Trackback.aspx</trackback:ping>
+            <category>C9 Lectures</category>
+            <category>Functional Programming</category>
+            <category>Haskell</category>
+            <category>Programming Languages</category>
+            <category>Ralf-Lmmel</category>
+        </item>
+        <item>
+            <title>Countdown to TechEd Europe:  Don’t Let August Pass You By!</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_85_ch9.png" border="0" /&gt;&lt;p&gt;This month is important for TechEd Europe, if you &lt;a href="http://europe.msteched.com/registration"&gt;register for the conference by August 31&lt;/a&gt; you’ll receive both the €200 Euro price markdown (the last discount that will be offered), plus if you book your hotel you’ll get the free week-long Berlin metro card which will get you all over the city, including conveniently to and from the Messe conference center.  Also included in your registration for TechEd is a &lt;a href="http://technet.microsoft.com/en-us/subscriptions/default.aspx"&gt;free TechNet Subscription&lt;/a&gt;!  Add up all the savings and you simply can’t afford to miss TechEd Europe this year.  And don’t forget, you only have a few more days to speak your desires to the content team by voting on your &lt;a href="http://europe.msteched.com/sessionpreference"&gt;session preferences&lt;/a&gt; by August 12.  Tell the content team the kind of topics you want offered on the TechEd Europe agenda, so your week in Berlin is the most useful it can be for you.  &lt;a href="http://europe.msteched.com/"&gt;http://europe.msteched.com/&lt;/a&gt;&lt;/p&gt;&lt;img src="http://channel9.msdn.com/566153/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/LarryLarsen/Countdown-to-TechEd-Europe-Dont-Let-August-Pass-You-By/</comments>
+            <link>http://channel9.msdn.com/posts/LarryLarsen/Countdown-to-TechEd-Europe-Dont-Let-August-Pass-You-By/</link>
+            <pubDate>Tue, 10 Aug 2010 17:55:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_ch9.wmv</guid>
+            <evnet:views>7938</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/566153/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>&lt;p&gt;This month is important for TechEd Europe, if you &lt;a href="http://europe.msteched.com/registration"&gt;register for the conference by August 31&lt;/a&gt; you’ll receive both the €200 Euro price markdown (the last discount that will be offered), plus if you book your hotel you’ll get the free week-long Berlin metro card which will get you all over the city, including conveniently to and from the Messe conference center. Also included in your registration for TechEd is a &lt;a href="http://technet.microsoft.com/en-us/subscriptions/default.aspx"&gt;free TechNet Subscription&lt;/a&gt;! Add up all the savings and you simply can’t afford to miss TechEd Europe this year. And don’t forget, you only have a few more days to speak your desires to the content team by voting on your &lt;a href="http://europe.msteched.com/sessionpreference"&gt;session preferences&lt;/a&gt; by August 12. Tell the content team the kind of topics you want offered on the TechEd Europe agenda, so your week in Berlin is the most useful it can be for you. &lt;a href="http://europe.msteched.com/"&gt;http://europe.msteched.com/&lt;/a&gt;&lt;/p&gt;</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_ch9.mp4" expression="full" duration="564" fileSize="116609447" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_ch9.mp3" expression="full" duration="564" fileSize="4516869" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_ch9.wma" expression="full" duration="564" fileSize="4571057" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_ch9.wmv" expression="full" duration="564" fileSize="124808815" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_2MB_ch9.wmv" expression="full" duration="564" fileSize="222603608" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_Zune_ch9.wmv" expression="full" duration="564" fileSize="79672870" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_512_ch9.png" expression="full" duration="564" fileSize="230833" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/6153/566153/TechEd1002_ch9.wmv" length="124808815" type="video/x-ms-wmv" />
+            <dc:creator>Larry Larsen</dc:creator>
+            <slash:comments>1</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/LarryLarsen/Countdown-to-TechEd-Europe-Dont-Let-August-Pass-You-By/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/566153/Trackback.aspx</trackback:ping>
+            <category>Tech Ed</category>
+            <category>TEE10</category>
+        </item>
+        <item>
+            <title>Countdown to PDC:  It’s time to par-tay!</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_85_ch9.png" border="0" /&gt;&lt;p&gt;Content schmontent.  Let’s get some fun on.  In this week’s episode, after &lt;a href="http://twitter.com/anyware"&gt;@anyware&lt;/a&gt; finishes up the important summary of the PDC themes, we move on to more important matters like where the PDC parties are going to be held.  Our welcome reception will be held on October 27 at 7pm in the Microsoft Visitor’s Center where you’ll get a chance to buy some &lt;a href="http://www.microsoftpdc.com/WhatsHappening/Welcome-Reception-on-Oct-27--Shop-the-Company-Store"&gt;deeply discounted software&lt;/a&gt;, and our main attendee party will be October 28 at &lt;a href="http://www.microsoftpdc.com/WhatsHappening/Party-with-PDC-at-Lucky-Strike-Oct-28"&gt;Lucky Strike&lt;/a&gt; in downtown Bellevue.  Make sure you follow our PDC10 &lt;a href="http://www.microsoftpdc.com/Agenda"&gt;agenda&lt;/a&gt; so you know where to be when.  &lt;/p&gt;&lt;img src="http://channel9.msdn.com/566152/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/LarryLarsen/Countdown-to-PDC-Its-time-to-par-tay/</comments>
+            <link>http://channel9.msdn.com/posts/LarryLarsen/Countdown-to-PDC-Its-time-to-par-tay/</link>
+            <pubDate>Mon, 09 Aug 2010 21:07:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_ch9.wmv</guid>
+            <evnet:views>13141</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/566152/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>&lt;p&gt;Content schmontent. Let’s get some fun on. In this week’s episode, after &lt;a href="http://twitter.com/anyware"&gt;@anyware&lt;/a&gt; finishes up the important summary of the PDC themes, we move on to more important matters like where the PDC parties are going to be held. Our welcome reception will be held on October 27 at 7pm in the Microsoft Visitor’s Center where you’ll get a chance to buy some &lt;a href="http://www.microsoftpdc.com/WhatsHappening/Welcome-Reception-on-Oct-27--Shop-the-Company-Store"&gt;deeply discounted software&lt;/a&gt;, and our main attendee party will be October 28 at &lt;a href="http://www.microsoftpdc.com/WhatsHappening/Party-with-PDC-at-Lucky-Strike-Oct-28"&gt;Lucky Strike&lt;/a&gt; in downtown Bellevue. Make sure you follow our PDC10 &lt;a href="http://www.microsoftpdc.com/Agenda"&gt;agenda&lt;/a&gt; so you know where to be when. &lt;/p&gt;</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_ch9.mp4" expression="full" duration="555" fileSize="114552233" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_ch9.mp3" expression="full" duration="555" fileSize="4443273" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_ch9.wma" expression="full" duration="555" fileSize="4495957" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_ch9.wmv" expression="full" duration="555" fileSize="112392761" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_2MB_ch9.wmv" expression="full" duration="555" fileSize="143236006" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_Zune_ch9.wmv" expression="full" duration="555" fileSize="78680816" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_512_ch9.png" expression="full" duration="555" fileSize="198488" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/6152/566152/PDC1002_ch9.wmv" length="112392761" type="video/x-ms-wmv" />
+            <dc:creator>Larry Larsen</dc:creator>
+            <slash:comments>4</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/LarryLarsen/Countdown-to-PDC-Its-time-to-par-tay/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/566152/Trackback.aspx</trackback:ping>
+            <category>PDC10</category>
+        </item>
+        <item>
+            <title>Ping 69: Windows Phone 7 adds Voice, Mobile App Match, Bing Taxi, Halo 2600</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_85_ch9.png" border="0" /&gt;In this episode of Ping, Paul &amp;amp; Laura wax poetic about all the stories that have 'Softies chatting:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.itproportal.com/portal/news/article/2010/8/5/microsoft-add-voice-recognition-windows-phone-7/"&gt;Voice Recognition to be added to WP7&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.crn.com/software/226500246"&gt;Taxi Fare calculater for Bing&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.mobileappmatch.com/?fbid=tXux8fPqNHW"&gt;Mobile App Match Launched&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://70gigapixel.cloudapp.net/"&gt;70 GigaPixel Photo Using SilverLight&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                AND....&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://members.shaw.ca/jeffv/halo2600.html"&gt;Halo 2600!!!&lt;/a&gt;&lt;img src="http://channel9.msdn.com/565521/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-69-Windows-Phone-7-adds-Voice-Mobile-App-Match-Bing-Taxi-Halo-2600/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-69-Windows-Phone-7-adds-Voice-Mobile-App-Match-Bing-Taxi-Halo-2600/</link>
+            <pubDate>Mon, 09 Aug 2010 19:45:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.wmv</guid>
+            <evnet:views>13147</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565521/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                In this episode of Ping, Paul &amp;amp; Laura wax poetic about all the stories that have 'Softies chatting:
+
+                Voice Recognition to be added to WP7
+                Taxi Fare calculater for Bing
+                Mobile App Match Launched
+                70 GigaPixel Photo Using SilverLight
+
+                AND....
+
+                Halo 2600!!!
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.mp4" expression="full" duration="910" fileSize="176267186" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.mp3" expression="full" duration="910" fileSize="7284679" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.wma" expression="full" duration="910" fileSize="7367781" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.wmv" expression="full" duration="910" fileSize="198938891" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_2MB_ch9.wmv" expression="full" duration="910" fileSize="243818929" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_Zune_ch9.wmv" expression="full" duration="910" fileSize="127962946" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_512_ch9.png" expression="full" duration="910" fileSize="212957" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.wmv" length="198938891" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>4</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-69-Windows-Phone-7-adds-Voice-Mobile-App-Match-Bing-Taxi-Halo-2600/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565521/Trackback.aspx</trackback:ping>
+            <category>bing</category>
+            <category>Halo-2600</category>
+            <category>Mobile-App-Match</category>
+            <category>voice recognition</category>
+            <category>Windows-Phone-7</category>
+        </item>
+        <item>
+            <title>ELC 2010: Rich Hickey and Joe Pamer - Perspectives on Clojure and F#</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_85_ch9.png" border="0" /&gt;After a long day of sessions at &lt;a href="http://emerginglangs.com/" target="_blank"&gt;Emerging Languages Camp 2010&lt;/a&gt;, I caught up with two of the day's presenters, &lt;a href="http://clojure.org/" target="_blank"&gt;Clojure&lt;/a&gt; creator Rich Hickey (you've met Rich before in an &lt;a href="http://channel9.msdn.com/shows/Going+Deep/Expert-to-Expert-Rich-Hickey-and-Brian-Beckman-Inside-Clojure/" target="_blank"&gt;Expert to Expert episode with Brian Beckman&lt;/a&gt;) and F# compiler developer Joe Pamer. Clojure is a dynamic language that compiles to byte code/IL, targeting both the JVM and the CLR. Clojure is a &lt;a href="http://en.wikipedia.org/wiki/Lisp_(programming_language)" target="_blank"&gt;Lisp&lt;/a&gt;. F# is a strongly-typed hybrid language that targets the CLR and employs a dual programming model—functional and object-oriented imperative.&lt;br /&gt;
+                &lt;br /&gt;
+                Tune in.&lt;img src="http://channel9.msdn.com/563931/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/Charles/Emerging-Langs-Clojure-and-F/</comments>
+            <link>http://channel9.msdn.com/posts/Charles/Emerging-Langs-Clojure-and-F/</link>
+            <pubDate>Mon, 09 Aug 2010 16:51:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_ch9.wmv</guid>
+            <evnet:views>14941</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/563931/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                After a long day of sessions at &lt;a href="http://emerginglangs.com/" target="_blank"&gt;Emerging Languages Camp 2010&lt;/a&gt;, I caught up with two of the day's presenters, &lt;a href="http://clojure.org/" target="_blank"&gt;Clojure&lt;/a&gt; creator Rich Hickey (you've met Rich before in an &lt;a href="http://channel9.msdn.com/shows/Going+Deep/Expert-to-Expert-Rich-Hickey-and-Brian-Beckman-Inside-Clojure/" target="_blank"&gt;Expert to Expert episode with Brian Beckman&lt;/a&gt;) and F# compiler developer Joe Pamer. Clojure is a dynamic language that compiles to byte code/IL, targeting both the JVM and the CLR. Clojure is a &lt;a href="http://en.wikipedia.org/wiki/Lisp_(programming_language)" target="_blank"&gt;Lisp&lt;/a&gt;. F# is a strongly-typed hybrid language that targets the CLR and employs a dual programming model—functional and object-oriented imperative.&lt;br /&gt;
+                &lt;br /&gt;
+                Tune in.
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_ch9.mp4" expression="full" duration="1435" fileSize="293915523" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_ch9.mp3" expression="full" duration="1435" fileSize="11488774" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_ch9.wma" expression="full" duration="1435" fileSize="11621445" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_ch9.wmv" expression="full" duration="1435" fileSize="264430041" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_2MB_ch9.wmv" expression="full" duration="1435" fileSize="352335199" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_Zune_ch9.wmv" expression="full" duration="1435" fileSize="203470096" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_512_ch9.png" expression="full" duration="1435" fileSize="167275" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3931/563931/ELangsClojureFSharpHickeyPamer_ch9.wmv" length="264430041" type="video/x-ms-wmv" />
+            <dc:creator>Charles</dc:creator>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/Charles/Emerging-Langs-Clojure-and-F/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/563931/Trackback.aspx</trackback:ping>
+            <category>Clojure</category>
+            <category>Compilers</category>
+            <category>Emerging-Langs-2010</category>
+            <category>FSharp</category>
+            <category>Programming Languages</category>
+        </item>
+        <item>
+            <title>endpoint.tv - Workflow Services Security Pack </title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_85_ch9.png" border="0" /&gt;Some of the big gaps with Workflow Services have been in the area of security. In this episode, we will see the new Workflow Services Security Activity pack, which fills these holes, allowing you to &lt;br /&gt;
+                &lt;ul&gt;
+                &lt;li&gt;Use PrincipalPermission based authorization &lt;/li&gt;
+                &lt;li&gt;Work with Username and SAML tokens &lt;/li&gt;
+                &lt;li&gt;Impersonate the caller &lt;/li&gt;
+                &lt;li&gt;Create client credentials for calling services &lt;/li&gt;
+                &lt;li&gt;And much more... &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;For more information see &lt;br /&gt;
+                    &lt;a href="http://wf.codeplex.com"&gt;Windows Workflow Foundation on CodePlex&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                Ron Jacobs&lt;br /&gt;
+                blog        &lt;a href="http://blogs.msdn.com/rjacobs"&gt;http://blogs.msdn.com/rjacobs&lt;/a&gt;&lt;br /&gt;
+                twitter    &lt;a href="http://twitter.com/ronljacobs"&gt;@ronljacobs&lt;/a&gt;&lt;/p&gt;&lt;img src="http://channel9.msdn.com/565121/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/Endpoint/endpointtv-Workflow-Services-Security-Pack/</comments>
+            <link>http://channel9.msdn.com/shows/Endpoint/endpointtv-Workflow-Services-Security-Pack/</link>
+            <pubDate>Mon, 09 Aug 2010 15:49:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_2MB_ch9.wmv</guid>
+            <evnet:views>12719</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565121/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Some of the big gaps with Workflow Services have been in the area of security. In this episode, we will see the new Workflow Services Security Activity pack, which fills these holes, allowing you to &lt;br /&gt;
+                &lt;ul&gt;
+                &lt;li&gt;Use PrincipalPermission based authorization &lt;/li&gt;
+                &lt;li&gt;Work with Username and SAML tokens &lt;/li&gt;
+                &lt;li&gt;Impersonate the caller &lt;/li&gt;
+                &lt;li&gt;Create client credentials for calling services &lt;/li&gt;
+                &lt;li&gt;And much more... &lt;/li&gt;
+                &lt;/ul&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_ch9.mp4" expression="full" duration="1200" fileSize="204041524" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_ch9.mp3" expression="full" duration="1200" fileSize="9603385" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_ch9.wma" expression="full" duration="1200" fileSize="9710901" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_2MB_ch9.wmv" expression="full" duration="1200" fileSize="277587289" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_2MB_ch9.wmv" expression="full" duration="1200" fileSize="277587289" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_Zune_ch9.wmv" expression="full" duration="1200" fileSize="131420686" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_512_ch9.png" expression="full" duration="1200" fileSize="231015" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5121/565121/endpointWFSecurityPack_2MB_ch9.wmv" length="277587289" type="video/x-ms-wmv" />
+            <dc:creator>Ron Jacobs</dc:creator>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/Endpoint/endpointtv-Workflow-Services-Security-Pack/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565121/Trackback.aspx</trackback:ping>
+            <category>WF4</category>
+        </item>
+        <item>
+            <title>TWC9: VS LightSwitch, Lab Management, IE9 PP4, VS Jeopardy</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_85_ch9.png" border="0" /&gt;This week on Channel 9, Dan and Brian discuss the week's top developer news, including:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;ul&gt;
+                &lt;li&gt;Jason Zander - A lap around &lt;a href="http://blogs.msdn.com/b/jasonz/archive/2010/08/03/introducing-microsoft-visual-studio-lightswitch.aspx"&gt;Visual Studio LightSwitch&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;Jay Schmelzer - Video - Introducing &lt;a href="http://channel9.msdn.com/posts/Dan/Jay-Schmelzer-Introducing-Visual-Studio-LightSwitch/"&gt;Visual Studio LightSwitch&lt;/a&gt;, a new tool to easily build data-driven applications &lt;/li&gt;
+                &lt;li&gt;Brian Keller - Coming Soon, &lt;a href="http://blogs.msdn.com/b/briankel/archive/2010/08/04/visual-studio-2010-lab-management-is-coming-later-this-month.aspx"&gt;Visual Studio Lab Management&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;Rob Mauceri - &lt;a href="http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-the-New-IE-Test-Drive-Samples/"&gt;IE9 Platform Preview 4&lt;/a&gt; released + new test drive samples &lt;/li&gt;
+                &lt;li&gt;James Senior - &lt;a href="http://www.jamessenior.com/post/Announcing-the-OData-Helper-for-WebMatrix-Beta.aspx"&gt;OData Helper&lt;/a&gt; for WebMatrix &lt;/li&gt;
+                &lt;li&gt;WPF Team - &lt;a href="http://channel9.msdn.com%20%20http://blogs.msdn.com/b/wpf/archive/2010/08/03/introducing-microsoft-ribbon-for-wpf.aspxshape="&gt;Ribbon control for WPF&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;Dustin Davis - Configuring &lt;a href="http://dotnetslackers.com/articles/aspnet/Getting-ELMAH-to-work-with-WCF-services.aspx"&gt;ELMAH with WCF Services&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;Make - &lt;a href="http://blog.makezine.com/archive/2010/08/new_in_the_maker_shed_netduino_a_ne.html"&gt;Netduino&lt;/a&gt; - A .NET powered open source electronics platform, including C# Express templates to get started, via &lt;a href="http://coolthingoftheday.blogspot.com/2010/08/netduino-net-micro-framework-open.html"&gt;Greg Duncan&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;LessThanDot - &lt;a href="http://sqlcop.lessthandot.com/"&gt;SQL Cop&lt;/a&gt; - Think FXCop for your database, it looks at bad table design, fragmented indexes, issues with data types and more, via &lt;a href="http://jasonhaley.com/blog/post.aspx?id=872d8ff5-420a-41d8-af0f-05e64455af34"&gt;Jason Haley&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;Visual Studio Blog - Adrian Collier, Two Part series on creating a custom start page (&lt;a href="http://blogs.msdn.com/b/visualstudio/archive/2010/07/29/walkthrough-creating-a-custom-start-page-part-1.aspx"&gt;Part 1&lt;/a&gt; and &lt;a href="http://blogs.msdn.com/b/visualstudio/archive/2010/07/14/walkthrough-creating-a-custom-start-page-part-2.aspx"&gt;Part 2&lt;/a&gt;) &lt;/li&gt;
+                &lt;li&gt;Steve Marx - Two part series on how to setup adaptive streaming using Windows Azure and its limitations compared to IIS Media Services (&lt;a href="http://blog.smarx.com/posts/smooth-streaming-with-windows-azure-blobs-and-cdn"&gt;Part 1&lt;/a&gt; and &lt;a href="http://blog.smarx.com/posts/publishing-adaptive-streaming-video-from-expression-encoder-to-windows-azure-blobs"&gt;Part 2&lt;/a&gt;) &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;a&gt;&lt;/a&gt;
+                &lt;ul&gt;&lt;/ul&gt;
+                &lt;br /&gt;
+                Picks of the week!&lt;br /&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;strong&gt;Dan's pick&lt;/strong&gt;: Brian Peek's Coding4Fun article on building &lt;a href="http://blogs.msdn.com/b/coding4fun/archive/2010/08/04/10045796.aspx"&gt;Jeopardy for Visual Studio Live &lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;Brian's pick&lt;/strong&gt;: Clint Edmonson video series on using &lt;a href="http://blogs.msdn.com/b/vsarch/archive/2010/07/29/channel-9-screencast-series-uml-with-vs2010.aspx"&gt;UML with Visual Studio 2010&lt;/a&gt; &lt;/li&gt;
+                &lt;/ul&gt;&lt;img src="http://channel9.msdn.com/565069/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/This+Week+On+Channel+9/TWC9-VS-LightSwitch-Lab-Management-IE9-PP4-VS-Jeopardy/</comments>
+            <link>http://channel9.msdn.com/shows/This+Week+On+Channel+9/TWC9-VS-LightSwitch-Lab-Management-IE9-PP4-VS-Jeopardy/</link>
+            <pubDate>Sat, 07 Aug 2010 15:17:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_ch9.wmv</guid>
+            <evnet:views>21493</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565069/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                This week on Channel 9, Dan and Brian discuss the week's top developer news, including:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;ul&gt;
+                &lt;li&gt;Jason Zander - A lap around &lt;a href="http://blogs.msdn.com/b/jasonz/archive/2010/08/03/introducing-microsoft-visual-studio-lightswitch.aspx"&gt;Visual Studio LightSwitch&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;Jay Schmelzer - Video - Introducing &lt;a href="http://channel9.msdn.com/posts/Dan/Jay-Schmelzer-Introducing-Visual-Studio-LightSwitch/"&gt;Visual Studio LightSwitch&lt;/a&gt;, a new tool to easily build data-driven applications &lt;/li&gt;
+                &lt;li&gt;Brian Keller - Coming Soon, &lt;a href="http://blogs.msdn.com/b/briankel/archive/2010/08/04/visual-studio-2010-lab-management-is-coming-later-this-month.aspx"&gt;Visual Studio Lab Management&lt;/a&gt; &lt;/li&gt;
+                &lt;/ul&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_ch9.mp4" expression="full" duration="1417" fileSize="268623891" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_ch9.mp3" expression="full" duration="1417" fileSize="11343169" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_ch9.wma" expression="full" duration="1417" fileSize="11471245" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_ch9.wmv" expression="full" duration="1417" fileSize="234797933" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_2MB_ch9.wmv" expression="full" duration="1417" fileSize="323100794" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_Zune_ch9.wmv" expression="full" duration="1417" fileSize="190269988" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_512_ch9.png" expression="full" duration="1417" fileSize="211574" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5069/565069/ThisWeekC9August6_ch9.wmv" length="234797933" type="video/x-ms-wmv" />
+            <dc:creator>Dan Fernandez</dc:creator>
+            <slash:comments>4</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/This+Week+On+Channel+9/TWC9-VS-LightSwitch-Lab-Management-IE9-PP4-VS-Jeopardy/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565069/Trackback.aspx</trackback:ping>
+        </item>
+        <item>
+            <title>Cloud Cover Episode 21 - Your Questions Answered</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_85_ch9.png" border="0" /&gt;Join Ryan and Steve each week as they cover the Microsoft cloud. You can follow and interact with the show at &lt;a href="http://twitter.com/cloudcovershow" target="_blank"&gt;@cloudcovershow&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                In this episode:  
+                &lt;ul&gt;
+                &lt;li&gt;Listen as via forums and Twitter we field questions regarding the Windows Azure topics you want to know more about. &lt;/li&gt;
+                &lt;li&gt;Discover a tip on effectively using Table naming to more easily manage querying and deleting Tables.  &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Show Links:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://blogs.msdn.com/b/sqlcat/archive/2010/07/30/loading-data-to-sql-azure-the-fast-way.aspx" target="_blank"&gt;Loading Data to SQL Azure the Fast Way&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://ftp2azure.codeplex.com/" target="_blank"&gt;FTP to Windows Azure Blob Storage Bridge&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://bits.blogs.nytimes.com/2010/07/29/how-fast-can-a-cloud-run/" target="_blank"&gt;How Fast Can a Cloud Run?&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blogs.msdn.com/b/davrous/archive/2010/08/01/sl4-xna-platformer-level-editor-for-wp7-the-xna-game-4-4.aspx" target="_blank"&gt;SL4 XNA Platform Level Editor for WP7&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blogs.msdn.com/b/sqlazure/archive/2010/07/29/10043869.aspx" target="_blank"&gt;Programmatically Changing the Firewall Settings&lt;/a&gt; (SQL Azure)&lt;br /&gt;
+                &lt;a href="https://media.blackhat.com/bh-us-10/whitepapers/Bugher/BlackHat-USA-2010-Bugher-Secure-Use-of-Cloud-Storage-wp.pdf"&gt;Secure Use of Cloud Storage Whitepaper&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blog.smarx.com/posts/smooth-streaming-with-windows-azure-blobs-and-cdn" target="_blank"&gt;Adaptive Streaming with Windows Azure Blobs and CDN&lt;/a&gt;&lt;/p&gt;&lt;img src="http://channel9.msdn.com/565006/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/Cloud+Cover/Cloud-Cover-Episode-21-Your-Questions-Answered/</comments>
+            <link>http://channel9.msdn.com/shows/Cloud+Cover/Cloud-Cover-Episode-21-Your-Questions-Answered/</link>
+            <pubDate>Fri, 06 Aug 2010 20:04:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_ch9.wmv</guid>
+            <evnet:views>22450</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565006/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Join Ryan and Steve each week as they cover the Microsoft cloud. You can follow and interact with the show at &lt;a href="http://twitter.com/cloudcovershow" target="_blank"&gt;@cloudcovershow&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                In this episode:  
+                &lt;ul&gt;
+                &lt;li&gt;Listen as we field questions via forums and Twitter regarding the Windows Azure topics you want to know more about. &lt;/li&gt;
+                &lt;li&gt;Discover a tip on effectively using Table naming to manage querying and deleting Tables more easily.  &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Show Links:&lt;/p&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_ch9.mp4" expression="full" duration="2434" fileSize="431367726" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_ch9.mp3" expression="full" duration="2434" fileSize="19474541" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_ch9.wma" expression="full" duration="2434" fileSize="19690189" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_ch9.wmv" expression="full" duration="2434" fileSize="314180035" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_2MB_ch9.wmv" expression="full" duration="2434" fileSize="554412073" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_Zune_ch9.wmv" expression="full" duration="2434" fileSize="286436090" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_512_ch9.png" expression="full" duration="2434" fileSize="296364" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_2MB_ch9.wmv" expression="full" duration="2434" fileSize="554412073" type="video/x-ms-asf" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5006/565006/CloudCoverEp21_ch9.wmv" length="314180035" type="video/x-ms-wmv" />
+            <dc:creator>Ryan Dunn</dc:creator>
+            <slash:comments>3</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/Cloud+Cover/Cloud-Cover-Episode-21-Your-Questions-Answered/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565006/Trackback.aspx</trackback:ping>
+            <category>Azure</category>
+            <category>Cloud Services</category>
+            <category>Windows Azure</category>
+        </item>
+        <item>
+            <title>endpoint.tv - How to Make a WorkflowService Implement a Contract</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_85_ch9.png" border="0" /&gt;WorkflowServices don't provide a way to implement a contract, but that doesn't mean you can't get them to look like they do. This is useful if you want to create a client proxy using a ChannelFactory. In this episode, I'll show you what I learned about the messaging activities to make this work.&lt;br /&gt;
+                &lt;br /&gt;
+                I also wrote this up on my &lt;a href="http://blogs.msdn.com/rajcobs"&gt;blog&lt;/a&gt;.&lt;br /&gt;
+                &lt;br /&gt;
+                    &lt;a href="http://blogs.msdn.com/b/rjacobs/archive/2010/07/30/making-a-workflowservice-work-like-a-wcf-service.aspx"&gt;How to make a WorkflowService implement a contract&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://code.msdn.microsoft.com/wfscontract"&gt;    Sample Code (MSDN Code Gallery)&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                Ron Jacobs&lt;br /&gt;
+                blog        &lt;a href="http://blogs.msdn.com/rjacobs"&gt;http://blogs.msdn.com/rjacobs&lt;/a&gt;&lt;br /&gt;
+                twitter    &lt;a href="http://twitter.com/ronljacobs"&gt;@ronljacobs&lt;/a&gt;&lt;img src="http://channel9.msdn.com/564151/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/Endpoint/endpointtv-How-to-Make-a-WorkflowService-Implement-a-Contract/</comments>
+            <link>http://channel9.msdn.com/shows/Endpoint/endpointtv-How-to-Make-a-WorkflowService-Implement-a-Contract/</link>
+            <pubDate>Fri, 06 Aug 2010 14:17:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_2MB_ch9.wmv</guid>
+            <evnet:views>21367</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564151/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>WorkflowServices don't provide a way to implement a contract, but that doesn't mean you can't get them to look like they do. This is useful if you want to create a client proxy using a ChannelFactory. In this episode, I'll show you what I learned about the messaging activities to make this work.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_ch9.mp4" expression="full" duration="452" fileSize="65484644" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_ch9.mp3" expression="full" duration="452" fileSize="3624935" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_ch9.wma" expression="full" duration="452" fileSize="3675865" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_2MB_ch9.wmv" expression="full" duration="452" fileSize="23103597" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_2MB_ch9.wmv" expression="full" duration="452" fileSize="23103597" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_Zune_ch9.wmv" expression="full" duration="452" fileSize="23784198" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_512_ch9.png" expression="full" duration="452" fileSize="130571" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4148/564148/endpointWFServiceContract_2MB_ch9.wmv" length="23103597" type="video/x-ms-wmv" />
+            <dc:creator>Ron Jacobs</dc:creator>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/Endpoint/endpointtv-How-to-Make-a-WorkflowService-Implement-a-Contract/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564151/Trackback.aspx</trackback:ping>
+            <category>WF4</category>
+        </item>
+        <item>
+            <title>Introducing the New Features of the August Labs Release of the Access Control Service</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_85_ch9.png" border="0" /&gt;&lt;p&gt;Join Justin Smith, Program Manager on the Windows Azure AppFabric Access Control Service (ACS) team, on a whirlwind tour of the new features of today's Labs release of ACS. Just to whet your appetite, here's a list of some of the news touched on in this video:&lt;/p&gt;
+                &lt;ul&gt;
+                &lt;li&gt;Support for identity providers such as Facebook, Windows Live ID, Google, Yahoo, OpenID providers, and ADFS 2 instances &lt;/li&gt;
+                &lt;li&gt;Support for a wide range of protocols: WS-Federation, WS-Trust, Oauth WRAP &lt;/li&gt;
+                &lt;li&gt;Seamless integration with Windows Identity Foundation &lt;/li&gt;
+                &lt;li&gt;Brand new management portal and OData-based management API &lt;/li&gt;
+                &lt;li&gt;Tools for helping developers embed identity providers selection UI in their applications &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;What are you waiting for? Tune in!&lt;br /&gt;
+                &lt;br /&gt;
+                Once you have watched the video, create your account at &lt;a href="http://portal.appfabriclabs.com/"&gt;http://portal.appfabriclabs.com/&lt;/a&gt; and start experimenting: it's free, there are no tokens to redeem, and there's no waiting time. Instant gratification!&lt;/p&gt;&lt;img src="http://channel9.msdn.com/563441/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/Identity/Introducing-the-New-Features-of-the-August-Labs-Release-of-the-Access-Control-Service/</comments>
+            <link>http://channel9.msdn.com/shows/Identity/Introducing-the-New-Features-of-the-August-Labs-Release-of-the-Access-Control-Service/</link>
+            <pubDate>Thu, 05 Aug 2010 21:21:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_ch9.wmv</guid>
+            <evnet:views>25268</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/563441/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>Join Justin Smith, Program Manager on the Windows Azure AppFabric Access Control Service (ACS) team, on a whirlwind tour of the new features of today's Labs release of ACS. Just to whet your appetite, here's a list of some of the news touched on in this video: Support for identity providers such as Facebook, Windows Live ID, Google, Yahoo, OpenID providers, and ADFS 2 instances Support for a wide range of protocols: WS-Federation, WS-Trust, Oauth WRAP Seamless integration with Windows Identity Foundation Brand new management portal and ODtata-based management API Tools for…</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_ch9.mp4" expression="full" duration="1221" fileSize="201701850" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_ch9.mp3" expression="full" duration="1221" fileSize="9777275" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_ch9.wma" expression="full" duration="1221" fileSize="9888137" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_ch9.wmv" expression="full" duration="1221" fileSize="178236757" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_2MB_ch9.wmv" expression="full" duration="1221" fileSize="296310564" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_Zune_ch9.wmv" expression="full" duration="1221" fileSize="124780812" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_512_ch9.png" expression="full" duration="1221" fileSize="156726" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3441/563441/ACS2labsannouncement_ch9.wmv" length="178236757" type="video/x-ms-wmv" />
+            <dc:creator>Vittorio Bertocci</dc:creator>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/Identity/Introducing-the-New-Features-of-the-August-Labs-Release-of-the-Access-Control-Service/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/563441/Trackback.aspx</trackback:ping>
+            <category>Access Control Service</category>
+            <category>AppFabric</category>
+            <category>IdElement</category>
+            <category>Identity</category>
+            <category>Identity Access</category>
+            <category>Windows Azure</category>
+        </item>
+        <item>
+            <title>Jonathan Edwards: Programming Futures and Declarative Objects</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_85_ch9.png" border="0" /&gt;"The biggest problem with programming is that we don’t agree on what the problem is", says &lt;a href="http://subtextual.org/AboutMe.htm" target="_blank"&gt;Jonathan Edwards&lt;/a&gt;, who is first and foremost a practicing programmer. Jonathan also spends a great deal of time thinking about how to evolve the languages and tools programmers use to solve increasingly complex problems in general purpose computing. He is currently a Research fellow at MIT, and I caught up with him at &lt;a href="http://emerginglangs.com/" target="_blank"&gt;Emerging Languages Camp 2010&lt;/a&gt; shortly after his talk on Declarative Objects (see the &lt;a href="http://coherence-lang.org/EmergingLangs.ppt" target="_blank"&gt;PPT&lt;/a&gt; or &lt;a href="http://coherence-lang.org/EmergingLangs.pdf" target="_blank"&gt;PDF&lt;/a&gt; slides). His thoughts on a potential future direction for general-purpose programming are quite compelling. In a nutshell, Jonathan is thinking about an object-oriented &lt;em&gt;model-view&lt;/em&gt; declarative programming world. Discussing this idea, he states, "First, restrict pointers with a new object model that uses nesting and binding. Second, prevent cycles with a new form of dataflow based on the Model-View architecture."&lt;br /&gt;
+                &lt;br /&gt;
+                Look through the PPT or PDF linked to above, press play, and open your mind a bit. See what you may see. The programming languages rabbit hole is deep. We seem to be hovering at a comfortable position, yet the problems we face will require us to move further down the tunnel to discover new means of algorithmic expression and code design. Jump in. &lt;br /&gt;
+                &lt;br /&gt;
+                Enjoy.&lt;img src="http://channel9.msdn.com/563930/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/Charles/Jonathan-Edwards-Programming-Futures-and-Declarative-Objects/</comments>
+            <link>http://channel9.msdn.com/posts/Charles/Jonathan-Edwards-Programming-Futures-and-Declarative-Objects/</link>
+            <pubDate>Thu, 05 Aug 2010 19:49:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_ch9.wmv</guid>
+            <evnet:views>24931</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/563930/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                "The biggest problem with programming is that we don’t agree on what the problem is", says &lt;a href="http://subtextual.org/AboutMe.htm" target="_blank"&gt;Jonathan Edwards&lt;/a&gt;, who is first and foremost a practicing programmer. Jonathan also spends a great deal of time thinking about how to evolve the languages and tools programmers use to solve increasingly complex problems in general purpose computing. He is currently a Research fellow at MIT, and I caught up with him at &lt;a href="http://emerginglangs.com/" target="_blank"&gt;Emerging Languages Camp 2010&lt;/a&gt; shortly after his talk on Declarative Objects (see the &lt;a href="http://coherence-lang.org/EmergingLangs.ppt" target="_blank"&gt;PPT&lt;/a&gt; or &lt;a href="http://coherence-lang.org/EmergingLangs.pdf" target="_blank"&gt;PDF&lt;/a&gt; slides). His thoughts on a potential future direction for general-purpose programming are quite compelling. In a nutshell, Jonathan is thinking about an object-oriented &lt;em&gt;model-view&lt;/em&gt; declarative programming world. Discussing this idea, he states, "First, restrict pointers with a new object model that uses nesting and binding. Second, prevent cycles with a new form of dataflow based on the Model-View architecture."&lt;br /&gt;
+                &lt;br /&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_ch9.mp4" expression="full" duration="1456" fileSize="301364100" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_ch9.mp3" expression="full" duration="1456" fileSize="11656817" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_ch9.wma" expression="full" duration="1456" fileSize="11789669" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_ch9.wmv" expression="full" duration="1456" fileSize="321486167" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_2MB_ch9.wmv" expression="full" duration="1456" fileSize="987294521" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_Zune_ch9.wmv" expression="full" duration="1456" fileSize="206782222" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_512_ch9.png" expression="full" duration="1456" fileSize="280630" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3930/563930/C9ConversationsJonathanEdwards_ch9.wmv" length="321486167" type="video/x-ms-wmv" />
+            <dc:creator>Charles</dc:creator>
+            <slash:comments>14</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/Charles/Jonathan-Edwards-Programming-Futures-and-Declarative-Objects/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/563930/Trackback.aspx</trackback:ping>
+            <category>Emerging-Langs-2010</category>
+            <category>Programming</category>
+            <category>Programming Languages</category>
+            <category>Software Engineering Research</category>
+        </item>
+        <item>
+            <title>ELC 2010: Standing Roundtable - AmbientTalk, BitC, Caja, Mirrors, Newspeak, Type Classes and More</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_85_ch9.png" border="0" /&gt;A group of us gathered after a long day of language sessions at &lt;a href="http://emerginglangs.com/" target="_blank"&gt;ELC 2010&lt;/a&gt; and a conversation just happened. Sure, we talked about doing this before the camera started rolling, but I pressed record only when the time was right—when &lt;a href="http://www.eros-os.org/" target="_blank"&gt;EROS &lt;/a&gt;creator and &lt;a href="http://www.bitc-lang.org/" target="_blank"&gt;BitC&lt;/a&gt; designer &lt;a href="http://www.eros-os.org/~shap/" target="_blank"&gt;Jonathan Shapiro &lt;/a&gt;asked &lt;a href="http://newspeaklanguage.org/" target="_blank"&gt;Newspeak&lt;/a&gt;'s &lt;a href="http://gbracha.blogspot.com/" target="_blank"&gt;Gilad Bracha&lt;/a&gt; about his stance on type classes. We then move around the standing circle of language designers and meet &lt;a href="http://research.google.com/pubs/author35958.html" target="_blank"&gt;E/Caja's Mark S. Miller&lt;/a&gt; and one of the &lt;a href="http://soft.vub.ac.be/amop/" target="_blank"&gt;AmbientTalk&lt;/a&gt; designers, Tom Van Cutsem. It doesn't get any more impromptu than this and we geek out big time. Tune in.&lt;img src="http://channel9.msdn.com/563944/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/Charles/Scenes-from-Emerging-Languages-Camp-2010-Standing-Roundtable-Discussion/</comments>
+            <link>http://channel9.msdn.com/posts/Charles/Scenes-from-Emerging-Languages-Camp-2010-Standing-Roundtable-Discussion/</link>
+            <pubDate>Thu, 05 Aug 2010 18:49:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_ch9.wmv</guid>
+            <evnet:views>31012</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/563944/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>A group of us gathered after a long day of language sessions at &lt;a href="http://emerginglangs.com/" target="_blank"&gt;ELC 2010&lt;/a&gt; and a conversation just happened. Sure, we talked about doing this before the camera started rolling, but I pressed record only when the time was right—when &lt;a href="http://www.eros-os.org/" target="_blank"&gt;EROS &lt;/a&gt;creator and &lt;a href="http://www.bitc-lang.org/" target="_blank"&gt;BitC&lt;/a&gt; designer &lt;a href="http://www.eros-os.org/~shap/" target="_blank"&gt;Jonathan Shapiro &lt;/a&gt;asked &lt;a href="http://newspeaklanguage.org/" target="_blank"&gt;Newspeak&lt;/a&gt;'s &lt;a href="http://gbracha.blogspot.com/" target="_blank"&gt;Gilad Bracha&lt;/a&gt; about his stance on type classes. We then move around the standing circle of language designers and meet &lt;a href="http://research.google.com/pubs/author35958.html" target="_blank"&gt;E/Caja's Mark S. Miller&lt;/a&gt; and one of the &lt;a href="http://soft.vub.ac.be/amop/" target="_blank"&gt;AmbientTalk&lt;/a&gt; designers, Tom Van Cutsem. It doesn't get any more impromptu than this and we geek out big time. Tune in.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_ch9.mp4" expression="full" duration="2187" fileSize="452578951" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_ch9.mp3" expression="full" duration="2187" fileSize="17502603" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_ch9.wma" expression="full" duration="2187" fileSize="17698537" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_ch9.wmv" expression="full" duration="2187" fileSize="483938553" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_2MB_ch9.wmv" expression="full" duration="2187" fileSize="1280584403" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_Zune_ch9.wmv" expression="full" duration="2187" fileSize="310338608" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_512_ch9.png" expression="full" duration="2187" fileSize="236266" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3944/563944/ELangsStandingRoundtableGeekOut_ch9.wmv" length="483938553" type="video/x-ms-wmv" />
+            <dc:creator>Charles</dc:creator>
+            <slash:comments>16</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/Charles/Scenes-from-Emerging-Languages-Camp-2010-Standing-Roundtable-Discussion/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/563944/Trackback.aspx</trackback:ping>
+            <category>Computer-Science</category>
+            <category>Emerging-Langs-2010</category>
+            <category>Gilad Bracha</category>
+            <category>Programming</category>
+            <category>Programming Languages</category>
+        </item>
+        <item>
+            <title>Announcing the OData Helper for WebMatrix</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_85_ch9.png" border="0" /&gt;I’m a big fan of working smarter, not harder, and I hope you are, too. That’s why the helpers in WebMatrix, which are designed to make your life easier when creating websites, excite me. There is a range of helpers, which you'll use day in, day out when creating websites, available out of the box with WebMatrix—things like Data access, membership, WebGrid, and more. &lt;a href="http://www.asp.net/webmatrix/tutorials/asp-net-web-pages-api-reference"&gt;Get more information on the built-in helpers here&lt;/a&gt;.&lt;br /&gt;
+                &lt;br /&gt;
+                Today we are releasing the &lt;strong&gt;OData Helper for WebMatrix&lt;/strong&gt;. This helper is designed to make it easier to use OData services in your WebMatrix website, and we are open sourcing it on CodePlex where it is available for you to download, use, explore, and also contribute to. &lt;a href="http://odatahelper.codeplex.com/"&gt;Download it from the CodePlex website here&lt;/a&gt;.&lt;br /&gt;
+                &lt;br /&gt;
+                Useful Links:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.jamessenior.com/"&gt;You can read more about how to use the Helper on my blog.&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;span&gt;&lt;a href="http://bit.ly/makeweb" target="_blank"&gt;Build Websites? Join WebsiteSpark to get software for free.&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.webcamps.ms" target="_blank"&gt;Sign up for free training at a Microsoft Web Camp.&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;img src="http://channel9.msdn.com/565033/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/jsenior/Announcing-the-OData-Helper-for-WebMatrix/</comments>
+            <link>http://channel9.msdn.com/posts/jsenior/Announcing-the-OData-Helper-for-WebMatrix/</link>
+            <pubDate>Thu, 05 Aug 2010 18:39:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_ch9.wmv</guid>
+            <evnet:views>19892</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565033/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                I’m a big fan of working smarter, not harder, and I hope you are, too. That’s why the helpers in WebMatrix, which are designed to make your life easier when creating websites, excite me. There is a range of helpers, which you'll use day in, day out when creating websites, available out of the box with WebMatrix—things like Data access, membership, WebGrid, and more. &lt;a href="http://www.asp.net/webmatrix/tutorials/asp-net-web-pages-api-reference"&gt;Get more information on the built-in helpers here&lt;/a&gt;.&lt;br /&gt;
+                &lt;br /&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_ch9.mp4" expression="full" duration="534" fileSize="67122982" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_ch9.mp3" expression="full" duration="534" fileSize="4273981" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_ch9.wma" expression="full" duration="534" fileSize="4333741" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_ch9.wmv" expression="full" duration="534" fileSize="18328630" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_2MB_ch9.wmv" expression="full" duration="534" fileSize="14337551" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_Zune_ch9.wmv" expression="full" duration="534" fileSize="28712684" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_512_ch9.png" expression="full" duration="534" fileSize="61082" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_2MB_ch9.wmv" expression="full" duration="534" fileSize="14337551" type="video/x-ms-asf" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5033/565033/ODataHelper_ch9.wmv" length="18328630" type="video/x-ms-wmv" />
+            <dc:creator>James Senior</dc:creator>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/jsenior/Announcing-the-OData-Helper-for-WebMatrix/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565033/Trackback.aspx</trackback:ping>
+            <category>ASP.NET</category>
+            <category>Helper</category>
+            <category>Web</category>
+            <category>WebMatrix</category>
+        </item>
+        <item>
+            <title>Advanced Silverlight Navigation Scenarios - Part 2 (Silverlight TV #39)</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_85_ch9.png" border="0" /&gt;&lt;p&gt;In the second of two navigation videos we filmed, Karl Shifflett joins John Papa to demonstrate how he made some simple extensions to the navigation API in Silverlight in order to solve very common business problems. Karl demonstrates how to navigate away from a screen and leave markers indicating that the screen is still active even though it is hidden. He also demonstrates how to manage state while navigating between different pages. &lt;br /&gt;
+                &lt;br /&gt;
+                This episode is jam packed with a ton of great navigation strategies and tips that you won't want to miss.&lt;br /&gt;
+                &lt;br /&gt;
+                Relevant links:&lt;/p&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://johnpapa.net/"&gt;John's blog&lt;/a&gt; and on Twitter (&lt;a href="http://twitter.com/john_papa"&gt;@john_papa&lt;/a&gt;) &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://karlshifflett.wordpress.com/"&gt;Karl's blog&lt;/a&gt; and on Twitter (&lt;a href="http://twitter.com/kdawg02"&gt;@kdawg02&lt;/a&gt;) &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://karlshifflett.wordpress.com/2010/07/07/non-linear-navigation-in-silverlight-4/"&gt;Non-Linear Navigation&lt;/a&gt; post by Karl &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://msdn.microsoft.com/en-us/library/cc838245(VS.95).aspx"&gt;MSDN’s Navigation overview&lt;/a&gt; &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;Follow us on Twitter &lt;a href="http://www.twitter.com/SilverlightTV" title="Follow SilverlightTV at Twitter"&gt;@SilverlightTV&lt;/a&gt; or on the web at &lt;a href="http://silverlight.tv"&gt;http://silverlight.tv&lt;/a&gt; &lt;/p&gt;
+                &lt;p&gt;&lt;a href="http://www.microsoftpdc.com/"&gt;&lt;/a&gt;Registration for &lt;a href="http://www.microsoftpdc.com/"&gt;PDC10 &lt;/a&gt;is now open, and space is limited—don’t miss this opportunity to experience the PDC in Redmond. Join the &lt;a href="https://www.ustechsregister.com/pdcmailinglist/main.aspx"&gt;PDC email newsletter&lt;/a&gt; for the latest information about PDC10.&lt;/p&gt;&lt;img src="http://channel9.msdn.com/564531/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/SilverlightTV/Advanced-Silverlight-Navigation-Scenarios-Part-2-Silverlight-TV-39/</comments>
+            <link>http://channel9.msdn.com/shows/SilverlightTV/Advanced-Silverlight-Navigation-Scenarios-Part-2-Silverlight-TV-39/</link>
+            <pubDate>Thu, 05 Aug 2010 16:00:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_ch9.wmv</guid>
+            <evnet:views>21147</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564531/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                &lt;p&gt;In the second of 2 navigation videos we filmed, Karl Shifflett joins John Papa to demonstrate how he made some simple extensions to the navigation API in Silverlight in order to solve very common business problems. Karl demonstrates how to navigate away from a screen and leave markers indicating that the screen is still active even though it is hidden. He also demonstrates how to manage keeping state while navigating between different pages. &lt;br /&gt;
+                &lt;br /&gt;
+                This episode is jam packed with a ton of great navigation strategies and tips that you won't want to miss.&lt;/p&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_ch9.mp4" expression="full" duration="1676" fileSize="277254834" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_ch9.mp3" expression="full" duration="1676" fileSize="13416276" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_ch9.wma" expression="full" duration="1676" fileSize="13565033" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_ch9.wmv" expression="full" duration="1676" fileSize="234431487" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_2MB_ch9.wmv" expression="full" duration="1676" fileSize="458543521" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_Zune_ch9.wmv" expression="full" duration="1676" fileSize="181647542" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_512_ch9.png" expression="full" duration="1676" fileSize="240758" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4531/564531/sltv39b_ch9.wmv" length="234431487" type="video/x-ms-wmv" />
+            <dc:creator>John Papa</dc:creator>
+            <slash:comments>11</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/SilverlightTV/Advanced-Silverlight-Navigation-Scenarios-Part-2-Silverlight-TV-39/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564531/Trackback.aspx</trackback:ping>
+            <category>Karl Shifflett</category>
+            <category>Navigation Template</category>
+            <category>Silverlight</category>
+        </item>
+        <item>
+            <title>VSLive 2010 Day 1 Keynote: Visual Studio 2010 and a Glimpse of the Future</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_85_ch9.png" border="0" /&gt;Ready to get to know the newest member of the Visual Studio family? Watch Jason Zander’s keynote from VSLive! 2010 Redmond, during which he announces and demonstrates the key capabilities of Visual Studio LightSwitch.&lt;img src="http://channel9.msdn.com/565036/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/briankel/VSLive-2010-Day-1-Keynote-Visual-Studio-2010-and-a-Glimpse-of-the-Future/</comments>
+            <link>http://channel9.msdn.com/posts/briankel/VSLive-2010-Day-1-Keynote-Visual-Studio-2010-and-a-Glimpse-of-the-Future/</link>
+            <pubDate>Thu, 05 Aug 2010 01:44:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_ch9.wmv</guid>
+            <evnet:views>25024</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565036/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>Ready to get to know the newest member of the Visual Studio family? Watch Jason Zander’s keynote from VSLive! 2010 Redmond, during which he announces and demonstrates the key capabilities of Visual Studio LightSwitch.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_ch9.mp4" expression="full" duration="3205" fileSize="516809853" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_ch9.mp3" expression="full" duration="3205" fileSize="25647851" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_ch9.wma" expression="full" duration="3205" fileSize="25932501" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_ch9.wmv" expression="full" duration="3205" fileSize="204888662" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_2MB_ch9.wmv" expression="full" duration="3205" fileSize="454848385" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_Zune_ch9.wmv" expression="full" duration="3205" fileSize="191864714" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_512_ch9.png" expression="full" duration="3205" fileSize="147194" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5036/565036/VSLive2010Day1Keynote_ch9.wmv" length="204888662" type="video/x-ms-wmv" />
+            <dc:creator>Brian Keller</dc:creator>
+            <slash:comments>7</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/briankel/VSLive-2010-Day-1-Keynote-Visual-Studio-2010-and-a-Glimpse-of-the-Future/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565036/Trackback.aspx</trackback:ping>
+            <category>Visual Studio 2010</category>
+        </item>
+        <item>
+            <title>VSLive 2010 Day 2 Keynote: An Insider’s Perspective of Visual Studio 2010 and Application Lifecycle Management</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_85_ch9.png" border="0" /&gt;Dave Mendlen, Senior Director of Microsoft Developer Platform and Tools continues the excitement of the Visual Studio 2010 launch with a keynote session focused on Application Lifecycle Management (ALM). Mr. Mendlen shares exciting information about the extended set of products in the Visual Studio product line – Team Foundation Server, Test Professional and Lab Management – and talks about how IT organizations can make significant gains through improving process and tooling to support and automate the development lifecycle.&lt;br /&gt;
+                &lt;br /&gt;
+                During this keynote, the release of Visual Studio 2010 Lab Management was announced. If you'd like to jump straight to the Lab Managment announcement and product demonstration, click &lt;a href="http://channel9.msdn.com/posts/briankel/Visual-Studio-2010-Lab-Management-announce/"&gt;here&lt;/a&gt;.&lt;img src="http://channel9.msdn.com/565029/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/briankel/VSLive-2010-Day-2-Keynote-An-Insiders-Perspective-of-Visual-Studio-2010-and-Application-Lifecycle-Ma/</comments>
+            <link>http://channel9.msdn.com/posts/briankel/VSLive-2010-Day-2-Keynote-An-Insiders-Perspective-of-Visual-Studio-2010-and-Application-Lifecycle-Ma/</link>
+            <pubDate>Wed, 04 Aug 2010 23:31:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.wmv</guid>
+            <evnet:views>23853</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565029/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>Dave Mendlen, Senior Director of Microsoft Developer Platform and Tools continues the excitement of the Visual Studio 2010 launch with a keynote session focused on Application Lifecycle Management (ALM). Mr. Mendlen shares exciting information about the extended set of products in the Visual Studio product line – Team Foundation Server, Test Professional and Lab Management – and talks about how IT organizations can make significant gains through improving process and tooling to support and automate the development lifecycle.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.mp4" expression="full" duration="2876" fileSize="459836835" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.mp3" expression="full" duration="2876" fileSize="23012704" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.wma" expression="full" duration="2876" fileSize="23270957" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.wmv" expression="full" duration="2876" fileSize="194070688" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_2MB_ch9.wmv" expression="full" duration="2876" fileSize="397966413" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_Zune_ch9.wmv" expression="full" duration="2876" fileSize="179430740" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_512_ch9.png" expression="full" duration="2876" fileSize="194515" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.wmv" expression="full" duration="2876" fileSize="194070688" type="video/x-ms-asf" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5029/565029/VSLive2010Day2Keynote_ch9.wmv" length="194070688" type="video/x-ms-wmv" />
+            <dc:creator>Brian Keller</dc:creator>
+            <slash:comments>5</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/briankel/VSLive-2010-Day-2-Keynote-An-Insiders-Perspective-of-Visual-Studio-2010-and-Application-Lifecycle-Ma/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565029/Trackback.aspx</trackback:ping>
+            <category>Visual Studio 2010</category>
+        </item>
+        <item>
+            <title>Internet Explorer 9 Platform Preview 4: The IE9 Rocks HTML5 Audio Support</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_85_ch9.png" border="0" /&gt;In this presentation, Josh Rose, SDET II for Internet Explorer, looks at a real-world example of how developers can use HTML5 audio support in the fourth build of the IE9 Platform Preview. This sample and the third IE9 Platform Preview are available on the &lt;a href="http://ie.microsoft.com/testdrive/" target="_blank"&gt;IE Test Drive&lt;/a&gt;.&lt;img src="http://channel9.msdn.com/564186/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-The-IE9-Rocks-HTML5-Audio-Support/</comments>
+            <link>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-The-IE9-Rocks-HTML5-Audio-Support/</link>
+            <pubDate>Wed, 04 Aug 2010 19:01:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_ch9.wmv</guid>
+            <evnet:views>19700</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564186/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>In this presentation, Josh Rose, SDET II for Internet Explorer, looks at a real-world example of how developers can use HTML5 audio support in the fourth build of the IE9 Platform Preview. This sample and the third IE9 Platform Preview are available on the IE Test Drive.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_ch9.mp4" expression="full" duration="364" fileSize="52169265" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_ch9.mp3" expression="full" duration="364" fileSize="2918050" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_ch9.wma" expression="full" duration="364" fileSize="2954905" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_ch9.wmv" expression="full" duration="364" fileSize="25175615" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_2MB_ch9.wmv" expression="full" duration="364" fileSize="34636796" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_Zune_ch9.wmv" expression="full" duration="364" fileSize="24247670" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_512_ch9.png" expression="full" duration="364" fileSize="153378" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4186/564186/IE9201004_ch9.wmv" length="25175615" type="video/x-ms-wmv" />
+            <dc:creator>Larry Larsen</dc:creator>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-The-IE9-Rocks-HTML5-Audio-Support/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564186/Trackback.aspx</trackback:ping>
+            <category>Internet-Explorer-9</category>
+        </item>
+        <item>
+            <title>Internet Explorer 9 Platform Preview 4: A Look at SVG in IE9</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_85_ch9.png" border="0" /&gt;In this presentation, Patrick Dengler, Senior Program Manager for Internet Explorer, looks at how developers can use SVG in the fourth build of the IE9 Platform Preview. This developer sample demonstrates the value of IE9 as a fully hardware accelerated browser. This sample and the fourth build of the IE9 Platform Preview are available on the &lt;a href="http://ie.microsoft.com/testdrive/" target="_blank"&gt;IE Test Drive&lt;/a&gt;.&lt;img src="http://channel9.msdn.com/564185/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-SVG-in-IE9/</comments>
+            <link>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-SVG-in-IE9/</link>
+            <pubDate>Wed, 04 Aug 2010 19:01:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_ch9.wmv</guid>
+            <evnet:views>16920</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564185/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>In this presentation, Patrick Dengler, Senior Program Manager for Internet Explorer, looks at how developers can use SVG in the fourth build of the IE9 Platform Preview. This developer sample demonstrates the value of IE9 as a fully hardware accelerated browser. This sample and the fourth build of&amp;#8230;</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_ch9.mp4" expression="full" duration="276" fileSize="40995053" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_ch9.mp3" expression="full" duration="276" fileSize="2214415" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_ch9.wma" expression="full" duration="276" fileSize="2242957" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_ch9.wmv" expression="full" duration="276" fileSize="22343087" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_2MB_ch9.wmv" expression="full" duration="276" fileSize="36798895" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_Zune_ch9.wmv" expression="full" duration="276" fileSize="21351142" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_512_ch9.png" expression="full" duration="276" fileSize="167768" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4185/564185/IE9201003_ch9.wmv" length="22343087" type="video/x-ms-wmv" />
+            <dc:creator>Larry Larsen</dc:creator>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-SVG-in-IE9/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564185/Trackback.aspx</trackback:ping>
+            <category>Internet-Explorer-9</category>
+        </item>
+        <item>
+            <title>Internet Explorer 9 Platform Preview 4: A Look at the New IE Test Drive Samples</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_85_ch9.png" border="0" /&gt;In this presentation, Rob Mauceri, Group Program Manager for Internet Explorer, shows some of the new developer samples available in the fourth build of the IE9 Platform Preview, which you can explore on the &lt;a href="http://ie.microsoft.com/testdrive/" target="_blank"&gt;IE Test Drive&lt;/a&gt;.&lt;img src="http://channel9.msdn.com/564184/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-the-New-IE-Test-Drive-Samples/</comments>
+            <link>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-the-New-IE-Test-Drive-Samples/</link>
+            <pubDate>Wed, 04 Aug 2010 19:01:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_ch9.wmv</guid>
+            <evnet:views>16460</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564184/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>In this presentation, Rob Mauceri, Group Program Manager for Internet Explorer, shows some of the new developer samples available in the fourth build of the IE9 Platform Preview, which you can explore on the IE Test Drive.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_ch9.mp4" expression="full" duration="163" fileSize="25065539" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_ch9.mp3" expression="full" duration="163" fileSize="1310579" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_ch9.wma" expression="full" duration="163" fileSize="1332745" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_ch9.wmv" expression="full" duration="163" fileSize="15894409" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_2MB_ch9.wmv" expression="full" duration="163" fileSize="21987590" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_Zune_ch9.wmv" expression="full" duration="163" fileSize="14070464" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_512_ch9.png" expression="full" duration="163" fileSize="153528" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4184/564184/IE9201002_ch9.wmv" length="15894409" type="video/x-ms-wmv" />
+            <dc:creator>Larry Larsen</dc:creator>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/LarryLarsen/Internet-Explorer-9-Platform-Preview-4-A-Look-at-the-New-IE-Test-Drive-Samples/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564184/Trackback.aspx</trackback:ping>
+            <category>Internet-Explorer-9</category>
+        </item>
+        <item>
+            <title>Nikolai Tillmann and Aaron Shaver - Coding Duels at pexforfun.com</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_85_ch9.png" border="0" /&gt;In this video, &lt;a href="http://research.microsoft.com/en-us/people/nikolait/"&gt;Nikolai Tillmann&lt;/a&gt; walks us through &lt;a href="http://www.pexforfun.com"&gt;&lt;strong&gt;pexforfun.com&lt;/strong&gt;&lt;/a&gt;, a website where you can write small C#, VB, or F# programs and explore them directly from your browser by using &lt;a href="http://research.microsoft.com/pex"&gt;Pex&lt;/a&gt;. Additionally, Pex also makes it possible to play &lt;strong&gt;coding duels&lt;/strong&gt;, in which users compete to discover a secret puzzle implementation. &lt;br /&gt;
+                &lt;br /&gt;
+                Tune in to watch as Nikolai discusses all of this and plays a duel with Aaron Shaver, our high school intern who has been writing puzzles all summer long. &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;p&gt;&lt;em&gt;&lt;/em&gt;&lt;a href="http://research.microsoft.com/rise"&gt;&lt;em&gt;The &lt;/em&gt;&lt;em&gt;Research in Software Engineering team&lt;/em&gt;&lt;em&gt; (RiSE)&lt;/em&gt;&lt;/a&gt;&lt;em&gt; coordinates Microsoft's research in Software Engineering in Redmond, USA.&lt;/em&gt;&lt;/p&gt;&lt;img src="http://channel9.msdn.com/564745/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/Peli/Coding-Duels-at-pexforfuncom/</comments>
+            <link>http://channel9.msdn.com/posts/Peli/Coding-Duels-at-pexforfuncom/</link>
+            <pubDate>Wed, 04 Aug 2010 17:59:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_ch9.wmv</guid>
+            <evnet:views>12831</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564745/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                In this video, &lt;a href="http://research.microsoft.com/en-us/people/nikolait/"&gt;Nikolai Tillmann&lt;/a&gt; walks us through &lt;a href="http://www.pexforfun.com"&gt;&lt;strong&gt;pexforfun.com&lt;/strong&gt;&lt;/a&gt;, a website where you can write small C#, VB, or F# programs and explore them directly from your browser by using &lt;a href="http://research.microsoft.com/pex"&gt;Pex&lt;/a&gt;. Additionally, Pex also makes it possible to play &lt;strong&gt;coding duels&lt;/strong&gt;, in which users compete to discover a secret puzzle implementation. &lt;br /&gt;
+                &lt;br /&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_ch9.mp4" expression="full" duration="379" fileSize="66161771" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_ch9.mp3" expression="full" duration="379" fileSize="3040217" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_ch9.wma" expression="full" duration="379" fileSize="3087081" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_ch9.wmv" expression="full" duration="379" fileSize="42711706" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_2MB_ch9.wmv" expression="full" duration="379" fileSize="40392157" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_Zune_ch9.wmv" expression="full" duration="379" fileSize="29015760" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_512_ch9.png" expression="full" duration="379" fileSize="197677" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_2MB_ch9.wmv" expression="full" duration="379" fileSize="40392157" type="video/x-ms-asf" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4745/564745/pexforfun_ch9.wmv" length="42711706" type="video/x-ms-wmv" />
+            <dc:creator>Peli de Halleux</dc:creator>
+            <slash:comments>10</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/Peli/Coding-Duels-at-pexforfuncom/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564745/Trackback.aspx</trackback:ping>
+            <category>.NET Framework</category>
+            <category>code contracts</category>
+            <category>PEX</category>
+            <category>rise</category>
+        </item>
+        <item>
+            <title>Windows Phone 7:  Applications &amp; Tools</title>
+            <description>&lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_85_ch9.png" border="0" /&gt;Windows Phone 7 Program Manager, Sean Mckenna, swung by the Channel 9 studio to give us a demo of some Windows Phone 7 applications. The idea is that these are some core applications, for which the source code will be made available &lt;a href="http://developer.windowsphone.com/"&gt;HERE&lt;/a&gt;, that developers can integrate into their more complex and intricate original applications. Check out what he's offering and get to developing!&lt;img src="http://channel9.msdn.com/564161/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;</description>
+            <comments>http://channel9.msdn.com/posts/LauraFoy/Windows-Phone-7-Apps--Tools/</comments>
+            <link>http://channel9.msdn.com/posts/LauraFoy/Windows-Phone-7-Apps--Tools/</link>
+            <pubDate>Wed, 04 Aug 2010 17:56:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_ch9.wmv</guid>
+            <evnet:views>16744</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564161/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>Windows Phone 7 Program Manager, Sean Mckenna, swung by the Channel 9 studio to give us a demo of some Windows Phone 7 applications. The idea is that these are some core applications, for which the source code will be made available HERE, that developers can integrate into their more complex and&amp;#8230;</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_ch9.mp4" expression="full" duration="1151" fileSize="236245914" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_ch9.mp3" expression="full" duration="1151" fileSize="9216095" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_ch9.wma" expression="full" duration="1151" fileSize="9320381" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_ch9.wmv" expression="full" duration="1151" fileSize="246748337" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_2MB_ch9.wmv" expression="full" duration="1151" fileSize="560719192" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_Zune_ch9.wmv" expression="full" duration="1151" fileSize="162620392" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_512_ch9.png" expression="full" duration="1151" fileSize="204117" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4161/564161/AppDemo_ch9.wmv" length="246748337" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>18</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/LauraFoy/Windows-Phone-7-Apps--Tools/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564161/Trackback.aspx</trackback:ping>
+            <category>Windows Phone</category>
+            <category>WP7</category>
+        </item>
+        <item>
+            <title>DirectCompute Lecture Series 210: GPU Optimizations and Performance</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_85_ch9.png" border="0" /&gt;&lt;p&gt;Join James Fung from Developer Technology at NVIDIA as he covers the following advanced topics for DirectCompute:&lt;/p&gt;
+                &lt;ul&gt;
+                &lt;li&gt;
+                &lt;div&gt;Work distribution best practices&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                &lt;div&gt;Compute shader code best practices &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                &lt;div&gt;Algorithm selection best practices &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                &lt;div&gt;Multi-GPU best practices&lt;/div&gt;
+                &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;He also gives an example problem, scan/reduction, and then goes through various optimizations for that problem.&lt;/p&gt;
+                &lt;p&gt;For more information on DirectCompute, &lt;a href="http://code.msdn.microsoft.com/directcomputehol"&gt;download the PDC 2009 DirectCompute HOL&lt;/a&gt;, &lt;a href="http://channel9.msdn.com/posts/gclassy/DirectCompute-Expert-Roundtable-Discussion/"&gt;watch the DirectCompute Roundtable discussion&lt;/a&gt;, see the &lt;a href="http://go.microsoft.com/fwlink/?LinkId=194362"&gt;full DirectCompute lecture series&lt;/a&gt;, and &lt;a href="http://code.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=DirectComputeLecture&amp;amp;DownloadId=12929"&gt;download the slides for this lecture&lt;/a&gt;.&lt;/p&gt;&lt;img src="http://channel9.msdn.com/557729/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/posts/gclassy/DirectCompute-Lecture-Series-210-GPU-Optimizations-and-Performance/</comments>
+            <link>http://channel9.msdn.com/posts/gclassy/DirectCompute-Lecture-Series-210-GPU-Optimizations-and-Performance/</link>
+            <pubDate>Wed, 04 Aug 2010 15:31:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_ch9.wmv</guid>
+            <evnet:views>15252</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/557729/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>This lecture will explain some of the most common techniques and considerations for GPU performance, execution configurations, and best-practices for application design to achieve the best possible performance.</evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_ch9.mp4" expression="full" duration="1270" fileSize="66665019" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_ch9.mp3" expression="full" duration="1270" fileSize="10164747" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_ch9.wma" expression="full" duration="1270" fileSize="10284665" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_ch9.wmv" expression="full" duration="1270" fileSize="59767313" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_2MB_ch9.wmv" expression="full" duration="1270" fileSize="43107054" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_Zune_ch9.wmv" expression="full" duration="1270" fileSize="74029103" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_512_ch9.png" expression="full" duration="1270" fileSize="170420" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/9/2/7/7/5/5/DirectCompute210_ch9.wmv" length="59767313" type="video/x-ms-wmv" />
+            <dc:creator>Gus Class</dc:creator>
+            <slash:comments>4</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/posts/gclassy/DirectCompute-Lecture-Series-210-GPU-Optimizations-and-Performance/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/557729/Trackback.aspx</trackback:ping>
+            <category>compute-shader</category>
+            <category>D3D</category>
+            <category>Direct3D</category>
+            <category>DirectCompute</category>
+            <category>DirectCompute-Lecture-Series</category>
+            <category>DirectX</category>
+            <category>DirectX-11</category>
+            <category>GPGPU</category>
+            <category>GPU</category>
+            <category>HLSL</category>
+            <category>Lecture-Series</category>
+        </item>
+    </channel>
+</rss>

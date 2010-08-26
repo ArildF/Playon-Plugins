@@ -9,9 +9,20 @@ namespace Rogue.PlayOn.Plugins.Channel9
 {
     public class Channel9Provider : IPlayOnProvider
     {
+        private VirtualHierarchy _hierarchy;
+
         public Payload GetSharedMedia(string id, bool includeChildren, int startIndex, int requestCount)
         {
-            throw new NotImplementedException();
+            var node = _hierarchy.GetNode(id);
+            var children = _hierarchy.GetChildren(node).Select(n => n.ToMedia())
+                .Skip(startIndex);
+            if (requestCount != 0)
+            {
+                children = children.Take(requestCount);
+            }
+
+            return new Payload(node.Id, node.ParentId, node.Title, 0, children.ToArray());
+            
         }
 
         public string Resolve(SharedMediaFileInfo fileInfo)
@@ -21,7 +32,11 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         public void SetPlayOnHost(IPlayOnHost host)
         {
-            throw new NotImplementedException();
+            _hierarchy = new VirtualHierarchy(ID);
+
+            var folder = _hierarchy.CreateFolder(_hierarchy.Root, "RSS");
+
+
         }
 
         public string Name

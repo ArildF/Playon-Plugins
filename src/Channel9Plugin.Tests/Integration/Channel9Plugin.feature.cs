@@ -62,7 +62,24 @@ namespace Channel9Plugin.Tests.Integration
 testRunner.Given("an RSS file \'Channel9.rss\'");
 #line 8
 testRunner.And("a Channel 9 provider");
+#line 9
+testRunner.And("a settings object");
 #line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Description")]
+        public virtual void Description()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Description", ((string[])(null)));
+#line 11
+this.ScenarioSetup(scenarioInfo);
+#line 12
+testRunner.Then("the settings should have a description of \'Channel 9 (MSDN)\'");
+#line 13
+testRunner.And("the settings should have an image");
+#line hidden
+            testRunner.CollectScenarioErrors();
         }
         
         [NUnit.Framework.TestAttribute()]
@@ -70,14 +87,36 @@ testRunner.And("a Channel 9 provider");
         public virtual void HaveAnRSSRootFolder()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Have an RSS root folder", ((string[])(null)));
-#line 10
+#line 16
 this.ScenarioSetup(scenarioInfo);
-#line 11
+#line 17
 testRunner.When("I retrieve the children of the root");
-#line 12
+#line 18
 testRunner.Then("there should be only 1 child");
-#line 13
-testRunner.And("it should be named \'RSS\'");
+#line 19
+testRunner.And("child 0 should be named \'RSS\'");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Retrieve RSS items")]
+        public virtual void RetrieveRSSItems()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retrieve RSS items", ((string[])(null)));
+#line 21
+this.ScenarioSetup(scenarioInfo);
+#line 22
+testRunner.When("I retrieve the children of \'root=>RSS\'");
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Name",
+                        "Value"});
+            table1.AddRow(new string[] {
+                        "Title",
+                        "Visual Studio LightSwitch - Beyond the Basics"});
+#line 23
+testRunner.Then("child 1 should have these attributes:", ((string)(null)), table1);
 #line hidden
             testRunner.CollectScenarioErrors();
         }
