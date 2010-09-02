@@ -19,6 +19,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
         }
 
         public string Id { get; private set; }
+        public abstract bool IsContainer { get; }
 
         public abstract AbstractSharedMediaInfo ToMedia();
     }
@@ -74,6 +75,11 @@ namespace Rogue.PlayOn.Plugins.Channel9
                 _source = source;
             }
 
+            public override bool IsContainer
+            {
+                get { return false; }
+            }
+
             public IEnumerable<HierarchyNode> GetChildren(VirtualHierarchy virtualHierarchy)
             {
                 foreach (var hierarchyNode in _children)
@@ -116,6 +122,11 @@ namespace Rogue.PlayOn.Plugins.Channel9
             public MediaItemNode(MediaItem item, string parentId, string id) : base(parentId, id, item.Title)
             {
                 _item = item;
+            }
+
+            public override bool IsContainer
+            {
+                get { return false; }
             }
 
             public override AbstractSharedMediaInfo ToMedia()

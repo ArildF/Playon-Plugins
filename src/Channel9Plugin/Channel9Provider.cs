@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Security;
 using System.Text;
 using MediaMallTechnologies.Plugin;
 using Rogue.PlayOn.Plugins.Channel9.Properties;
@@ -18,20 +19,29 @@ namespace Rogue.PlayOn.Plugins.Channel9
             _hierarchy = _hierarchy ?? CreateHierarchy();
 
             var node = _hierarchy.GetNode(id);
-            var children = _hierarchy.GetChildren(node).Select(n => n.ToMedia())
-                .Skip(startIndex);
-            if (requestCount != 0)
+
+            IEnumerable<AbstractSharedMediaInfo> nodes = new []{node.ToMedia()};
+            if (includeChildren)
             {
-                children = children.Take(requestCount);
+                nodes = _hierarchy.GetChildren(node).Select(n => n.ToMedia())
+                    .Skip(startIndex);
+                if (requestCount != 0)
+                {
+                    nodes = nodes.Take(requestCount);
+                }
+
             }
 
-            return new Payload(node.Id, node.ParentId, node.Title, 0, children.ToArray());
+            return new Payload(node.Id, node.ParentId, node.Title, 0, nodes.ToArray(), node.IsContainer);
             
         }
 
         public string Resolve(SharedMediaFileInfo fileInfo)
         {
-            throw new NotImplementedException();
+            return String.Format(@"
+<media>
+    <url type=""wmv"">{0}</url>
+</media>", SecurityElement.Escape(fileInfo.Path));
         }
 
         public void SetPlayOnHost(IPlayOnHost host)

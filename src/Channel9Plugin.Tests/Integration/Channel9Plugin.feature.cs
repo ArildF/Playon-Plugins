@@ -107,7 +107,7 @@ testRunner.And("child 0 should be named \'RSS\'");
 #line 21
 this.ScenarioSetup(scenarioInfo);
 #line 22
-testRunner.When("I retrieve the children of \'root=>RSS\'");
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Name",
@@ -129,9 +129,44 @@ testRunner.Then("child 1 should have these attributes:", ((string)(null)), table
 #line 27
 this.ScenarioSetup(scenarioInfo);
 #line 28
-testRunner.When("I retrieve the children of \'root=>RSS\'");
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
 #line 29
 testRunner.Then("there should be 25 children");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Don\'t retrieve children of media")]
+        public virtual void DonTRetrieveChildrenOfMedia()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Don\'t retrieve children of media", ((string[])(null)));
+#line 31
+this.ScenarioSetup(scenarioInfo);
+#line 32
+testRunner.When("I retrieve the payload of \'root=>RSS=>1\' without children");
+#line 33
+testRunner.Then("the payload should be a media file");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Media XML")]
+        public virtual void MediaXML()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media XML", ((string[])(null)));
+#line 35
+this.ScenarioSetup(scenarioInfo);
+#line 36
+testRunner.When("I retrieve media child #1 of \'root=>RSS\'");
+#line 37
+testRunner.And("I resolve the item into XML");
+#line 38
+testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
+#line 39
+testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
+                    "6296/LightSwitchBeyondBasics_ch9.wmv\']\"");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

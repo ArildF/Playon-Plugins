@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Xml.XPath;
 using MediaMallTechnologies.Plugin;
 using Moq;
 using Rogue.PlayOn.Plugins.Channel9;
@@ -21,6 +22,8 @@ namespace Channel9Plugin.Tests.Integration.Steps
         private Channel9Settings _settings;
         private Payload _payload;
         private AbstractSharedMediaInfo _current;
+        private SharedMediaFileInfo _fileInfo;
+        private string _xml;
 
         [BeforeScenario]
         public void Init()
@@ -59,8 +62,8 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _payload.Items[childNo].Title.Satisfies(t => t == name);
         }
 
-        [When(@"I retrieve the children of '(.*)'")]
-        public void WhenIRetrieveTheChildrenOfRootRSS(string path)
+        [When(@"I retrieve the payload of '(.*)'")]
+        public void WhenIRetrieveThePayloadOfRootRSS(string path)
         {
             var elts = path.Split(new[] {"=>"}, StringSplitOptions.RemoveEmptyEntries);
             var stack = new Queue<string>(elts);
@@ -82,10 +85,54 @@ namespace Channel9Plugin.Tests.Integration.Steps
             }
         }
 
+        [When(@"I retrieve media child \#(\d+) of '(.*)'")]
+        public void WhenIRetrieveChild1OfRootRSS(int num, string path)
+        {
+            WhenIRetrieveThePayloadOfRootRSS(path);
+
+            _fileInfo = (SharedMediaFileInfo) _payload.Items.Skip(num - 1).Take(1).Single();
+
+        }
+
+        [When(@"I retrieve the payload of '(.*)' without children")]
+        public void WhenIRetrieveThePayloadOfRootRSS1WithoutChildren(string path)
+        {
+            string folder = path.Substring(0, path.LastIndexOf("=>"));
+
+            WhenIRetrieveThePayloadOfRootRSS(folder);
+
+            int index = int.Parse(path.Substring(folder.Length + "=>".Length));
+
+            _payload = _provider.GetSharedMedia(_payload.Items[index -1].Id, false, 0, 0);
+        }
+
+        [When(@"I resolve the item into XML")]
+        public void WhenIResolveTheItemIntoXML()
+        {
+            _xml = _provider.Resolve(_fileInfo);
+
+        }
+
         [Then(@"there should be only 1 child")]
         public void ThenThereShouldBeOnly1Child()
         {
             _payload.Items.Satisfies(items => items.Count == 1);
+        }
+
+        [Then(@"the xml should contain ""(.*)""")]
+        public void ThenTheXmlShouldContainMediaUrlTypeWmv(string xpath)
+        {
+            var doc = new XPathDocument(new StringReader(_xml));
+
+            var node = doc.CreateNavigator().Select(xpath).Cast<XPathNavigator>().SingleOrDefault();
+
+            node.Satisfies(n => n != null);
+        }
+
+        [Then(@"the payload should be a media file")]
+        public void ThenThePayloadShouldBeAMediaFile()
+        {
+            _payload.IsContainer.Satisfies(ic => ic == false);
         }
 
         [Then(@"child (.*) should have these attributes:")]
