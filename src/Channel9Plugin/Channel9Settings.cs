@@ -12,6 +12,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
 {
     public class Channel9Settings : IPlayOnProviderSettings
     {
+        private readonly Guid _id = new Guid("{BCFD3A35-D13C-41DA-B4FF-A68B6DB6F968}");
         public bool TestLogin(string username, string password)
         {
             throw new NotImplementedException();
@@ -19,7 +20,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         public string CheckForUpdate()
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public Control ConfigureOptions(NameValueCollection options, EventHandler changeHandler)
@@ -39,12 +40,12 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         public string Name
         {
-            get { throw new NotImplementedException(); }
+            get { return "Channel 9"; }
         }
 
         public string ID
         {
-            get { throw new NotImplementedException(); }
+            get { return _id.ToString(); }
         }
 
         public string Description
@@ -54,7 +55,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         public bool RequiresLogin
         {
-            get { throw new NotImplementedException(); }
+            get { return false; }
         }
 
         public bool HasOptions

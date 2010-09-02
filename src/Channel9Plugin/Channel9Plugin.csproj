@@ -12,7 +12,8 @@
     <AssemblyName>Channel9Plugin</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,14 +48,18 @@
   <ItemGroup>
     <Compile Include="Channel9Provider.cs" />
     <Compile Include="Channel9Settings.cs" />
+    <Compile Include="Downloader.cs" />
     <Compile Include="HierarchyBuilder.cs" />
-    <Compile Include="IWebClient.cs" />
+    <Compile Include="interfaces.cs" />
+    <Compile Include="IDownloader.cs" />
+    <Compile Include="MediaItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="RssParser.cs" />
     <Compile Include="VirtualHierarchy.cs" />
   </ItemGroup>
   <ItemGroup>

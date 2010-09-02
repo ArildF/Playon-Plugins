@@ -16,7 +16,7 @@ namespace Channel9Plugin.Tests.Integration.Steps
     public class Channel9Plugin : TestBase
     {
         private string _rss;
-        private Mock<IWebClient> _client;
+        private Mock<IDownloader> _client;
         private Channel9Provider _provider;
         private Channel9Settings _settings;
         private Payload _payload;
@@ -27,7 +27,7 @@ namespace Channel9Plugin.Tests.Integration.Steps
         {
             base.Setup();
 
-            _client = GetMock<IWebClient>();
+            _client = GetMock<IDownloader>();
         }
 
         [Given(@"a Channel 9 provider")]
@@ -35,6 +35,8 @@ namespace Channel9Plugin.Tests.Integration.Steps
         {
             _provider = new Channel9Provider();
             _provider.SetPlayOnHost(Create<IPlayOnHost>());
+            
+            _provider.SetWebClient(_client.Object);
         }
 
         [Given(@"a settings object")]
@@ -116,6 +118,12 @@ namespace Channel9Plugin.Tests.Integration.Steps
         public void ThenTheSettingsShouldHaveAnImage()
         {
             _settings.Satisfies(s => s.Image != null);
+        }
+
+        [Then(@"there should be (\d+) children")]
+        public void ThenThereShouldBe25Children(int num)
+        {
+            _payload.Items.Count.Satisfies(c => c == num);
         }
 
         [When(@"I retrieve the children of the root")]

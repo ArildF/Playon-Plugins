@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Rogue.PlayOn.Plugins.Channel9
 {
-	public interface IWebClient
+	public interface IDownloader
 	{
 		string DownloadString(string url);
 	}

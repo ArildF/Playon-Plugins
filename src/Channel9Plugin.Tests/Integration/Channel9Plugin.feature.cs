@@ -120,6 +120,21 @@ testRunner.Then("child 1 should have these attributes:", ((string)(null)), table
 #line hidden
             testRunner.CollectScenarioErrors();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("RSS item count")]
+        public virtual void RSSItemCount()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RSS item count", ((string[])(null)));
+#line 27
+this.ScenarioSetup(scenarioInfo);
+#line 28
+testRunner.When("I retrieve the children of \'root=>RSS\'");
+#line 29
+testRunner.Then("there should be 25 children");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
     }
 }
 #endregion

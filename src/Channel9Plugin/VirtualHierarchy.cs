@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Collections.Specialized;
 using MediaMallTechnologies.Plugin;
+using System.Linq;
 
 namespace Rogue.PlayOn.Plugins.Channel9
 {
@@ -32,7 +32,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
         {
             _root = rootId;
 
-            _nodes.Add(_root, new FolderNode(null, _root, ""));
+            _nodes.Add(_root, new FolderNode(null, _root, "", null));
         }
 
         public HierarchyNode Root
@@ -56,26 +56,38 @@ namespace Rogue.PlayOn.Plugins.Channel9
         public IEnumerable<HierarchyNode> GetChildren(HierarchyNode node)
         {
             var folderNode = (FolderNode) node;
-            foreach (var child in folderNode.Children)
+            foreach (var child in folderNode.GetChildren(this))
             {
                 _nodes[child.Id] = child;
                 yield return child;
             }
         }
 
-       
 
-        internal class FolderNode : HierarchyNode
+        private class FolderNode : HierarchyNode
         {
+            private readonly IMediaItemSource _source;
             private readonly List<HierarchyNode> _children = new List<HierarchyNode>();
 
-            public FolderNode(string parentId, string id, string title) : base(parentId, id, title)
+            public FolderNode(string parentId, string id, string title, IMediaItemSource source) : base(parentId, id, title)
             {
+                _source = source;
             }
 
-            public IEnumerable<HierarchyNode> Children
+            public IEnumerable<HierarchyNode> GetChildren(VirtualHierarchy virtualHierarchy)
             {
-                get { return _children; }
+                foreach (var hierarchyNode in _children)
+                {
+                    yield return hierarchyNode;
+                }
+
+                if (_source != null)
+                {
+                    foreach (var node in _source.MediaItems().Select(mi => virtualHierarchy.CreateMediaItemNode(this, mi)))
+                    {
+                        yield return node;
+                    } 
+                }
             }
 
             public void AddChild(HierarchyNode hierarchyNode)
@@ -89,9 +101,34 @@ namespace Rogue.PlayOn.Plugins.Channel9
             }
         }
 
-        public HierarchyNode CreateFolder(HierarchyNode parent, string name)
+        private MediaItemNode CreateMediaItemNode(FolderNode parent, MediaItem item)
         {
-            var node = new FolderNode(parent.Id, CreateId(), name);
+            var itemNode = new MediaItemNode(item, parent.Id, CreateId());
+            _nodes[itemNode.Id] = itemNode;
+
+            return itemNode;
+        }
+
+        private class MediaItemNode : HierarchyNode
+        {
+            private readonly MediaItem _item;
+
+            public MediaItemNode(MediaItem item, string parentId, string id) : base(parentId, id, item.Title)
+            {
+                _item = item;
+            }
+
+            public override AbstractSharedMediaInfo ToMedia()
+            {
+                return new VideoResource(Id, ParentId, Title, _item.Url, _item.Description, null, DateTime.MinValue, null,
+                    new NameValueCollection(), 0, 0, genre: "", resolution:"");
+
+            }
+        }
+
+        public HierarchyNode CreateFolder(HierarchyNode parent, string name, IMediaItemSource source = null)
+        {
+            var node = new FolderNode(parent.Id, CreateId(), name, source);
             AddChild(parent, node);
             return node;
         }

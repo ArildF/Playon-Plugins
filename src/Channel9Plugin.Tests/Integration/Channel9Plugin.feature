@@ -23,3 +23,7 @@ Scenario: Retrieve RSS items
     Then child 1 should have these attributes:
     |Name       |Value                                      |
     |Title       |Visual Studio LightSwitch - Beyond the Basics|
+
+Scenario: RSS item count
+    When I retrieve the children of 'root=>RSS'
+    Then there should be 25 children
