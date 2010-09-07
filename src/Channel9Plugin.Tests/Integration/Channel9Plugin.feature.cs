@@ -137,15 +137,50 @@ testRunner.Then("there should be 25 children");
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Media URL")]
+        public virtual void MediaURL()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media URL", ((string[])(null)));
+#line 31
+this.ScenarioSetup(scenarioInfo);
+#line 32
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
+#line 33
+testRunner.And("I examine child #1 as a video file");
+#line 34
+testRunner.Then("the video file should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/62" +
+                    "96/566296/LightSwitchBeyondBasics_ch9.wmv\'");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Duration")]
+        public virtual void Duration()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Duration", ((string[])(null)));
+#line 36
+this.ScenarioSetup(scenarioInfo);
+#line 37
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
+#line 38
+testRunner.And("I examine child #1 as a video file");
+#line 39
+testRunner.Then("the video file should have a duration of 2604000");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Don\'t retrieve children of media")]
         public virtual void DonTRetrieveChildrenOfMedia()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Don\'t retrieve children of media", ((string[])(null)));
-#line 31
+#line 42
 this.ScenarioSetup(scenarioInfo);
-#line 32
+#line 43
 testRunner.When("I retrieve the payload of \'root=>RSS=>1\' without children");
-#line 33
+#line 44
 testRunner.Then("the payload should be a media file");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -156,15 +191,15 @@ testRunner.Then("the payload should be a media file");
         public virtual void MediaXML()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media XML", ((string[])(null)));
-#line 35
+#line 46
 this.ScenarioSetup(scenarioInfo);
-#line 36
+#line 47
 testRunner.When("I retrieve media child #1 of \'root=>RSS\'");
-#line 37
+#line 48
 testRunner.And("I resolve the item into XML");
-#line 38
+#line 49
 testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
-#line 39
+#line 50
 testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
                     "6296/LightSwitchBeyondBasics_ch9.wmv\']\"");
 #line hidden

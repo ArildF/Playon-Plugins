@@ -132,7 +132,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
             public override AbstractSharedMediaInfo ToMedia()
             {
                 return new VideoResource(Id, ParentId, Title, _item.Url, _item.Description, null, DateTime.MinValue, null,
-                    new NameValueCollection(), 0, 0, genre: "", resolution:"");
+                    new NameValueCollection(), _item.Duration, 0, genre: "", resolution:"");
 
             }
         }

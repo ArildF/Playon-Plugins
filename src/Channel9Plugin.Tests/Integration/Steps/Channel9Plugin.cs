@@ -24,6 +24,7 @@ namespace Channel9Plugin.Tests.Integration.Steps
         private AbstractSharedMediaInfo _current;
         private SharedMediaFileInfo _fileInfo;
         private string _xml;
+        private VideoResource _video;
 
         [BeforeScenario]
         public void Init()
@@ -106,6 +107,12 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _payload = _provider.GetSharedMedia(_payload.Items[index -1].Id, false, 0, 0);
         }
 
+        [When(@"I examine child \#(\d+) as a video file")]
+        public void WhenIExamineChild1AsAVideoFile(int childNo)
+        {
+            _video = (VideoResource) _payload.Items[childNo - 1];
+        }
+
         [When(@"I resolve the item into XML")]
         public void WhenIResolveTheItemIntoXML()
         {
@@ -128,6 +135,20 @@ namespace Channel9Plugin.Tests.Integration.Steps
 
             node.Satisfies(n => n != null);
         }
+
+        [Then(@"the video file should have a media URL of '(.*)'")]
+        public void ThenTheVideoFileShouldHaveAMediaURLOf(string url)
+        {
+            _video.Path.Satisfies(p => p == url);
+        }
+
+        [Then(@"the video file should have a duration of (\d+)")]
+        public void ThenTheVideoFileShouldHaveALengthOf12(long duration)
+        {
+            _video.Duration.Satisfies(fs => fs == duration);
+        }
+
+
 
         [Then(@"the payload should be a media file")]
         public void ThenThePayloadShouldBeAMediaFile()

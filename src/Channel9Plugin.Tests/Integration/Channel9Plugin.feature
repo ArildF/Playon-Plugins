@@ -28,6 +28,17 @@ Scenario: RSS item count
     When I retrieve the payload of 'root=>RSS'
     Then there should be 25 children
 
+Scenario: Media URL
+    When I retrieve the payload of 'root=>RSS'
+    And I examine child #1 as a video file
+    Then the video file should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv'
+
+Scenario: Duration
+    When I retrieve the payload of 'root=>RSS'
+    And I examine child #1 as a video file
+    Then the video file should have a duration of 2604000
+
+
 Scenario: Don't retrieve children of media
     When I retrieve the payload of 'root=>RSS=>1' without children
     Then the payload should be a media file

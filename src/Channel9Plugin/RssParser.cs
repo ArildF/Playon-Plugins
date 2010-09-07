@@ -10,6 +10,9 @@ namespace Rogue.PlayOn.Plugins.Channel9
         private readonly string _url;
         private readonly IDownloader _downloader;
 
+        private static readonly XNamespace Media = "http://search.yahoo.com/mrss/";
+
+
         public RssParser(string url, IDownloader downloader)
         {
             _url = url;
@@ -25,9 +28,23 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
             return from item in items 
                    let title = item.Element("title").Value 
-                   let url = item.Element("enclosure").Attribute("url").Value 
+                   let enclosure = item.Element("enclosure")
+                   let mediaContent = 
+                        (from content in item.Descendants(Media + "content")
+                         let def = content.Attribute("isDefault")
+                         where def != null && def.Value == "true"
+                         where content.Attribute("url").Value.EndsWith(".wmv", StringComparison.InvariantCultureIgnoreCase)
+                         select content
+                         ).FirstOrDefault()
+                   let url = mediaContent != null ? 
+                        mediaContent.Attribute("url").Value : 
+                        enclosure.Attribute("url").Value 
+                   let durationString = mediaContent != null ? 
+                       mediaContent.Attribute("duration").Value :
+                       enclosure.Attribute("length").Value
+                   let duration = long.Parse(durationString) * 1000
                    let description = item.Element("description").Value 
-                   select new MediaItem(title, url, description);
+                   select new MediaItem(title, url, description, duration);
         }
     }
 }
