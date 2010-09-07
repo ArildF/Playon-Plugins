@@ -42,9 +42,11 @@ namespace Rogue.PlayOn.Plugins.Channel9
                    let durationString = mediaContent != null ? 
                        mediaContent.Attribute("duration").Value :
                        enclosure.Attribute("length").Value
+                   let thumbNail = item.Element(Media + "thumbnail")
+                   let thumbNailUrl = thumbNail != null ? thumbNail.Attribute("url").Value : null
                    let duration = long.Parse(durationString) * 1000
                    let description = item.Element("description").Value 
-                   select new MediaItem(title, url, description, duration);
+                   select new MediaItem(title, url, description, duration, thumbNail: thumbNailUrl);
         }
     }
 }

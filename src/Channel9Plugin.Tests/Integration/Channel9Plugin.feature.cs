@@ -172,15 +172,33 @@ testRunner.Then("the video file should have a duration of 2604000");
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Thumbnail")]
+        public virtual void Thumbnail()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Thumbnail", ((string[])(null)));
+#line 41
+this.ScenarioSetup(scenarioInfo);
+#line 42
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
+#line 43
+testRunner.And("I examine child #1 as a video file");
+#line 44
+testRunner.Then("the video file should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/6296/" +
+                    "566296/LightSwitchBeyondBasics_320_ch9.png\'");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Don\'t retrieve children of media")]
         public virtual void DonTRetrieveChildrenOfMedia()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Don\'t retrieve children of media", ((string[])(null)));
-#line 42
+#line 46
 this.ScenarioSetup(scenarioInfo);
-#line 43
+#line 47
 testRunner.When("I retrieve the payload of \'root=>RSS=>1\' without children");
-#line 44
+#line 48
 testRunner.Then("the payload should be a media file");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -191,15 +209,15 @@ testRunner.Then("the payload should be a media file");
         public virtual void MediaXML()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media XML", ((string[])(null)));
-#line 46
-this.ScenarioSetup(scenarioInfo);
-#line 47
-testRunner.When("I retrieve media child #1 of \'root=>RSS\'");
-#line 48
-testRunner.And("I resolve the item into XML");
-#line 49
-testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
 #line 50
+this.ScenarioSetup(scenarioInfo);
+#line 51
+testRunner.When("I retrieve media child #1 of \'root=>RSS\'");
+#line 52
+testRunner.And("I resolve the item into XML");
+#line 53
+testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
+#line 54
 testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
                     "6296/LightSwitchBeyondBasics_ch9.wmv\']\"");
 #line hidden

@@ -38,6 +38,10 @@ Scenario: Duration
     And I examine child #1 as a video file
     Then the video file should have a duration of 2604000
 
+Scenario: Thumbnail
+    When I retrieve the payload of 'root=>RSS'
+    And I examine child #1 as a video file
+    Then the video file should have a thumbnail 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_320_ch9.png'
 
 Scenario: Don't retrieve children of media
     When I retrieve the payload of 'root=>RSS=>1' without children

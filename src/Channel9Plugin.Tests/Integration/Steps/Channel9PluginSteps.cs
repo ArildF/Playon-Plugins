@@ -148,6 +148,12 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _video.Duration.Satisfies(fs => fs == duration);
         }
 
+        [Then(@"the video file should have a thumbnail '(.*)'")]
+        public void ThenTheVideoFileShouldHaveAThumbnail(string url)
+        {
+            _video.Satisfies(v => v.ThumbnailUrl == url);
+        }
+
 
 
         [Then(@"the payload should be a media file")]

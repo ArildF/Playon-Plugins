@@ -11,13 +11,15 @@ namespace Rogue.PlayOn.Plugins.Channel9
         public string Url { get; private set; }
         public string Description { get; private set; }
         public long Duration { get; private set; }
+        public string ThumbNail { get; set; }
 
-        public MediaItem(string title, string url, string description = "", long duration =  0)
+        public MediaItem(string title, string url, string description = "", long duration =  0, string thumbNail = null)
         {
             Title = title;
             Url = url;
             Description = description;
             Duration = duration;
+            ThumbNail = thumbNail;
         }
     }
 }

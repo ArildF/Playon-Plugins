@@ -70,7 +70,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Channel9Plugin.feature</DependentUpon>
     </Compile>
-    <Compile Include="Integration\Steps\Channel9Plugin.cs" />
+    <Compile Include="Integration\Steps\Channel9PluginSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Satisfyr.NUnit.cs" />
     <Compile Include="TestBase.cs" />
