@@ -14,7 +14,7 @@ using Satisfyr;
 namespace Channel9Plugin.Tests.Integration.Steps
 {
     [Binding]
-    public class Channel9Plugin : TestBase
+    public class Channel9PluginSteps : TestBase
     {
         private string _rss;
         private Mock<IDownloader> _client;
