@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 
@@ -45,8 +46,20 @@ namespace Rogue.PlayOn.Plugins.Channel9
                    let thumbNail = item.Element(Media + "thumbnail")
                    let thumbNailUrl = thumbNail != null ? thumbNail.Attribute("url").Value : null
                    let duration = long.Parse(durationString) * 1000
+                   let pubDate = ParsePubDate(item)
                    let description = item.Element("description").Value 
-                   select new MediaItem(title, url, description, duration, thumbNail: thumbNailUrl);
+                   select new MediaItem(title, url, description, duration, thumbNail: thumbNailUrl, publicationDate: pubDate);
+        }
+
+        private DateTime? ParsePubDate(XElement item)
+        {
+            var date = item.Element("pubDate");
+            if (date == null)
+            {
+                return null;
+            }
+
+            return DateTime.ParseExact(date.Value, "R", CultureInfo.InvariantCulture);
         }
     }
 }

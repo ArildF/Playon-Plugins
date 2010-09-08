@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml.XPath;
 using MediaMallTechnologies.Plugin;
 using Moq;
+using NUnit.Framework;
 using Rogue.PlayOn.Plugins.Channel9;
 using TechTalk.SpecFlow;
 using Satisfyr;
@@ -154,6 +156,14 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _video.Satisfies(v => v.ThumbnailUrl == url);
         }
 
+        [Then(@"the video file should have a publication date of '(.*)'")]
+        public void ThenTheVideoFileShouldHaveAPublicationDate(string dateString)
+        {
+            DateTime dt = DateTime.ParseExact(dateString, "R", CultureInfo.InvariantCulture);
+
+            _video.Date.Satisfies(d => d == dt);
+        }
+
 
 
         [Then(@"the payload should be a media file")]
@@ -198,6 +208,17 @@ namespace Channel9Plugin.Tests.Integration.Steps
         public void ThenThereShouldBe25Children(int num)
         {
             _payload.Items.Count.Satisfies(c => c == num);
+        }
+
+        [Then(@"the children should have sort prefixes ordered by publication date descending")]
+        public void ThenTheChildrenShouldHaveSortPrefixesOrderedByPublicationDateDescending()
+        {
+            var sortedByDate = _payload.Items.Cast<SharedMediaFileInfo>().OrderByDescending(smfi => smfi.Date).ToArray();
+            var sortedByPrefixes =
+                _payload.Items.Cast<SharedMediaFileInfo>().OrderBy(smfi => smfi.MetadataProperties["SortIndex"])
+                    .ToArray();
+
+            CollectionAssert.AreEqual(sortedByDate, sortedByPrefixes);
         }
 
         [When(@"I retrieve the children of the root")]

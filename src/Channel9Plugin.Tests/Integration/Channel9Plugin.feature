@@ -43,9 +43,18 @@ Scenario: Thumbnail
     And I examine child #1 as a video file
     Then the video file should have a thumbnail 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_320_ch9.png'
 
+Scenario: Publication date
+    When I retrieve the payload of 'root=>RSS'
+    And I examine child #1 as a video file
+    Then the video file should have a publication date of 'Wed, 11 Aug 2010 19:04:00 GMT'
+
 Scenario: Don't retrieve children of media
     When I retrieve the payload of 'root=>RSS=>1' without children
     Then the payload should be a media file
+
+Scenario: Sort order
+    When I retrieve the payload of 'root=>RSS'
+    Then the children should have sort prefixes ordered by publication date descending
 
 Scenario: Media XML
     When I retrieve media child #1 of 'root=>RSS'

@@ -32,8 +32,21 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
             }
 
-            return new Payload(node.Id, node.ParentId, node.Title, 0, nodes.ToArray(), node.IsContainer);
+            var list = nodes.ToArray();
+
+
+            ApplySortIndexes(list);
+
+
+            return new Payload(node.Id, node.ParentId, node.Title, 0, list, node.IsContainer);
             
+        }
+
+        private static void ApplySortIndexes(IEnumerable<AbstractSharedMediaInfo> nodes)
+        {
+            int idx = 0;
+            nodes.OfType<SharedMediaFileInfo>().OrderByDescending(n => n.Date)
+                .ForEach(n => n.MetadataProperties["SortIndex"] = (idx++).ToString("000"));
         }
 
         public string Resolve(SharedMediaFileInfo fileInfo)
