@@ -4,7 +4,9 @@
 	I want to have a plugin for PlayOn that streams videos from Channel 9 
 
 Background:
-	Given an RSS file 'Channel9.rss'
+	Given a file 'Channel9.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
+    And a file 'Shows_Channel9.htm' at the URL 'http://channel9.msdn.com/shows/'
+    And a file 'ButWhy.rss' at the URL 'http://channel9.msdn.com/shows/ButWhy/feed/wmvhigh'
 	And a Channel 9 provider
     And a settings object
 
@@ -15,8 +17,9 @@ Scenario: Description
 
 Scenario: Have an RSS root folder
 	When I retrieve the children of the root
-	Then there should be only 1 child
+	Then there should be 2 children
 	And child 0 should be named 'RSS'
+    And child 1 should be named 'Shows'
 
 Scenario: Retrieve RSS items
     When I retrieve the payload of 'root=>RSS'
@@ -28,10 +31,24 @@ Scenario: RSS item count
     When I retrieve the payload of 'root=>RSS'
     Then there should be 25 children
 
+Scenario: Folders item count
+    When I retrieve the payload of 'root=>Shows'
+    Then there should be 21 children
+
+Scenario: Shows folder title
+    When I retrieve the payload of 'root=>Shows'
+    And I examine child #1 as a folder
+    Then the folder should have a title of 'In the Office'
+
 Scenario: Media URL
     When I retrieve the payload of 'root=>RSS'
     And I examine child #1 as a video file
     Then the video file should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv'
+
+Scenario: Shows media URL
+    When I retrieve the payload of 'root=>Shows=>But Why?'
+    And I examine child #1 as a video file
+    Then the video file should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.wmv'
 
 Scenario: Duration
     When I retrieve the payload of 'root=>RSS'

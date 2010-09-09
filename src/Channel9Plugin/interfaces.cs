@@ -9,4 +9,9 @@ namespace Rogue.PlayOn.Plugins.Channel9
     {
         IEnumerable<MediaItem> MediaItems();
     }
+
+    public interface IFolderSource
+    {
+        IEnumerable<FolderItem> FolderItems();
+    }
 }

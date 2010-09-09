@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\lib\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -50,6 +53,9 @@
     <Compile Include="Channel9Settings.cs" />
     <Compile Include="Downloader.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="FolderItem.cs" />
+    <Compile Include="Hierarchies\RssFeed.cs" />
+    <Compile Include="Hierarchies\Shows.cs" />
     <Compile Include="HierarchyBuilder.cs" />
     <Compile Include="interfaces.cs" />
     <Compile Include="IDownloader.cs" />

@@ -27,6 +27,7 @@ namespace Channel9Plugin.Tests.Integration.Steps
         private SharedMediaFileInfo _fileInfo;
         private string _xml;
         private VideoResource _video;
+        private SharedMediaFolderInfo _folder;
 
         [BeforeScenario]
         public void Init()
@@ -52,11 +53,11 @@ namespace Channel9Plugin.Tests.Integration.Steps
 
         }
 
-        [Given(@"an RSS file '(.*)'")]
-        public void GivenAnRSSFileChannel9Rss(string file)
+        [Given(@"a file '(.*)' at the URL '(.*)'")]
+        public void GivenAnRSSFileChannel9RssAtUrl(string file, string url)
         {
             _rss = File.ReadAllText(file);
-            _client.Setup(c => c.DownloadString(It.IsAny<string>())).Returns(_rss);
+            _client.Setup(c => c.DownloadString(url)).Returns(_rss);
         }
 
         [Then(@"child (.*) should be named '(.*)'")]
@@ -115,6 +116,13 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _video = (VideoResource) _payload.Items[childNo - 1];
         }
 
+        [When(@"I examine child \#(\d+) as a folder")]
+        public void WhenIExamineChild1AsAFolder(int childNo)
+        {
+            _folder = (SharedMediaFolderInfo) _payload.Items[childNo - 1];
+
+        }
+
         [When(@"I resolve the item into XML")]
         public void WhenIResolveTheItemIntoXML()
         {
@@ -148,6 +156,12 @@ namespace Channel9Plugin.Tests.Integration.Steps
         public void ThenTheVideoFileShouldHaveALengthOf12(long duration)
         {
             _video.Duration.Satisfies(fs => fs == duration);
+        }
+
+        [Then(@"the folder should have a title of '(.*)'")]
+        public void ThenTheFolderShouldHaveATitleOfInTheOffice(string folder)
+        {
+            _folder.Title.Satisfies(t => t == folder);
         }
 
         [Then(@"the video file should have a thumbnail '(.*)'")]

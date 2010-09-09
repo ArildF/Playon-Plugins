@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security;
 using System.Text;
 using MediaMallTechnologies.Plugin;
+using Rogue.PlayOn.Plugins.Channel9.Hierarchies;
 using Rogue.PlayOn.Plugins.Channel9.Properties;
 
 namespace Rogue.PlayOn.Plugins.Channel9
@@ -68,10 +69,12 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         private VirtualHierarchy CreateHierarchy()
         {
-            var rssParser = new RssParser(@"http://channel9.msdn.com/Feeds/RSS/", _downloader);
             var hierarchy = new VirtualHierarchy(ID);
 
-            hierarchy.CreateFolder(hierarchy.Root, "RSS", rssParser);
+            new RssFeed("http://channel9.msdn.com/Feeds/RSS/", _downloader).AddToHierarchy(hierarchy);
+
+            new Shows("http://channel9.msdn.com/shows/", _downloader).AddToHierarchy(hierarchy);
+
             return hierarchy;
         }
 

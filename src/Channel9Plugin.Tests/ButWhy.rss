@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/App_Themes/default/rss.xslt"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:evnet="http://www.mscommunities.com/rssmodule/">
+    <channel>
+        <title>But Why?</title>
+        <atom:link rel="self" type="application/rss+xml" href="http://channel9.msdn.com/shows/butwhy/feed/wmvhigh/default.aspx" />
+        <image>
+            <url>http://mschnlnine.vo.llnwd.net/d1/Dev/App_Themes/C9/images/feedimage.png</url>
+            <title>But Why?</title>
+            <link>http://channel9.msdn.com/shows/ButWhy/</link>
+        </image>
+        <description>
+            Hard to find answers for mysterious questions about Microsoft.
+        </description>
+        <link>http://channel9.msdn.com/shows/ButWhy/</link>
+        <language>en-us</language>
+        <pubDate>Thu, 22 Jul 2010 18:21:42 GMT</pubDate>
+        <lastBuildDate>Thu, 22 Jul 2010 18:21:42 GMT</lastBuildDate>
+        <generator>EvNet (EvNet, Version=1.0.3713.3727, Culture=neutral, PublicKeyToken=null)</generator>
+        <item>
+            <title>That's called a Giblet: But Why?</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_85_ch9.png" border="0" /&gt;Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered! &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/shows/ButWhy/"&gt;Watch other episodes of But Why? &lt;/a&gt;&lt;img src="http://channel9.msdn.com/562730/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/ButWhy/Thats-called-a-Giblet-But-Why/</comments>
+            <link>http://channel9.msdn.com/shows/ButWhy/Thats-called-a-Giblet-But-Why/</link>
+            <pubDate>Tue, 27 Jul 2010 20:43:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_2MB_ch9.wmv</guid>
+            <evnet:views>25734</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/562730/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered!
+
+                Watch other episodes of But Why?
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.mp4" expression="full" duration="83" fileSize="17486436" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.mp3" expression="full" duration="83" fileSize="671588" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.wma" expression="full" duration="83" fileSize="689889" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.wmv" expression="full" duration="83" fileSize="16885929" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_2MB_ch9.wmv" expression="full" duration="83" fileSize="63733724" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_Zune_ch9.wmv" expression="full" duration="83" fileSize="11365984" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_512_ch9.png" expression="full" duration="83" fileSize="407842" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_2MB_ch9.wmv" length="63733724" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>13</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/ButWhy/Thats-called-a-Giblet-But-Why/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/562730/Trackback.aspx</trackback:ping>
+            <category>But Why</category>
+            <category>giblet</category>
+        </item>
+        <item>
+            <title>Windows is named Windows : But Why?</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_85_ch9.png" border="0" /&gt;Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered! &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/shows/ButWhy/"&gt;Watch other episodes of But Why? &lt;/a&gt;&lt;img src="http://channel9.msdn.com/540123/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/ButWhy/Word-is-named-Word--But-Why/</comments>
+            <link>http://channel9.msdn.com/shows/ButWhy/Word-is-named-Word--But-Why/</link>
+            <pubDate>Mon, 26 Apr 2010 18:15:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_2MB_ch9.wmv</guid>
+            <evnet:views>46515</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/540123/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered!
+
+                Watch other episodes of But Why?
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_ch9.mp4" expression="full" duration="138" fileSize="17763586" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_ch9.mp3" expression="full" duration="138" fileSize="1108134" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_ch9.wma" expression="full" duration="138" fileSize="1128473" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_ch9.wmv" expression="full" duration="138" fileSize="27143465" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_2MB_ch9.wmv" expression="full" duration="138" fileSize="104823866" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_Zune_ch9.wmv" expression="full" duration="138" fileSize="18967517" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_512_ch9.png" expression="full" duration="138" fileSize="391974" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3/2/1/0/4/5/WhyWord_2MB_ch9.wmv" length="104823866" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>15</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/ButWhy/Word-is-named-Word--But-Why/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/540123/Trackback.aspx</trackback:ping>
+            <category>But Why</category>
+            <category>Windows</category>
+            <category>Word</category>
+        </item>
+        <item>
+            <title>There is no Office 13 - But Why?</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_85_ch9.png" border="0" /&gt;Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered! &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/shows/ButWhy/"&gt;Watch other episodes of But Why?&lt;/a&gt;&lt;img src="http://channel9.msdn.com/495089/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/ButWhy/There-is-no-Office-13-But-Why/</comments>
+            <link>http://channel9.msdn.com/shows/ButWhy/There-is-no-Office-13-But-Why/</link>
+            <pubDate>Fri, 26 Feb 2010 00:04:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_2MB_ch9.wmv</guid>
+            <evnet:views>48575</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/495089/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered!
+
+                Watch other episodes of But Why?
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_ch9.mp4" expression="full" duration="68" fileSize="11995680" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_ch9.mp3" expression="full" duration="68" fileSize="549725" type="audio/mp3" medium="audio" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_ch9.mp4" expression="full" duration="68" fileSize="11995680" type="video/mp4" medium="video" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_ch9.wma" expression="full" duration="68" fileSize="563721" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_ch9.wmv" expression="full" duration="68" fileSize="14614479" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_2MB_ch9.wmv" expression="full" duration="68" fileSize="42992143" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_Zune_ch9.wmv" expression="full" duration="68" fileSize="9366465" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_512_ch9.png" expression="full" duration="68" fileSize="307604" type="image/jpeg" medium="image" />
+                <media:content url="http://ss.channel9.msdn.com/ch9/9/8/0/5/9/4/ButWhyOffice.ism/Manifest" expression="full" duration="68" type="video/x-ms-wmv" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/5/9/4/ButWhyOffice_2MB_ch9.wmv" length="42992143" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>11</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/ButWhy/There-is-no-Office-13-But-Why/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/495089/Trackback.aspx</trackback:ping>
+            <category>But Why</category>
+            <category>Office</category>
+        </item>
+        <item>
+            <title>The Outlook calendar starts in 1601 - But Why?</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_85_ch9.png" border="0" /&gt;Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered! &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/shows/ButWhy/"&gt;Watch previous episodes here&lt;/a&gt;&lt;img src="http://channel9.msdn.com/495085/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/ButWhy/The-Outlook-calendar-starts-in-1601-But-Why/</comments>
+            <link>http://channel9.msdn.com/shows/ButWhy/The-Outlook-calendar-starts-in-1601-But-Why/</link>
+            <pubDate>Wed, 09 Dec 2009 19:53:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_2MB_ch9.wmv</guid>
+            <evnet:views>46126</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/495085/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered!
+
+                Watch previous episodes here
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_ch9.mp4" expression="full" duration="53" fileSize="7217479" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_ch9.mp3" expression="full" duration="53" fileSize="428754" type="audio/mp3" medium="audio" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_ch9.mp4" expression="full" duration="53" fileSize="7217479" type="video/mp4" medium="video" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_ch9.wma" expression="full" duration="53" fileSize="443561" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_ch9.wmv" expression="full" duration="53" fileSize="10310269" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_2MB_ch9.wmv" expression="full" duration="53" fileSize="33718980" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_Zune_ch9.wmv" expression="full" duration="53" fileSize="5910255" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_512_ch9.png" expression="full" duration="53" type="image/jpeg" medium="image" />
+                <media:content url="http://ss.channel9.msdn.com/ch9/5/8/0/5/9/4/ButWhyOutlook.ism/Manifest" expression="full" duration="53" type="video/x-ms-wmv" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5/8/0/5/9/4/ButWhyOutlook_2MB_ch9.wmv" length="33718980" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>9</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/ButWhy/The-Outlook-calendar-starts-in-1601-But-Why/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/495085/Trackback.aspx</trackback:ping>
+            <category>But Why</category>
+            <category>calendar</category>
+            <category>Outlook</category>
+        </item>
+        <item>
+            <title>The Notepad Bug - But Why?</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_85_ch9.png" border="0" /&gt;In NotePad there is a little known bug that results from typing some strange sentences - want to know why? Please comment with other questions you'd like to get answered! &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/shows/ButWhy/"&gt;Watch other episodes of But Why?&lt;/a&gt;&lt;img src="http://channel9.msdn.com/495090/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/ButWhy/The-Notepad-Bug-But-Why/</comments>
+            <link>http://channel9.msdn.com/shows/ButWhy/The-Notepad-Bug-But-Why/</link>
+            <pubDate>Wed, 07 Oct 2009 15:55:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_2MB_ch9.wmv</guid>
+            <evnet:views>58468</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/495090/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                In NotePad there is a little known bug that results from typing some strange sentences - want to know why? Please comment with other questions you'd like to get answered!
+
+                Watch other episodes of But Why?
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_ch9.mp4" expression="full" duration="57" fileSize="8041852" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_ch9.mp3" expression="full" duration="57" fileSize="464718" type="audio/mp3" medium="audio" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_ch9.mp4" expression="full" duration="57" fileSize="8041852" type="video/mp4" medium="video" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_ch9.wma" expression="full" duration="57" fileSize="479603" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_ch9.wmv" expression="full" duration="57" fileSize="11606325" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_2MB_ch9.wmv" expression="full" duration="57" fileSize="36962949" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_Zune_ch9.wmv" expression="full" duration="57" fileSize="6838305" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_512_ch9.png" expression="full" duration="57" type="image/jpeg" medium="image" />
+                <media:content url="http://ss.channel9.msdn.com/ch9/0/9/0/5/9/4/ButWhyNotepad.ism/Manifest" expression="full" duration="57" type="video/x-ms-wmv" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/0/9/0/5/9/4/ButWhyNotepad_2MB_ch9.wmv" length="36962949" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>21</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/ButWhy/The-Notepad-Bug-But-Why/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/495090/Trackback.aspx</trackback:ping>
+            <category>But Why</category>
+            <category>notepad</category>
+            <category>unicode</category>
+        </item>
+        <item>
+            <title>Folder naming errors- But Why?</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_85_ch9.png" border="0" /&gt;Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered!&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/shows/ButWhy/"&gt;Watch other episodes of But Why?&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;&lt;img src="http://channel9.msdn.com/495081/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/ButWhy/You-cant-name-a-folder-con-But-Why/</comments>
+            <link>http://channel9.msdn.com/shows/ButWhy/You-cant-name-a-folder-con-But-Why/</link>
+            <pubDate>Wed, 30 Sep 2009 15:45:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_2MB_ch9.wmv</guid>
+            <evnet:views>54980</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/495081/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Microsoft is full of oddities and little known answers to mysterious questions. The purpose of this series is to seek out those answers and offer them to you. Please comment with other questions you'd like to get answered!
+
+                Watch other episodes of But Why?
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_ch9.mp4" expression="full" duration="69" fileSize="10056844" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_ch9.mp3" expression="full" duration="69" fileSize="554959" type="audio/mp3" medium="audio" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_ch9.mp4" expression="full" duration="69" fileSize="10056844" type="video/mp4" medium="video" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_ch9.wma" expression="full" duration="69" fileSize="569729" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_ch9.wmv" expression="full" duration="69" fileSize="14166551" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_2MB_ch9.wmv" expression="full" duration="69" fileSize="43680250" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_Zune_ch9.wmv" expression="full" duration="69" fileSize="8070479" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_512_ch9.png" expression="full" duration="69" type="image/jpeg" medium="image" />
+                <media:content url="http://ss.channel9.msdn.com/ch9/1/8/0/5/9/4/ButWhyCon.ism/Manifest" expression="full" duration="69" type="video/x-ms-wmv" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1/8/0/5/9/4/ButWhyCon_2MB_ch9.wmv" length="43680250" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>46</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/ButWhy/You-cant-name-a-folder-con-But-Why/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/495081/Trackback.aspx</trackback:ping>
+            <category>But Why</category>
+            <category>con</category>
+            <category>DOS</category>
+        </item>
+    </channel>
+</rss>

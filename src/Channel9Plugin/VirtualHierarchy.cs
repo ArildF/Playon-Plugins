@@ -24,7 +24,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
         public abstract AbstractSharedMediaInfo ToMedia();
     }
 
-    class VirtualHierarchy
+    internal class VirtualHierarchy
     {
         private readonly Dictionary<string, HierarchyNode> _nodes = new Dictionary<string, HierarchyNode>();
         private readonly string _root;
@@ -67,12 +67,15 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         private class FolderNode : HierarchyNode
         {
-            private readonly IMediaItemSource _source;
+            private readonly IFolderSource _folderSource;
+            private readonly IMediaItemSource _mediaSource;
             private readonly List<HierarchyNode> _children = new List<HierarchyNode>();
 
-            public FolderNode(string parentId, string id, string title, IMediaItemSource source) : base(parentId, id, title)
+            public FolderNode(string parentId, string id, string title, IFolderSource folderSource = null,
+                IMediaItemSource mediaSource = null) : base(parentId, id, title)
             {
-                _source = source;
+                _folderSource = folderSource;
+                _mediaSource = mediaSource;
             }
 
             public override bool IsContainer
@@ -87,9 +90,18 @@ namespace Rogue.PlayOn.Plugins.Channel9
                     yield return hierarchyNode;
                 }
 
-                if (_source != null)
+                if (_folderSource != null)
                 {
-                    foreach (var node in _source.MediaItems().Select(mi => virtualHierarchy.CreateMediaItemNode(this, mi)))
+                    foreach (var node in _folderSource.FolderItems()
+                        .Select(fi => virtualHierarchy.CreateFolder(this, fi.Name, mediaSource: fi, folderSource: fi)))
+                    {
+                        yield return node; 
+                    }
+                }
+
+                if (_mediaSource != null)
+                {
+                    foreach (var node in _mediaSource.MediaItems().Select(mi => virtualHierarchy.CreateMediaItemNode(this, mi)))
                     {
                         yield return node;
                     } 
@@ -138,9 +150,9 @@ namespace Rogue.PlayOn.Plugins.Channel9
             }
         }
 
-        public HierarchyNode CreateFolder(HierarchyNode parent, string name, IMediaItemSource source = null)
+        public HierarchyNode CreateFolder(HierarchyNode parent, string name, IFolderSource folderSource = null, IMediaItemSource mediaSource = null)
         {
-            var node = new FolderNode(parent.Id, CreateId(), name, source);
+            var node = new FolderNode(parent.Id, CreateId(), name, folderSource: folderSource, mediaSource: mediaSource);
             AddChild(parent, node);
             return node;
         }
