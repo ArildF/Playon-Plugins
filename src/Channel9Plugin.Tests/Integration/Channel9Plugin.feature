@@ -31,8 +31,18 @@ Scenario: RSS item count
     When I retrieve the payload of 'root=>RSS'
     Then there should be 25 children
 
+Scenario: Retrieve RSS items twice
+    When I retrieve the payload of 'root=>RSS'
+    And I retrieve the payload of 'root=>RSS'
+    Then there should be 25 children
+
 Scenario: Folders item count
     When I retrieve the payload of 'root=>Shows'
+    Then there should be 21 children
+
+Scenario: Retrieve show folders twice
+    When I retrieve the payload of 'root=>Shows'
+    And I retrieve the payload of 'root=>Shows'
     Then there should be 21 children
 
 Scenario: Shows folder title

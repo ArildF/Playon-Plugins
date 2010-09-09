@@ -19,7 +19,7 @@ namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
         public void AddToHierarchy(VirtualHierarchy hierarchy)
         {
             var rssParser = new RssParser(@"http://channel9.msdn.com/Feeds/RSS/", _downloader);
-            hierarchy.CreateFolder(hierarchy.Root, "RSS", mediaSource: rssParser);
+            hierarchy.AddFolder(hierarchy.Root, "RSS", mediaSource: rssParser);
             
         }
     }

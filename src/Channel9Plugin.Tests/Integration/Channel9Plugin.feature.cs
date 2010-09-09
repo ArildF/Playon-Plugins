@@ -144,15 +144,49 @@ testRunner.Then("there should be 25 children");
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Retrieve RSS items twice")]
+        public virtual void RetrieveRSSItemsTwice()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retrieve RSS items twice", ((string[])(null)));
+#line 34
+this.ScenarioSetup(scenarioInfo);
+#line 35
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
+#line 36
+testRunner.And("I retrieve the payload of \'root=>RSS\'");
+#line 37
+testRunner.Then("there should be 25 children");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Folders item count")]
         public virtual void FoldersItemCount()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Folders item count", ((string[])(null)));
-#line 34
+#line 39
 this.ScenarioSetup(scenarioInfo);
-#line 35
+#line 40
 testRunner.When("I retrieve the payload of \'root=>Shows\'");
-#line 36
+#line 41
+testRunner.Then("there should be 21 children");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Retrieve show folders twice")]
+        public virtual void RetrieveShowFoldersTwice()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retrieve show folders twice", ((string[])(null)));
+#line 43
+this.ScenarioSetup(scenarioInfo);
+#line 44
+testRunner.When("I retrieve the payload of \'root=>Shows\'");
+#line 45
+testRunner.And("I retrieve the payload of \'root=>Shows\'");
+#line 46
 testRunner.Then("there should be 21 children");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -163,13 +197,13 @@ testRunner.Then("there should be 21 children");
         public virtual void ShowsFolderTitle()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Shows folder title", ((string[])(null)));
-#line 38
+#line 48
 this.ScenarioSetup(scenarioInfo);
-#line 39
+#line 49
 testRunner.When("I retrieve the payload of \'root=>Shows\'");
-#line 40
+#line 50
 testRunner.And("I examine child #1 as a folder");
-#line 41
+#line 51
 testRunner.Then("the folder should have a title of \'In the Office\'");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -180,13 +214,13 @@ testRunner.Then("the folder should have a title of \'In the Office\'");
         public virtual void MediaURL()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media URL", ((string[])(null)));
-#line 43
+#line 53
 this.ScenarioSetup(scenarioInfo);
-#line 44
+#line 54
 testRunner.When("I retrieve the payload of \'root=>RSS\'");
-#line 45
+#line 55
 testRunner.And("I examine child #1 as a video file");
-#line 46
+#line 56
 testRunner.Then("the video file should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/62" +
                     "96/566296/LightSwitchBeyondBasics_ch9.wmv\'");
 #line hidden
@@ -198,13 +232,13 @@ testRunner.Then("the video file should have a media URL of \'http://ecn.channel9
         public virtual void ShowsMediaURL()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Shows media URL", ((string[])(null)));
-#line 48
+#line 58
 this.ScenarioSetup(scenarioInfo);
-#line 49
+#line 59
 testRunner.When("I retrieve the payload of \'root=>Shows=>But Why?\'");
-#line 50
+#line 60
 testRunner.And("I examine child #1 as a video file");
-#line 51
+#line 61
 testRunner.Then("the video file should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/27" +
                     "30/562730/Giblets3_ch9.wmv\'");
 #line hidden
@@ -216,13 +250,13 @@ testRunner.Then("the video file should have a media URL of \'http://ecn.channel9
         public virtual void Duration()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Duration", ((string[])(null)));
-#line 53
+#line 63
 this.ScenarioSetup(scenarioInfo);
-#line 54
+#line 64
 testRunner.When("I retrieve the payload of \'root=>RSS\'");
-#line 55
+#line 65
 testRunner.And("I examine child #1 as a video file");
-#line 56
+#line 66
 testRunner.Then("the video file should have a duration of 2604000");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -233,13 +267,13 @@ testRunner.Then("the video file should have a duration of 2604000");
         public virtual void Thumbnail()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Thumbnail", ((string[])(null)));
-#line 58
+#line 68
 this.ScenarioSetup(scenarioInfo);
-#line 59
+#line 69
 testRunner.When("I retrieve the payload of \'root=>RSS\'");
-#line 60
+#line 70
 testRunner.And("I examine child #1 as a video file");
-#line 61
+#line 71
 testRunner.Then("the video file should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/6296/" +
                     "566296/LightSwitchBeyondBasics_320_ch9.png\'");
 #line hidden
@@ -251,13 +285,13 @@ testRunner.Then("the video file should have a thumbnail \'http://ecn.channel9.ms
         public virtual void PublicationDate()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Publication date", ((string[])(null)));
-#line 63
+#line 73
 this.ScenarioSetup(scenarioInfo);
-#line 64
+#line 74
 testRunner.When("I retrieve the payload of \'root=>RSS\'");
-#line 65
+#line 75
 testRunner.And("I examine child #1 as a video file");
-#line 66
+#line 76
 testRunner.Then("the video file should have a publication date of \'Wed, 11 Aug 2010 19:04:00 GMT\'");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -268,11 +302,11 @@ testRunner.Then("the video file should have a publication date of \'Wed, 11 Aug 
         public virtual void DonTRetrieveChildrenOfMedia()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Don\'t retrieve children of media", ((string[])(null)));
-#line 68
+#line 78
 this.ScenarioSetup(scenarioInfo);
-#line 69
+#line 79
 testRunner.When("I retrieve the payload of \'root=>RSS=>1\' without children");
-#line 70
+#line 80
 testRunner.Then("the payload should be a media file");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -283,11 +317,11 @@ testRunner.Then("the payload should be a media file");
         public virtual void SortOrder()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Sort order", ((string[])(null)));
-#line 72
+#line 82
 this.ScenarioSetup(scenarioInfo);
-#line 73
+#line 83
 testRunner.When("I retrieve the payload of \'root=>RSS\'");
-#line 74
+#line 84
 testRunner.Then("the children should have sort prefixes ordered by publication date descending");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -298,15 +332,15 @@ testRunner.Then("the children should have sort prefixes ordered by publication d
         public virtual void MediaXML()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media XML", ((string[])(null)));
-#line 76
+#line 86
 this.ScenarioSetup(scenarioInfo);
-#line 77
+#line 87
 testRunner.When("I retrieve media child #1 of \'root=>RSS\'");
-#line 78
+#line 88
 testRunner.And("I resolve the item into XML");
-#line 79
+#line 89
 testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
-#line 80
+#line 90
 testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
                     "6296/LightSwitchBeyondBasics_ch9.wmv\']\"");
 #line hidden

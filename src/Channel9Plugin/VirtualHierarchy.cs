@@ -150,11 +150,19 @@ namespace Rogue.PlayOn.Plugins.Channel9
             }
         }
 
-        public HierarchyNode CreateFolder(HierarchyNode parent, string name, IFolderSource folderSource = null, IMediaItemSource mediaSource = null)
+        public HierarchyNode AddFolder(HierarchyNode parent, string name, IFolderSource folderSource = null, IMediaItemSource mediaSource = null)
         {
-            var node = new FolderNode(parent.Id, CreateId(), name, folderSource: folderSource, mediaSource: mediaSource);
+            FolderNode node = CreateFolder(parent, name, folderSource, mediaSource);
             AddChild(parent, node);
             return node;
+        }
+
+        private FolderNode CreateFolder(HierarchyNode parent, string name, IFolderSource folderSource, IMediaItemSource mediaSource)
+        {
+            var folder = new FolderNode(parent.Id, CreateId(), name, folderSource: folderSource,
+                                        mediaSource: mediaSource);
+            _nodes[CreateId()] = folder;
+            return folder;
         }
 
         private string CreateId()

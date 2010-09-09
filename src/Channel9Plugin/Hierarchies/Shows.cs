@@ -20,7 +20,7 @@ namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
 
         public void AddToHierarchy(VirtualHierarchy hierarchy)
         {
-            hierarchy.CreateFolder(hierarchy.Root, "Shows", folderSource: new ShowsFolderSource(_url, _downloader));
+            hierarchy.AddFolder(hierarchy.Root, "Shows", folderSource: new ShowsFolderSource(_url, _downloader));
         }
 
         internal class ShowsFolderSource : IFolderSource
