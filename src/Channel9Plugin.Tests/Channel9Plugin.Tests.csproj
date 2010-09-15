@@ -87,6 +87,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Channel9Plugin.feature.cs</LastGenOutput>
     </None>
+    <None Include="Ping.rss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Channel9Plugin\Channel9Plugin.csproj">

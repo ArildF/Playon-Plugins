@@ -7,6 +7,7 @@ Background:
 	Given a file 'Channel9.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
     And a file 'Shows_Channel9.htm' at the URL 'http://channel9.msdn.com/shows/'
     And a file 'ButWhy.rss' at the URL 'http://channel9.msdn.com/shows/ButWhy/feed/wmvhigh'
+    And a file 'Ping.rss' at the URL 'http://channel9.msdn.com/shows/PingShow/feed/wmvhigh'
 	And a Channel 9 provider
     And a settings object
 
@@ -88,3 +89,7 @@ Scenario: Media XML
     And I resolve the item into XML
     Then the xml should contain "/media/url[@type='wmv']"
     And the xml should contain "/media/url[.='http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv']"
+
+Scenario: Missing duration
+    When I retrieve the payload of 'root=>Shows=>Ping!'
+    Then there should be 25 children

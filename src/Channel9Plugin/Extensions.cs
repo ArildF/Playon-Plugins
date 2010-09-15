@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Linq;
 
 namespace Rogue.PlayOn.Plugins.Channel9
 {
@@ -19,6 +20,26 @@ namespace Rogue.PlayOn.Plugins.Channel9
             this IEnumerable<T> list, Func<T, TSelector> selector)
         {
             return list.Distinct(new SelectorComparer<T, TSelector>(selector));
+        }
+
+        public static string ValueOrNull(this XAttribute attribute)
+        {
+            return attribute != null ? attribute.Value : null;
+        }
+
+        public static string ValueOrEmpty(this XAttribute attribute)
+        {
+            return attribute != null ? attribute.Value : String.Empty;
+        }
+
+        public static string ValueOrNull(this XElement element)
+        {
+            return element != null ? element.Value : null;
+        }
+
+        public static string ValueOrEmpty(this XElement element)
+        {
+            return element != null ? element.Value : String.Empty;
         }
 
         public class SelectorComparer<T, TSelector> : IEqualityComparer<T>

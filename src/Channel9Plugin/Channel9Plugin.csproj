@@ -59,6 +59,7 @@
     <Compile Include="HierarchyBuilder.cs" />
     <Compile Include="interfaces.cs" />
     <Compile Include="IDownloader.cs" />
+    <Compile Include="InvalidFeedException.cs" />
     <Compile Include="MediaItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

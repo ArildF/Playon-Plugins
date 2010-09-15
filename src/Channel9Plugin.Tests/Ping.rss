@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/App_Themes/default/rss.xslt"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:evnet="http://www.mscommunities.com/rssmodule/">
+    <channel>
+        <title>Ping!</title>
+        <atom:link rel="self" type="application/rss+xml" href="http://channel9.msdn.com/shows/pingshow/feed/wmvhigh/default.aspx" />
+        <image>
+            <url>http://mschnlnine.vo.llnwd.net/d1/Dev/App_Themes/C9/images/feedimage.png</url>
+            <title>Ping!</title>
+            <link>http://channel9.msdn.com/shows/PingShow/</link>
+        </image>
+        <description>
+            Laura and┬áPaul give you the inside scoop on what Microsofties are pinging each other about over IM, email, Twitter, Facebook, etc.
+        </description>
+        <link>http://channel9.msdn.com/shows/PingShow/</link>
+        <language>en-us</language>
+        <pubDate>Mon, 13 Sep 2010 16:56:47 GMT</pubDate>
+        <lastBuildDate>Mon, 13 Sep 2010 16:56:47 GMT</lastBuildDate>
+        <generator>EvNet (EvNet, Version=1.0.3713.3727, Culture=neutral, PublicKeyToken=null)</generator>
+        <item>
+            <title>Ping 74: NFL &amp; Silverlight, ScholarLynk, Bing on Droid, Halo Reach</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_85_ch9.jpg" border="0" /&gt;Clearly the most important issue is Scrabble, but once that is put to rest, the Ping cast served up some pretty cool news: &lt;br /&gt;
+                &lt;br /&gt;
+                Oh, but first...the "&lt;a href="http://www.zdnet.co.uk/blogs/jacks-blog-10017212/a-ping-by-any-other-name-would-pong-a-bit-less-10018578/"&gt;Semi-Humorous&lt;/a&gt;" plug :)&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://blog.seattlepi.com/microsoft/archives/220817.asp?source=rss"&gt;NFL &amp;amp; Silverlight&lt;/a&gt; &lt;br /&gt;
+                &lt;p&gt;&lt;a href="http://lewisshepherd.wordpress.com/2010/09/08/mix-rip-burn-your-research/"&gt;ScholarLynk&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.businessinsider.com/microsoft-bing-android-phones-2010-9"&gt;Bing on Droid&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://hawtwired.com/blogs/news/archive/2010/09/09/611.aspx"&gt;FREE Halo Reach (Sorta)&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://twitter.com/lfoy"&gt;Follow Laura&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://twitter.com/PaulMest"&gt;Follow Paul&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://www.facebook.com/pages/Ping/115099282054?ref=search#!/pages/Ping/115099282054"&gt;PING on Facebook&lt;/a&gt;&lt;/p&gt;&lt;img src="http://channel9.msdn.com/573490/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-74-NFL--Silverlight-ScholarLynk-Bing-on-Droid-Halo-Reach/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-74-NFL--Silverlight-ScholarLynk-Bing-on-Droid-Halo-Reach/</link>
+            <pubDate>Mon, 13 Sep 2010 20:00:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_2MB_ch9.wmv</guid>
+            <evnet:views>13476</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/573490/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Clearly the most important issue is Scrabble, but once that is put to rest, the Ping cast served up some pretty cool news: &lt;br /&gt;
+                &lt;br /&gt;
+                Oh, but first...the "&lt;a href="http://www.zdnet.co.uk/blogs/jacks-blog-10017212/a-ping-by-any-other-name-would-pong-a-bit-less-10018578/"&gt;Semi-Humorous&lt;/a&gt;" plug &lt;img src='/emoticons/C9/emotion-1.gif' alt='Smiley' /&gt;&lt;br /&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_320_ch9.jpg" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_85_ch9.jpg" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_ch9.mp4" expression="full" duration="852" fileSize="90814524" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_ch9.mp3" expression="full" duration="852" fileSize="6821998" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_ch9.wma" expression="full" duration="852" fileSize="6902161" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_ch9.wmv" expression="full" duration="852" fileSize="187786543" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_2MB_ch9.wmv" expression="full" duration="852" fileSize="241178581" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_Zune_ch9.wmv" expression="full" duration="852" fileSize="120778598" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_100_ch9.jpg" expression="full" duration="852" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_220_ch9.jpg" expression="full" duration="852" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_512_ch9.jpg" expression="full" duration="852" fileSize="23642" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3490/573490/Ping74_2MB_ch9.wmv" length="241178581" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>6</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-74-NFL--Silverlight-ScholarLynk-Bing-on-Droid-Halo-Reach/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/573490/Trackback.aspx</trackback:ping>
+            <category>bing</category>
+            <category>Droid</category>
+            <category>Halo-Reach</category>
+            <category>NFL</category>
+            <category>ScholarLynk</category>
+            <category>Silverlight</category>
+            <category>Twitter</category>
+        </item>
+        <item>
+            <title>Ping 73: Double Rainbow, Windows Phone RTM, Xbox Controller, 3D engines</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_85_ch9.jpg" border="0" /&gt;On this episode of Ping, Paul and Laura bring you the hottest stories that 'Softies were talking about all week.&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://windowsteamblog.com/windows/b/windowsexperience/archive/2010/09/01/double-rainbows-in-redmond.aspx"&gt;Double Rainbow!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.androidapps.com/tech/articles/2984-bing-tops-android-apps-of-the-week"&gt;Bing tops Android Apps&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://balder.codeplex.com/"&gt;3D engine for Windows Phone 7&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.cnet.com/8301-17918_1-20015314-85.html"&gt;Windows Phone 7 RTM&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.pcworld.com/article/204614/microsofts_xbox_360_dpad_update_something_old_something_new.html?tk=hp_new"&gt;New Xbox controller&lt;/a&gt;&lt;img src="http://channel9.msdn.com/571843/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-73-Double-Rainbow-Windows-Phone-RTM-Xbox-Controller-3D-engines/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-73-Double-Rainbow-Windows-Phone-RTM-Xbox-Controller-3D-engines/</link>
+            <pubDate>Mon, 06 Sep 2010 21:47:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_2MB_ch9.wmv</guid>
+            <evnet:views>34859</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/571843/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                On this episode of Ping, Paul and Laura bring you the hottest stories that 'Softies were talking about all week.
+
+                Double Rainbow!
+                Bing tops Android Apps
+                3D engine for Windows Phone 7
+                Windows Phone 7 RTM
+                New Xbox controller
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_320_ch9.jpg" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_85_ch9.jpg" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_ch9.mp4" expression="full" duration="825" fileSize="89270872" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_ch9.mp3" expression="full" duration="825" fileSize="6605913" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_ch9.wma" expression="full" duration="825" fileSize="6685873" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_ch9.wmv" expression="full" duration="825" fileSize="181850381" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_2MB_ch9.wmv" expression="full" duration="825" fileSize="244610419" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_Zune_ch9.wmv" expression="full" duration="825" fileSize="116874436" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_100_ch9.jpg" expression="full" duration="825" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_220_ch9.jpg" expression="full" duration="825" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_512_ch9.jpg" expression="full" duration="825" fileSize="22761" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1843/571843/Ping73v2_2MB_ch9.wmv" length="244610419" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>10</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-73-Double-Rainbow-Windows-Phone-RTM-Xbox-Controller-3D-engines/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/571843/Trackback.aspx</trackback:ping>
+            <category>3D-engine</category>
+            <category>Double-Rainbow</category>
+            <category>ping</category>
+            <category>RTM</category>
+            <category>Windows Phone</category>
+            <category>WP7</category>
+            <category>Xbox</category>
+        </item>
+        <item>
+            <title>Ping 72: Open Source love, Exchange Active Sync, Yahoo! by Bing, Silverlight</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_85_ch9.jpg" border="0" /&gt;Paul and Laura spent their entire week finding all these hot stories for this episode of Ping!&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.telegraph.co.uk/technology/microsoft/7961643/We-love-open-source-says-Microsoft.html"&gt;We LOVE open source&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.liveside.net/bingblog/archive/2010/08/24/yahoo-organic-search-in-us-canada-now-powered-by-bing.aspx?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+liveside+%28LiveSide%29"&gt;Yahoo!ÔÇöpowered by Bing!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.glanzundgloria.sf.tv/Nachrichten/Schweiz/Miss-Schweiz"&gt;Miss Silverlight&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://news.cnet.com/8301-13860_3-20014811-56.html?part=rss&amp;amp;subj=news&amp;amp;tag=2547-1_3-0-20"&gt;Exchange ActiveSync on Hotmail&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="https://www.dreamspark.com/"&gt;Free software for students! &lt;/a&gt;&lt;img src="http://channel9.msdn.com/570311/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-72-Open-Source-love-Exchange-Active-Sync-Yahoo-by-Bing-Silverlight/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-72-Open-Source-love-Exchange-Active-Sync-Yahoo-by-Bing-Silverlight/</link>
+            <pubDate>Mon, 30 Aug 2010 20:51:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_2MB_ch9.wmv</guid>
+            <evnet:views>27734</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/570311/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Paul and Laura spent their entire week finding all these hot stories for this episode of Ping!
+
+                We LOVE open source
+                Yahoo!ÔÇöpowered by Bing!
+                Miss Silverlight
+                Exchange ActiveSync on Hotmail
+                Free software for students!
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_320_ch9.jpg" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_85_ch9.jpg" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_ch9.mp4" expression="full" duration="819" fileSize="87432370" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_ch9.mp3" expression="full" duration="819" fileSize="6554504" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_ch9.wma" expression="full" duration="819" fileSize="6634805" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_ch9.wmv" expression="full" duration="819" fileSize="179002345" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_2MB_ch9.wmv" expression="full" duration="819" fileSize="231730383" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_Zune_ch9.wmv" expression="full" duration="819" fileSize="115002400" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_100_ch9.jpg" expression="full" duration="819" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_220_ch9.jpg" expression="full" duration="819" type="image/jpeg" medium="image" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_512_ch9.jpg" expression="full" duration="819" fileSize="21843" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/0311/570311/Ping72_2MB_ch9.wmv" length="231730383" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>19</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-72-Open-Source-love-Exchange-Active-Sync-Yahoo-by-Bing-Silverlight/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/570311/Trackback.aspx</trackback:ping>
+            <category>bing</category>
+            <category>Exchange-Active-Sync</category>
+            <category>open source</category>
+            <category>ping</category>
+            <category>Silverlight</category>
+            <category>yahoo</category>
+        </item>
+        <item>
+            <title>Ping 71: Windows Phone 7 &amp; Xbox LIVE, Flight Sim, Facebook, Messenger, MENLO</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_85_ch9.png" border="0" /&gt;It's a blast from the past this week as┬á&lt;a href="http://twitter.com/maxpowerhouse"&gt;Max Zuckerman&lt;/a&gt; joins us in the Ping studio. Max may be a┬á&lt;a href="http://www.gsb.stanford.edu/"&gt;Stanford&lt;/a&gt; scholar these days, but he still can't hide the fact that he's a 'Softie through and through. Here's the top news:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.technologyreview.com/communications/26079/"&gt;Menlo: Digital Bread Crumbs&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://news.cnet.com/8301-13860_3-20013845-56.html?tag=mncol"&gt;Windows Live Messenger &amp;amp; Facebook&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.pcmag.com/article2/0,2817,2367908,00.asp"&gt;Xbox LIVE and Windows Phone 7&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://news.cnet.com/8301-13860_3-20013915-56.html?tag=topStories2"&gt;Return of Flight Sim!&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                And just for fun...&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.allfacebook.com/twitter-movie-facebook-2010-08"&gt;The Twitter Movie trailer&lt;/a&gt;&lt;br /&gt;&lt;img src="http://channel9.msdn.com/568597/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-71-Windows-Phone-7--Xbox-LIVE-Flight-Sim-Facebook-Messenger-MENLO/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-71-Windows-Phone-7--Xbox-LIVE-Flight-Sim-Facebook-Messenger-MENLO/</link>
+            <pubDate>Mon, 23 Aug 2010 21:58:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_2MB_ch9.wmv</guid>
+            <evnet:views>38838</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/568597/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                It's a blast from the past this week as┬áMax Zuckerman joins us in the Ping studio. Max may be a┬áStanford scholar these days, but he still can't hide the fact that he's a 'Softie through and through. Here's the top news:
+
+                Menlo: Digital Bread Crumbs
+                Windows Live Messenger &amp;amp; Facebook
+                Xbox LIVE and&amp;#8230;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_ch9.mp4" expression="full" duration="994" fileSize="200784333" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_ch9.mp3" expression="full" duration="994" fileSize="7954041" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_ch9.wma" expression="full" duration="994" fileSize="8043681" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_ch9.wmv" expression="full" duration="994" fileSize="218139395" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_2MB_ch9.wmv" expression="full" duration="994" fileSize="291139433" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_Zune_ch9.wmv" expression="full" duration="994" fileSize="140267450" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_512_ch9.png" expression="full" duration="994" fileSize="211999" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/8597/568597/Ping71_2MB_ch9.wmv" length="291139433" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>10</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-71-Windows-Phone-7--Xbox-LIVE-Flight-Sim-Facebook-Messenger-MENLO/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/568597/Trackback.aspx</trackback:ping>
+            <category>Facebook</category>
+            <category>Flight-Sim</category>
+            <category>messenger</category>
+            <category>PingShow</category>
+            <category>Windows-Phone-7</category>
+            <category>WP7</category>
+            <category>XBox Live</category>
+        </item>
+        <item>
+            <title>Ping 70: ZoomIt, PC &amp; Mac Ads, Media Room, Gaming on Windows Phones</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_85_ch9.png" border="0" /&gt;On this episode of Ping, Paul and Laura bring you all the hottest stories that 'Softies have been buzzing over this week.&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.pcworld.com/article/202975/microsoft_vs_mac_redux_new_site_reignites_rivalry.html?tk=hp_new"&gt;PC &amp;amp; Mac Ads&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://news.cnet.com/8301-27076_3-20012820-248.html"&gt;ZoomIt&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://www.neowin.net/news/microsoft-to-open-a-new-gaming-studio-for-the-wp7-platform?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+neowin-main+%28Neowin+Main+News%29&amp;amp;utm_content=Google+Feedfetcher"&gt;Games &amp;amp; Windows Phone&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://wmpoweruser.com/media-room-client-for-windows-phone-7-confirmed/"&gt;Mediaroom&lt;br /&gt;
+                &lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.fastcompany.com/welcome.html?destination=http://www.fastcompany.com/1680747/onit-microsofts-male-lifestyle-magazine-the-campaign-for-bill-gates-as-editor-starts-here"&gt;Onit- for MEN!&lt;/a&gt;&lt;img src="http://channel9.msdn.com/567238/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-70-ZoomIt-PC--Mac-Ads-Media-Room-Gaming-on-Windows-Phones/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-70-ZoomIt-PC--Mac-Ads-Media-Room-Gaming-on-Windows-Phones/</link>
+            <pubDate>Mon, 16 Aug 2010 21:07:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_2MB_ch9.wmv</guid>
+            <evnet:views>29123</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/567238/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                On this episode of Ping, Paul and Laura bring you all the hottest stories that 'Softies have been buzzing over this week.
+
+                PC &amp;amp; Mac Ads
+                ZoomIt
+                Games &amp;amp; Windows Phone
+                Mediaroom
+
+                Onit- for MEN!
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_ch9.mp4" expression="full" duration="895" fileSize="176803311" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_ch9.mp3" expression="full" duration="895" fileSize="7162554" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_ch9.wma" expression="full" duration="895" fileSize="7244617" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_ch9.wmv" expression="full" duration="895" fileSize="196410801" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_2MB_ch9.wmv" expression="full" duration="895" fileSize="253778839" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_Zune_ch9.wmv" expression="full" duration="895" fileSize="126442856" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_512_ch9.png" expression="full" duration="895" fileSize="212535" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/7238/567238/Ping70_2MB_ch9.wmv" length="253778839" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>10</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-70-ZoomIt-PC--Mac-Ads-Media-Room-Gaming-on-Windows-Phones/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/567238/Trackback.aspx</trackback:ping>
+            <category>Gaming-on-Windows-Phones</category>
+            <category>Media-Room</category>
+            <category>PC--Mac-Ads</category>
+            <category>WP7</category>
+            <category>ZoomIt</category>
+        </item>
+        <item>
+            <title>Ping 69: Windows Phone 7 adds Voice, Mobile App Match, Bing Taxi, Halo 2600</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_85_ch9.png" border="0" /&gt;In this episode of Ping, Paul &amp;amp; Laura wax poetic about all the stories that have 'Softies chatting:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.itproportal.com/portal/news/article/2010/8/5/microsoft-add-voice-recognition-windows-phone-7/"&gt;Voice Recognition to be added to WP7&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.crn.com/software/226500246"&gt;Taxi Fare calculater for Bing&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.mobileappmatch.com/?fbid=tXux8fPqNHW"&gt;Mobile App Match Launched&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://70gigapixel.cloudapp.net/"&gt;70 GigaPixel Photo Using SilverLight&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                AND....&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://members.shaw.ca/jeffv/halo2600.html"&gt;Halo 2600!!!&lt;/a&gt;&lt;img src="http://channel9.msdn.com/565521/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-69-Windows-Phone-7-adds-Voice-Mobile-App-Match-Bing-Taxi-Halo-2600/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-69-Windows-Phone-7-adds-Voice-Mobile-App-Match-Bing-Taxi-Halo-2600/</link>
+            <pubDate>Mon, 09 Aug 2010 19:45:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_2MB_ch9.wmv</guid>
+            <evnet:views>36451</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/565521/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                In this episode of Ping, Paul &amp;amp; Laura wax poetic about all the stories that have 'Softies chatting:
+
+                Voice Recognition to be added to WP7
+                Taxi Fare calculater for Bing
+                Mobile App Match Launched
+                70 GigaPixel Photo Using SilverLight
+
+                AND....
+
+                Halo 2600!!!
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.mp4" expression="full" duration="910" fileSize="176267186" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.mp3" expression="full" duration="910" fileSize="7284679" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.wma" expression="full" duration="910" fileSize="7367781" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_ch9.wmv" expression="full" duration="910" fileSize="198938891" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_2MB_ch9.wmv" expression="full" duration="910" fileSize="243818929" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_Zune_ch9.wmv" expression="full" duration="910" fileSize="127962946" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_512_ch9.png" expression="full" duration="910" fileSize="212957" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5521/565521/ping69_2MB_ch9.wmv" length="243818929" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>4</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-69-Windows-Phone-7-adds-Voice-Mobile-App-Match-Bing-Taxi-Halo-2600/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/565521/Trackback.aspx</trackback:ping>
+            <category>bing</category>
+            <category>Halo-2600</category>
+            <category>Mobile-App-Match</category>
+            <category>voice recognition</category>
+            <category>Windows-Phone-7</category>
+        </item>
+        <item>
+            <title>Ping 68: Streetslide, Hohm, Student Partners, Kinect &amp; Farmaritaville</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_85_ch9.png" border="0" /&gt;In this episode of Ping, Laura returns from her Top-Secret mission and Adam mysteriously disappears. Do not fear though, Adam will return when the time is right and until then- enjoy these tasty stories that┬áthe 'Softies were chewing on this week:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.engadget.com/2010/07/28/microsoft-street-slide-its-electric-video/"&gt;Streetslide&lt;/a&gt;┬áis awesome!&lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/posts/Charles/Immo-Landwerth-Future-Directions-of-the-Native-Image-Generator-NGen/Default.aspx?wa=wsignin1.0"&gt;Immo Landwerth&lt;/a&gt;┬á&amp;amp; the &lt;a href="https://student-partners.com/default.aspx"&gt;MSP Program&lt;/a&gt;&lt;br /&gt;
+                There's no place like &lt;a href="http://www.microsoft.com/Presspass/Features/2010/jul10/07-27HohmBlueLine.mspx?rss_fdn=Top%20Stories"&gt;Hohm&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.techradar.com/news/gaming/consoles/microsoft-kinect-is-competitively-priced-706290?src=rss&amp;amp;attr=allhttp://"&gt;Kinect&lt;/a&gt;┬ápricing&lt;br /&gt;
+                &lt;br /&gt;
+                and just or fun, we give you...&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.youtube.com/watch?v=ezDKQ7IrdlY"&gt;FARMARITAVILLE!&lt;/a&gt;&lt;img src="http://channel9.msdn.com/564517/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-68-Streetside-Hohm-Student-Partners-Kinect--Farmaritaville/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-68-Streetside-Hohm-Student-Partners-Kinect--Farmaritaville/</link>
+            <pubDate>Mon, 02 Aug 2010 22:46:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_2MB_ch9.wmv</guid>
+            <evnet:views>19932</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/564517/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                In this episode of Ping, Laura returns from her Top-Secret mission and Adam mysteriously disappears. Do not fear though, Adam will return when the time is right and until then- enjoy these tasty stories that┬áthe 'Softies were chewing on this week:
+
+                Streetslide┬áis awesome!
+                Immo Landwerth┬á&amp;amp; the&amp;#8230;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_ch9.mp4" expression="full" duration="941" fileSize="190426251" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_ch9.mp3" expression="full" duration="941" fileSize="7535455" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_ch9.wma" expression="full" duration="941" fileSize="7623121" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_ch9.wmv" expression="full" duration="941" fileSize="207627077" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_2MB_ch9.wmv" expression="full" duration="941" fileSize="282003115" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_Zune_ch9.wmv" expression="full" duration="941" fileSize="132939132" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_512_ch9.png" expression="full" duration="941" fileSize="198204" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4517/564517/Ping68_2MB_ch9.wmv" length="282003115" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>7</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-68-Streetside-Hohm-Student-Partners-Kinect--Farmaritaville/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/564517/Trackback.aspx</trackback:ping>
+            <category>Farmaritaville</category>
+            <category>Hohm</category>
+            <category>Kinect</category>
+            <category>msp</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>streetslide</category>
+            <category>Student-Partners</category>
+        </item>
+        <item>
+            <title>Ping 67: Visual Studio Power Tools, Facebook on Its Way to a Billion, Kinect, and More</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_85_ch9.png" border="0" /&gt;&lt;p&gt;The final Ping installment of Boys without Foys (Episode┬á6) has Adam and Paul sharing their insights on what is being chatted about on Microsoft's campus.&lt;/p&gt;
+                &lt;p&gt;Here's what is going on this week...&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://visualstudiogallery.msdn.microsoft.com/en-us/d0d33361-18e2-46c0-8ff2-4adea1e34fef" target="_blank"&gt;Visual Studio Productivity Power Tools┬á&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blog.facebook.com/blog.php?post=409753352130" target="_blank"&gt;Facebook Hits 500 Million&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://gizmodo.com/5593104/" target="_blank"&gt;Windows Phone 7s for 'Softies&lt;/a&gt; &lt;br /&gt;
+                &lt;a href="http://www.microsoft.com/Presspass/Features/2010/jul10/07-20KinectPricing.mspx" target="_blank"&gt;Kinect Bundle&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                ...Laura is coming back next week!&lt;/p&gt;&lt;img src="http://channel9.msdn.com/563443/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-67-Visual-Studio-Power-Tools-Facebook-on-Its-Way-to-a-Billion-Kinect-and-More/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-67-Visual-Studio-Power-Tools-Facebook-on-Its-Way-to-a-Billion-Kinect-and-More/</link>
+            <pubDate>Mon, 26 Jul 2010 21:11:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_2MB_ch9.wmv</guid>
+            <evnet:views>30651</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/563443/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                The final Ping installment of Boys without Foys (Episode┬á6) has Adam and Paul sharing their insights on what is being chatted about on Microsoft's campus.
+                Here's what is going on this week...
+
+                Visual Studio Productivity Power Tools┬á
+                Facebook Hits 500 Million
+                Windows Phone 7s for 'Softies
+                Kinect&amp;#8230;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_ch9.mp4" expression="full" duration="1165" fileSize="233803117" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_ch9.mp3" expression="full" duration="1165" fileSize="9328291" type="audio/mp3" medium="audio" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_ch9.mp4" expression="full" duration="1165" fileSize="233803117" type="video/mp4" medium="video" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_ch9.wma" expression="full" duration="1165" fileSize="9434533" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_ch9.wmv" expression="full" duration="1165" fileSize="254684421" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_2MB_ch9.wmv" expression="full" duration="1165" fileSize="340820459" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_Zune_ch9.wmv" expression="full" duration="1165" fileSize="164636476" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_512_ch9.png" expression="full" duration="1165" fileSize="206759" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3443/563443/Ping67_2MB_ch9.wmv" length="340820459" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>12</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-67-Visual-Studio-Power-Tools-Facebook-on-Its-Way-to-a-Billion-Kinect-and-More/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/563443/Trackback.aspx</trackback:ping>
+            <category>Adam-DePue</category>
+            <category>Facebook</category>
+            <category>Kinect</category>
+            <category>Paul-Mestemaker</category>
+            <category>Visual Studio 2010</category>
+            <category>Windows Phone</category>
+        </item>
+        <item>
+            <title>Ping 66: Kinect, WPC, Bing, Next of Kin, Free MSDN Universal Subscription</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_85_ch9.png" border="0" /&gt;&lt;span id="ctl00_MainPlaceHolder_Starter_BodyLabel"&gt;Boys without Foys Episode 5 with Adam and Paul share their insights on what is being chatted about on Microsoft's campus.&lt;br /&gt;
+                &lt;br /&gt;
+                Here's what is going on this week...&lt;br /&gt;
+                &lt;/span&gt;&lt;a href="http://www.techflash.com/seattle/2010/07/is_microsofts_next_billion_dollar_business_the_kinect.html" target="_blank"&gt;&lt;br /&gt;
+                Next Billion Dollar Business?&lt;/a&gt; &lt;br /&gt;
+                &lt;a href="http://www.computerworld.com/s/article/9179098/Ballmer_promises_partners_Windows_tablets_phones" target="_blank"&gt;Worldwide Partner Conference&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.mercurynews.com/breaking-news/ci_15507992" target="_blank"&gt;Little Search Engine that Could&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://seattletimes.nwsource.com/html/technologybrierdudleysblog/2012344808_microsoft_new_phones_getting_k.html" target="_blank"&gt;WP7 Gets Best of Kin&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.amazon.com/Microsoft-KIN-ONE-Windows-Wireless/dp/B003H4R6SA/ref=sr_1_1?ie=UTF8&amp;amp;s=wireless&amp;amp;qid=1278632544&amp;amp;sr=8-1" target="_blank"&gt;Kin's on Amazon -- $0.01!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://sqlblog.com/blogs/arnie_rowland/archive/2010/07/02/there-will-be-no-free-lunch-just-great-feelings-of-accomplishment.aspx" target="_blank"&gt;Free MSDN Universal Subscription!&lt;/a&gt;&lt;img src="http://channel9.msdn.com/562242/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-66-Kinect-WPC-Bing-Next-of-Kin-Free-MSDN-Universal-Subscription/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-66-Kinect-WPC-Bing-Next-of-Kin-Free-MSDN-Universal-Subscription/</link>
+            <pubDate>Mon, 19 Jul 2010 23:10:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_2MB_ch9.wmv</guid>
+            <evnet:views>34782</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/562242/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                &lt;span id="ctl00_MainPlaceHolder_Starter_BodyLabel"&gt;Boys without Foys Episode 5 with Adam and Paul share their insights on what is being chatted about on Microsoft's campus.&lt;br /&gt;
+                &lt;br /&gt;
+                Here's what is going on this week...&lt;br /&gt;
+                &lt;/span&gt;&lt;a href="http://www.techflash.com/seattle/2010/07/is_microsofts_next_billion_dollar_business_the_kinect.html" target="_blank"&gt;&lt;br /&gt;
+                Next Billion Dollar Business?&lt;/a&gt; &lt;br /&gt;
+                &lt;a href="http://www.computerworld.com/s/article/9179098/Ballmer_promises_partners_Windows_tablets_phones" target="_blank"&gt;Worldwide Partner Conference&lt;/a&gt;&lt;br /&gt;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_ch9.mp4" expression="full" duration="874" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_ch9.mp3" expression="full" duration="874" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_ch9.wma" expression="full" duration="874" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_ch9.wmv" expression="full" duration="874" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_2MB_ch9.wmv" expression="full" duration="874" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_Zune_ch9.wmv" expression="full" duration="874" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_512_ch9.png" expression="full" duration="874" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/2/4/2/2/6/5/Ping66_2MB_ch9.wmv" length="1" type="video/x-ms-wmv" />
+            <dc:creator>Paul M</dc:creator>
+            <slash:comments>22</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-66-Kinect-WPC-Bing-Next-of-Kin-Free-MSDN-Universal-Subscription/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/562242/Trackback.aspx</trackback:ping>
+            <category>Adam-DePue</category>
+            <category>bing</category>
+            <category>Kin</category>
+            <category>Kinect</category>
+            <category>MSDN</category>
+            <category>Paul-Mestemaker</category>
+            <category>Windows Phone</category>
+        </item>
+        <item>
+            <title>Ping 65: Data, Services, and Search - Oh My</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_85_ch9.png" border="0" /&gt;Check out what we have in store for Boys without Foys Episode 4! Adam and Paul share their insights on what is being chatted about on Microsoft's campus.&lt;br /&gt;
+                &lt;br /&gt;
+                Here's what we're talking about!&lt;br /&gt;
+                &lt;br /&gt;
+                IIS Versions -- &lt;a target="_blank" href="http://en.wikipedia.org/wiki/Internet_Information_Services"&gt;The Right Stuff&lt;/a&gt;&lt;br /&gt;
+                &lt;a target="_blank" href="http://technet.microsoft.com/en-us/subscriptions/ms772427.aspx"&gt;TechNet Licensing FAQ&lt;/a&gt;&lt;br /&gt;
+                &lt;a target="_blank" href="http://www.infoworld.com/d/developer-world/microsoft-links-free-sql-database-asp-net-189"&gt;SQL CE&lt;/a&gt;&lt;br /&gt;
+                &lt;a target="_blank" href="http://blogs.msdn.com/b/zaneadam/archive/2010/07/01/announcing-availability-of-the-windows-azure-appfabric-july-release.aspx"&gt;Fabulous App Fabric&lt;/a&gt;&lt;br /&gt;
+                &lt;a target="_blank" href="http://www.maximumpc.com/article/news/twitter_search_queries_soar_800_million_day"&gt;Twitter Searches for 1st Place&lt;/a&gt;&lt;br /&gt;
+                &lt;a target="_blank" href="http://news.cnet.com/8301-13860_3-20009418-56.html"&gt;Batteries Powered by Microsoft&lt;/a&gt;&lt;br /&gt;
+                &lt;a target="_blank" href="http://arstechnica.com/gaming/news/2010/07/microsoft-shows-off-arcade-library-with-destination-arcade.ars"&gt;Destination: Arcade&lt;/a&gt;&lt;img src="http://channel9.msdn.com/561020/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-65-Data-Services-and-Search-Oh-My/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-65-Data-Services-and-Search-Oh-My/</link>
+            <pubDate>Tue, 13 Jul 2010 21:59:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_2MB_ch9.wmv</guid>
+            <evnet:views>27402</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/561020/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Check out what we have in store for Boys without Foys Episode 4! Adam and Paul share their insights on what is being chatted about on Microsoft's campus.
+
+                Here's what we're talking about!
+
+                IIS Versions -- The Right Stuff
+                TechNet Licensing FAQ
+                SQL CE
+                Fabulous App Fabric
+                Twitter Searches for 1st&amp;#8230;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_ch9.mp4" expression="full" duration="907" fileSize="152946914" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_ch9.mp3" expression="full" duration="907" fileSize="7259459" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_ch9.wma" expression="full" duration="907" fileSize="7343749" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_ch9.wmv" expression="full" duration="907" fileSize="197058231" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_2MB_ch9.wmv" expression="full" duration="907" fileSize="437674962" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_Zune_ch9.wmv" expression="full" duration="907" fileSize="127954283" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_512_ch9.png" expression="full" duration="907" fileSize="333387" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/0/2/0/1/6/5/Ping65_2MB_ch9.wmv" length="437674962" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>5</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-65-Data-Services-and-Search-Oh-My/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/561020/Trackback.aspx</trackback:ping>
+            <category>Adam-DePue</category>
+            <category>IIS</category>
+            <category>Paul-Mestemaker</category>
+            <category>SQL</category>
+            <category>TechNet</category>
+            <category>Twitter</category>
+            <category>XBox Live</category>
+        </item>
+        <item>
+            <title>Ping 64: IIS Express, IE Reversing the Trend, RIP Kin, Hulu Plus and more...</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_85_ch9.png" border="0" /&gt;Episode 3 of Boys without Foys coming right up!┬á Adam and Paul share their insights on┬áwhat is being chatted about on Microsoft's campus.&lt;br /&gt;
+                &lt;br /&gt;
+                This week's stories include:&lt;br /&gt;
+                &lt;a href="http://www.serverwatch.com/news/article.php/3890491/Microsoft-Working-on-IIS-Express-Web-Server.htm" target="_blank"&gt;IIS Express&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://news.cnet.com/8301-30685_3-20009370-264.html" target="_blank"&gt;IE Reversing the Trend &lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://gizmodo.com/5576764/microsoft-kills-kin" target="_blank"&gt;RIP Kin&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://itmanagement.earthweb.com/mowi/article.php/3890576/Messenger-for-iPhone-Hits-a-Million-in-Five-Days.htm" target="_blank"&gt;Live Messenger on iPhone&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.pcworld.com/article/200246/hulu_plus_vs_netflix_which_is_best.html" target="_blank"&gt;Hulu Plus on XBox 360&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.silverlight.net/learn/pivotviewer/" target="_blank"&gt;PivotViewer&lt;/a&gt;&lt;img src="http://channel9.msdn.com/559764/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-64-IIS-Express-IE-Reversing-the-Trend-RIP-Kin-Hulu-Plus-and-more/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-64-IIS-Express-IE-Reversing-the-Trend-RIP-Kin-Hulu-Plus-and-more/</link>
+            <pubDate>Tue, 06 Jul 2010 23:40:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_2MB_ch9.wmv</guid>
+            <evnet:views>47681</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/559764/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Episode 3 of Boys without Foys coming right up!┬á Adam and Paul share their insights on┬áwhat is being chatted about on Microsoft's campus.
+
+                This week's stories include:
+                IIS Express
+                IE Reversing the Trend
+                RIP Kin
+                Live Messenger on iPhone
+                Hulu Plus on XBox 360
+                PivotViewer
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_ch9.mp4" expression="full" duration="759" fileSize="125173662" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_ch9.mp3" expression="full" duration="759" fileSize="6074407" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_ch9.wma" expression="full" duration="759" fileSize="6145153" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_ch9.wmv" expression="full" duration="759" fileSize="162672159" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_2MB_ch9.wmv" expression="full" duration="759" fileSize="220834023" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_Zune_ch9.wmv" expression="full" duration="759" fileSize="106960211" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_512_ch9.png" expression="full" duration="759" fileSize="297264" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4/6/7/9/5/5/Ping64_2MB_ch9.wmv" length="220834023" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>17</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-64-IIS-Express-IE-Reversing-the-Trend-RIP-Kin-Hulu-Plus-and-more/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/559764/Trackback.aspx</trackback:ping>
+            <category>Adam-DePue</category>
+            <category>hulu</category>
+            <category>IE</category>
+            <category>IIS</category>
+            <category>iphone</category>
+            <category>Kin</category>
+            <category>messenger</category>
+            <category>Paul-Mestemaker</category>
+            <category>Pivot</category>
+            <category>Xbox 360</category>
+        </item>
+        <item>
+            <title>Ping 63:  Sweet deal from MS, Burger King &amp; Xbox, IE 9 and Zune</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_85_ch9.png" border="0" /&gt;Laura and Paul hijack the channel 9 studio once again┬áto bring you episode 63 of Ping.&lt;br /&gt;
+                &lt;br /&gt;
+                Here is their list of water cooler topics this week:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.winextra.com/archives/a-true-microsoft-sweetheart-deal-you-probably-dont-know-about/"&gt;A sweet┬áDeal From MS&lt;/a&gt;┬á(&lt;a href="http://technet.microsoft.com/en-us/subscriptions/ms772427.aspx" title="Make sure to read this before trying to use the TechNet subscription for personal use." target="_blank"&gt;TechNet Licensing FAQ&lt;/a&gt;)&lt;br /&gt;
+                &lt;a href="http://www.i4u.com/article35473.html"&gt;Burger King and Xbox&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.theregister.co.uk/2010/06/23/internet_explorer_9_platform_preview_3/"&gt;IE9 Preview&lt;/a&gt;&lt;br /&gt;
+                &lt;span&gt;&lt;a href="http://ie.microsoft.com/testdrive/" target="_blank"&gt;IE9 Test Drives&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;
+                &lt;a href="http://finance.yahoo.com/news/Credit-Card-Purchases-Now-paidcontent-2637480328.html?x=0&amp;amp;.v=1"&gt;Zune marketplace now taking credit cards&lt;/a&gt;&lt;img src="http://channel9.msdn.com/558016/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-63-Sweet-deal-from-MS-Burger-King--Xbox-IE-9-and-Zune/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-63-Sweet-deal-from-MS-Burger-King--Xbox-IE-9-and-Zune/</link>
+            <pubDate>Mon, 28 Jun 2010 20:13:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_2MB_ch9.wmv</guid>
+            <evnet:views>52956</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/558016/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Laura and Paul hijack the channel 9 studio once again┬áto bring you episode 63 of Ping.
+
+                Here is their list of water cooler topics this week:
+
+                A sweet┬áDeal From MS┬á(TechNet Licensing FAQ)
+                Burger King and Xbox
+                IE9 Preview
+                IE9 Test Drives
+                Zune marketplace now taking credit cards
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_ch9.mp4" expression="full" duration="695" fileSize="126730048" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_ch9.mp3" expression="full" duration="695" fileSize="5568957" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_ch9.wma" expression="full" duration="695" fileSize="5634473" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_ch9.wmv" expression="full" duration="695" fileSize="153295263" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_2MB_ch9.wmv" expression="full" duration="695" fileSize="200841639" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_Zune_ch9.wmv" expression="full" duration="695" fileSize="98495315" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_512_ch9.png" expression="full" duration="695" fileSize="362304" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/6/1/0/8/5/5/Ping63_2MB_ch9.wmv" length="200841639" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>9</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-63-Sweet-deal-from-MS-Burger-King--Xbox-IE-9-and-Zune/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/558016/Trackback.aspx</trackback:ping>
+            <category>IE9</category>
+            <category>Xbox 360</category>
+            <category>Zune</category>
+        </item>
+        <item>
+            <title>Ping 62: Azure Tools, Kinect, Xbox, Visual Studio 1.2</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_85_ch9.png" border="0" /&gt;This week on Ping it's the "Boys without Foys" extravaganza. Here's what Paul and Adam found interesting on Microsoft campus:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=2274a0a8-5d37-4eac-b50a-e197dc340f6f&amp;amp;displaylang=en"&gt;Windows Azure Tools for Visual Studio 1.2&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://arstechnica.com/microsoft/news/2010/06/new-sql-azure-pricing-more-scaleable-more-predictable.ars"&gt;SQL Azure Prices&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blogs.forbes.com/velocity/2010/06/17/microsofts-xbox-live-is-making-boatloads-on-virtual-goods/"&gt;Xbox Live and Virtual Goods&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.engadget.com/2010/06/14/microsoft-kinect-for-xbox-360-launches-on-november-4/"&gt;Kinect!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.engadget.com/2010/06/18/new-xbox-360-head-to-head-with-the-360-original-ps3-slim-and/"&gt;New Xbox&lt;/a&gt;&lt;img src="http://channel9.msdn.com/557091/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-62-Azure-Tools-Kinect-Xbox-Visual-Studio-12/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-62-Azure-Tools-Kinect-Xbox-Visual-Studio-12/</link>
+            <pubDate>Tue, 22 Jun 2010 18:48:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_2MB_ch9.wmv</guid>
+            <evnet:views>40618</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/557091/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                This week on Ping it's the "Boys without Foys" extravaganza. Here's what Paul and Adam found interesting on Microsoft campus:
+
+                Windows Azure Tools for Visual Studio 1.2
+                SQL Azure Prices
+                Xbox Live and Virtual Goods
+                Kinect!
+                New Xbox
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_ch9.mp4" expression="full" fileSize="174491678" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_ch9.mp3" expression="full" fileSize="8170753" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_ch9.wma" expression="full" fileSize="8265977" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_ch9.wmv" expression="full" fileSize="222803827" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_2MB_ch9.wmv" expression="full" fileSize="303571595" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_Zune_ch9.wmv" expression="full" fileSize="143843879" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_512_ch9.png" expression="full" fileSize="303266" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1/9/0/7/5/5/Ping62_2MB_ch9.wmv" length="303571595" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>15</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-62-Azure-Tools-Kinect-Xbox-Visual-Studio-12/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/557091/Trackback.aspx</trackback:ping>
+            <category>Azure-Tools</category>
+            <category>Kinect</category>
+            <category>Visual-Studio-12</category>
+            <category>Xbox</category>
+        </item>
+        <item>
+            <title>Ping 61: Azure Apps, Windows Live Essentials, E3, Colbert &amp; Bing</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_85_ch9.png" border="0" /&gt;Laura &amp;amp; Paul did their homework this week and brought you a jam packed episode of Ping. Here are the top stories:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://news.yahoo.com/s/zd/20100603/tc_zd/251410"&gt;Windows Live Essentials&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blogs.msdn.com/b/gduthie/archive/2010/06/09/deploying-azure-apps-just-got-a-whole-lot-easier.aspx"&gt;Deploying Azure Apps&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://blog.seattlepi.com/microsoft/archives/210083.asp"&gt;Colbert Bings!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://news.teamxbox.com/xbox/22343/E3-2010-Microsoft-Gives-Lowdown-on-Conference-Plans/"&gt;E3 is here...yay!&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                ...and just for &lt;a href="http://laughingsquid.com/light-warfare-an-action-packed-demo-of-light-painting/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+laughingsquid+%28Laughing+Squid%29&amp;amp;utm_content=FaceBook"&gt;FUN&lt;/a&gt;&lt;img src="http://channel9.msdn.com/555831/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-61-Azure-Apps-Windows-Live-Essentials-E3-Colbert--Bing/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-61-Azure-Apps-Windows-Live-Essentials-E3-Colbert--Bing/</link>
+            <pubDate>Mon, 14 Jun 2010 19:10:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_2MB_ch9.wmv</guid>
+            <evnet:views>40762</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/555831/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Laura &amp;amp; Paul did their homework this week and brought you a jam packed episode of Ping. Here are the top stories:
+
+                Windows Live Essentials
+                Deploying Azure Apps
+                Colbert Bings!
+                E3 is here...yay!
+
+                ...and just for FUN
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_ch9.mp4" expression="full" duration="938" fileSize="166850427" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_ch9.mp3" expression="full" duration="938" fileSize="7511213" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_ch9.wma" expression="full" duration="938" fileSize="7596085" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_ch9.wmv" expression="full" duration="938" fileSize="206978665" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_2MB_ch9.wmv" expression="full" duration="938" fileSize="281827097" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_Zune_ch9.wmv" expression="full" duration="938" fileSize="132546717" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_512_ch9.png" expression="full" duration="938" fileSize="259422" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1/3/8/5/5/5/Ping61_2MB_ch9.wmv" length="281827097" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>5</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-61-Azure-Apps-Windows-Live-Essentials-E3-Colbert--Bing/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/555831/Trackback.aspx</trackback:ping>
+            <category>Azure</category>
+            <category>bing</category>
+            <category>E3</category>
+            <category>ping</category>
+            <category>Stephen-Colbert</category>
+            <category>Windows-Live-Essentials</category>
+        </item>
+        <item>
+            <title>Ping 60: Allard &amp; Bach, Netflix, Hohm score, Halo Beta</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_85_ch9.png" border="0" /&gt;On this episode of Ping, Laura and Paul deliver the hottest news stories circulating around the Microsoft campus.┬áHeadlines┬ásuch as┬á:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.guardian.co.uk/technology/blog/2010/may/25/bach-retires-microsoft-games"&gt;Allard and Bach moving on...┬á&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.geektonic.com/2010/05/netflix-using-microsoft-playready-as.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Brentevans+%28GeekTonic%29"&gt;Netflix &amp;amp; Microsoft&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://news.cnet.com/8301-11128_3-20005997-54.html"&gt;Judge your Hohm&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.windowsobserver.com/2010/05/24/first-person-shooter-halo-reach-has-2-7-million-gamers-play-during-online-beta/"&gt;2.7 million gamers play Halo Beta&lt;/a&gt;&lt;br /&gt;&lt;img src="http://channel9.msdn.com/553218/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-60-Allard--Bach-Netflix-Hohm-score-Halo-Beta/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-60-Allard--Bach-Netflix-Hohm-score-Halo-Beta/</link>
+            <pubDate>Mon, 31 May 2010 21:52:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_2MB_ch9.wmv</guid>
+            <evnet:views>46945</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/553218/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                On this episode of Ping, Laura and Paul deliver the hottest news stories circulating around the Microsoft campus.┬áHeadlines┬ásuch as┬á:
+
+                Allard and Bach moving on...┬á
+                Netflix &amp;amp; Microsoft
+                Judge your Hohm
+                2.7 million gamers play Halo Beta
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_ch9.mp4" expression="full" duration="717" fileSize="126786974" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_ch9.mp3" expression="full" duration="717" fileSize="5742828" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_ch9.wma" expression="full" duration="717" fileSize="5811709" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_ch9.wmv" expression="full" duration="717" fileSize="158335571" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_2MB_ch9.wmv" expression="full" duration="717" fileSize="210841771" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_Zune_ch9.wmv" expression="full" duration="717" fileSize="101439623" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_512_ch9.png" expression="full" duration="717" fileSize="343584" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/8/1/2/3/5/5/Ping60_2MB_ch9.wmv" length="210841771" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>17</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-60-Allard--Bach-Netflix-Hohm-score-Halo-Beta/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/553218/Trackback.aspx</trackback:ping>
+            <category>Halo-Beta</category>
+            <category>Hohm</category>
+            <category>Jay-Allard</category>
+            <category>netflix</category>
+            <category>Robbie-Bach</category>
+        </item>
+        <item>
+            <title>Ping 59: Private Cloud strategy, Gadget predictions, Microsoft is the most social company, Free Robotics</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_85_ch9.png" border="0" /&gt;Take a break from your hectic day to join Laura &amp;amp; Paul as they bring you all the top stories that were being sent around Microsoft this week. Stories like :&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://arstechnica.com/microsoft/news/2010/05/redmond-releases-appfabric-biztalk-betas-for-on-premises-clouds.ars?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=rss"&gt;A Private Cloud&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://gizmodo.com/5541969/bill-gates-told-steve-jobs-about-the-ipad-in-2007"&gt;Bill Gates: Device vision- back in 2007&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://mashable.com/2010/05/18/social-media-company-employees/"&gt;Microsoft is so┬áVERY Social&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/052010-microsoft-shifts-robotics-strategy-makes-robotics-studio-available-free"&gt;Robotics for FREE&lt;/a&gt;&lt;img src="http://channel9.msdn.com/551601/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-59-Private-Cloud-strategy-idea-for-the-iPad-Microsoft-is-the-most-social-company/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-59-Private-Cloud-strategy-idea-for-the-iPad-Microsoft-is-the-most-social-company/</link>
+            <pubDate>Mon, 24 May 2010 22:55:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_2MB_ch9.wmv</guid>
+            <evnet:views>55414</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/551601/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Take a break from your hectic day to join Laura &amp;amp; Paul as they bring you all the top stories that were being sent around Microsoft this week. Stories like :
+
+                A Private Cloud
+                Bill Gates: Device vision- back in 2007
+                Microsoft is so┬áVERY Social
+                Robotics for FREE
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_ch9.mp4" expression="full" duration="908" fileSize="156693894" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_ch9.mp3" expression="full" duration="908" fileSize="7273185" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_ch9.wma" expression="full" duration="908" fileSize="7358769" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_ch9.wmv" expression="full" duration="908" fileSize="199554245" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_2MB_ch9.wmv" expression="full" duration="908" fileSize="271658917" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_Zune_ch9.wmv" expression="full" duration="908" fileSize="127618297" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_512_ch9.png" expression="full" duration="908" fileSize="294906" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1/0/6/1/5/5/Ping59_2MB_ch9.wmv" length="271658917" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>18</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-59-Private-Cloud-strategy-idea-for-the-iPad-Microsoft-is-the-most-social-company/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/551601/Trackback.aspx</trackback:ping>
+            <category>Cloud</category>
+            <category>Cloud Computing</category>
+            <category>iPad</category>
+            <category>ping</category>
+            <category>Robotics</category>
+            <category>Social-networking</category>
+        </item>
+        <item>
+            <title>Ping 58: Gates &amp; Cloud Computing, Bing for Mobile, Microsoft concept Phone</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_85_ch9.png" border="0" /&gt;We got a ton of great feedback and suggestions last week- please keep them coming! Here's the low-down for what 'Softies were talking about this week.&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.mnn.com/green-tech/research-innovations/blogs/bill-gates-funds-cloud-factory"&gt;New type of Cloud Computing?&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://blog.seattlepi.com/microsoft/archives/205629.asp"&gt;Bing for Mobile&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.intomobile.com/2010/05/10/microsoft-concept-phone-features-borderless-display-projector-phaser.html"&gt;Microsoft Concept Phone&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.microsoft.com/presspass/presskits/2010office/"&gt;Office 2010 Launch&lt;/a&gt;&lt;img src="http://channel9.msdn.com/550605/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-58-Gates--Cloud-Computing-Bing-for-Mobile-Microsoft-concept-Phone/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-58-Gates--Cloud-Computing-Bing-for-Mobile-Microsoft-concept-Phone/</link>
+            <pubDate>Mon, 17 May 2010 21:04:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_2MB_ch9.wmv</guid>
+            <evnet:views>44032</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/550605/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                We got a ton of great feedback and suggestions last week- please keep them coming! Here's the low-down for what 'Softies were talking about this week.
+
+                New type of Cloud Computing?
+                Bing for Mobile
+                Microsoft Concept Phone
+                Office 2010 Launch
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_ch9.mp4" expression="full" duration="532" fileSize="100327952" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_ch9.mp3" expression="full" duration="532" fileSize="4261998" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_ch9.wma" expression="full" duration="532" fileSize="4315719" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_ch9.wmv" expression="full" duration="532" fileSize="117724983" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_2MB_ch9.wmv" expression="full" duration="532" fileSize="159304661" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_Zune_ch9.wmv" expression="full" duration="532" fileSize="75677035" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_512_ch9.png" expression="full" duration="532" fileSize="363506" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5/0/6/0/5/5/Ping58_2MB_ch9.wmv" length="159304661" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>9</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-58-Gates--Cloud-Computing-Bing-for-Mobile-Microsoft-concept-Phone/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/550605/Trackback.aspx</trackback:ping>
+            <category>bing</category>
+            <category>Cloud Computing</category>
+            <category>Microsoft-concept-Phone</category>
+            <category>ping</category>
+            <category>Windows Mobile</category>
+            <category>Windows-Phone-7</category>
+            <category>WP7</category>
+        </item>
+        <item>
+            <title>Ping 57: IE9, Alan Wake, Silverlight, Spindex, MMS</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_85_ch9.png" border="0" /&gt;&lt;div&gt;This week Paul and Laura reviewed┬áthe most buzz worthy stories in Microsoft news-┬áexciting stuff┬álike:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://ie.microsoft.com/testdrive/"&gt;Take IE9 for a test drive!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.brightfalls.com/"&gt;Alan Wake &amp;amp; SilverLight&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.pcadvisor.co.uk/news/index.cfm?newsid=3222537"&gt;Spindex is here&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.ieaddons.com/en/details/bloggings/Perez_Hilton_Celebrity_Gossip/"&gt;Perez Hilton Web Slice&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.mms-2010.com/public/home.aspx"&gt;Paul goes to MMS&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.SpikeAndHammer.com" target="_blank"&gt;Spike and Hammer&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                And More!&lt;/div&gt;&lt;img src="http://channel9.msdn.com/549132/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-57-IE9-Alan-Wake-Silverlight-Spindex-MMS/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-57-IE9-Alan-Wake-Silverlight-Spindex-MMS/</link>
+            <pubDate>Mon, 10 May 2010 19:52:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_2MB_ch9.wmv</guid>
+            <evnet:views>38685</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/549132/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                This week Paul and Laura reviewed┬áthe most buzz worthy stories in Microsoft news-┬áexciting stuff┬álike:
+
+                Take IE9 for a test drive!
+                Alan Wake &amp;amp; SilverLight
+                Spindex is here
+                Perez Hilton Web Slice
+                Paul goes to MMS
+                Spike and Hammer
+
+                And More!
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_ch9.mp4" expression="full" duration="1001" fileSize="181724746" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_ch9.mp3" expression="full" duration="1001" fileSize="8012346" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_ch9.wma" expression="full" duration="1001" fileSize="8106765" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_ch9.wmv" expression="full" duration="1001" fileSize="220915547" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_2MB_ch9.wmv" expression="full" duration="1001" fileSize="295667475" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_Zune_ch9.wmv" expression="full" duration="1001" fileSize="141795599" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_512_ch9.png" expression="full" duration="1001" fileSize="360985" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/2/3/1/9/4/5/Ping57Rev_2MB_ch9.wmv" length="295667475" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>12</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-57-IE9-Alan-Wake-Silverlight-Spindex-MMS/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/549132/Trackback.aspx</trackback:ping>
+            <category>Alan-Wake</category>
+            <category>IE9</category>
+            <category>MMS</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>Silverlight</category>
+            <category>Spindex</category>
+        </item>
+        <item>
+            <title>Ping 56: Mouse Mischief, Social Media Clock, Windows Embedded 7, Ballmer loves Natal</title>
+            <description>
+                &lt;img src="http://channel9.msdn.com/Link/2e400e1a-327a-4e44-8f6f-256b07bbc686/" border="0" /&gt;After a tiny hiatus we are back and better than ever. The show is jam-packed this week so let's get right to it:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.microsoft.com/multipoint/mouse-mischief/"&gt;Mouse Mischief: The Multi Point Mice Game!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.microsoft.com/presspass/press/2008/oct08/10-28ESCPR.mspx"&gt;Windows Embedded 7&lt;/a&gt;&lt;a href="http://www.socialtimes.com/2010/04/watch-social-media-grow-with-the-real-time-social-web-clock/"&gt;The Social Media Clock&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://blogs.zdnet.com/microsoft/?p=6020&amp;amp;utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+ZDNetBlogs+%28ZDNet+All+Blogs%29"&gt;Ballmer LOVES Natal&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.independent.co.uk/life-style/gadgets-and-tech/new-live-action-trailer-for-halo-reach-1957254.html"&gt;Live Action Trailer for HALO&lt;/a&gt;&lt;img src="http://channel9.msdn.com/547845/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-56-Mulit-Point-Mouse-Games-Social-Media-Clock-Windows-7-Embedded-Ballmar-loves-Natal/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-56-Mulit-Point-Mouse-Games-Social-Media-Clock-Windows-7-Embedded-Ballmar-loves-Natal/</link>
+            <pubDate>Mon, 03 May 2010 18:05:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_2MB_ch9.wmv</guid>
+            <evnet:views>29128</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/547845/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                After a tiny hiatus we are back and better than ever. The show is jam-packed this week so let's get right to it:
+
+                Mouse Mischief: The Multi Point Mice Game!
+                Windows Embedded 7The Social Media Clock
+                Ballmer LOVES Natal
+                Live Action Trailer for HALO
+            </evnet:previewtext>
+            <media:thumbnail url="http://channel9.msdn.com/Link/0371e7b9-9d29-4851-8bb5-0345d66a07c9/" height="240" width="320" />
+            <media:thumbnail url="http://channel9.msdn.com/Link/2e400e1a-327a-4e44-8f6f-256b07bbc686/" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_ch9.mp4" expression="full" duration="1119" fileSize="171213632" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_ch9.mp3" expression="full" duration="1119" fileSize="8958397" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_ch9.wma" expression="full" duration="1119" fileSize="9062039" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_ch9.wmv" expression="full" duration="1119" fileSize="229653201" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_2MB_ch9.wmv" expression="full" duration="1119" fileSize="313668183" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_Zune_ch9.wmv" expression="full" duration="1119" fileSize="151893253" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://channel9.msdn.com/Link/fa3ef0fa-f195-4a79-b2a4-8c0b2074fbce/" expression="full" duration="1119" fileSize="52332" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/5/4/8/7/4/5/Ping56_2MB_ch9.wmv" length="313668183" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>13</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-56-Mulit-Point-Mouse-Games-Social-Media-Clock-Windows-7-Embedded-Ballmar-loves-Natal/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/547845/Trackback.aspx</trackback:ping>
+            <category>MultiPoint</category>
+            <category>Natal</category>
+            <category>Social-networking</category>
+            <category>Steve Ballmer</category>
+            <category>Windows 7</category>
+        </item>
+        <item>
+            <title>Ping 55: Visual Studio 2010 Launch, Kin Unveiled, GLO for women</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_85_ch9.png" border="0" /&gt;Holy lots of announcements Batman! Let's just get to it since this week was jam-packed!&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/Niners/Dan/"&gt;Dan Fernandez&lt;/a&gt;┬ádishes about the &lt;a href="http://www.microsoft.com/visualstudio/en-us/visual-studio-events"&gt;VS 2010 Launch&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/posts/LauraFoy/Microsoft-announces-Kin-The-next-Windows-Phone-Formerly-code-named-Pink/"&gt;Check out the FIRST Kin demo!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://seattletimes.nwsource.com/html/microsoftpri0/2011531498_msnlaunchesnewwomensonlinemagazineglo.html"&gt;Microsoft loves the ladies...&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.techflash.com/seattle/2010/04/microsoft_finally_makes_it_big_in_the_lyrics_of_a_country_song.html?ana=from_rss&amp;amp;utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+TechFlash+%28TechFlash+-+Seattle%27s+Technology+News+Source%29"&gt;Forever immortalized in Country Music! Yee Haw!&lt;/a&gt; &lt;br /&gt;
+                &lt;a href="http://rubrik.ch.msn.com/reportagen/kunsthaus_en.aspx"&gt;Deep Zooming&lt;/a&gt; &lt;br /&gt;
+                &lt;a href="http://www.crunchgear.com/2010/04/08/goodbye-norma-jean-apples-get-a-mac-ads-are-over/"&gt;"Get a Mac" ads are over&lt;/a&gt;&lt;img src="http://channel9.msdn.com/542457/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-55-Visual-Studio-2010-Launch-Kin-Unveiled-GLO-for-women/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-55-Visual-Studio-2010-Launch-Kin-Unveiled-GLO-for-women/</link>
+            <pubDate>Mon, 12 Apr 2010 17:04:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_2MB_ch9.wmv</guid>
+            <evnet:views>30498</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/542457/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Holy lots of announcements Batman! Let's just get to it since this week was jam-packed!
+
+                Dan Fernandez┬ádishes about the VS 2010 Launch
+                Check out the FIRST Kin demo!
+                Microsoft loves the ladies...
+                Forever immortalized in Country Music! Yee Haw!
+                Deep Zooming
+                "Get a Mac" ads are over
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_ch9.mp4" expression="full" duration="1012" fileSize="184378817" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_ch9.mp3" expression="full" duration="1012" fileSize="8098655" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_ch9.wma" expression="full" duration="1012" fileSize="8193883" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_ch9.wmv" expression="full" duration="1012" fileSize="223027703" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_2MB_ch9.wmv" expression="full" duration="1012" fileSize="298723541" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_Zune_ch9.wmv" expression="full" duration="1012" fileSize="143395755" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_512_ch9.png" expression="full" duration="1012" fileSize="389389" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/7/5/4/2/4/5/Ping55_2MB_ch9.wmv" length="298723541" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>8</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-55-Visual-Studio-2010-Launch-Kin-Unveiled-GLO-for-women/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/542457/Trackback.aspx</trackback:ping>
+            <category>glo</category>
+            <category>Kin</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>Pink</category>
+            <category>Visual Studio 2010</category>
+        </item>
+        <item>
+            <title>Ping 54: Windows Phone 7 Training Kit, 64GB Zune, Microsoft helps electric cars</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_85_ch9.png" border="0" /&gt;They seemed a little giddy this week...maybe a little too much candy from the Easter Bunny :) At any rate, here are the top stories making their way around Microsoft this week:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.mnn.com/transportation/cars/stories/microsoft-tool-to-help-ford%E2%80%99s-electric-vehicles"&gt;Plug in that vehicle!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://lifehacker.com/5504465/how-to-transform-your-windows-desktop-with-an-amazing-windows-phone-7+style-hud"&gt;Windows Phone 7 desktop theme&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.i4u.com/article32540.html"&gt;Your Zune is how big???&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/learn/courses/WP7TrainingKit/"&gt;Start developing NOW for WP7&lt;/a&gt;&lt;img src="http://channel9.msdn.com/541449/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-54-Windows-Phone-7-Training-Kit-64GB-Zune-Microsoft-helps-electric-cars/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-54-Windows-Phone-7-Training-Kit-64GB-Zune-Microsoft-helps-electric-cars/</link>
+            <pubDate>Mon, 05 Apr 2010 20:00:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_2MB_ch9.wmv</guid>
+            <evnet:views>32129</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/541449/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                They seemed a little giddy this week...maybe a little too much candy from the Easter Bunny :) At any rate, here are the top stories making their way around Microsoft this week:
+
+                Plug in that vehicle!
+                Windows Phone 7 desktop theme
+                Your Zune is how big???
+                Start developing NOW for WP7
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_ch9.mp4" expression="full" duration="774" fileSize="141747856" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_ch9.mp3" expression="full" duration="774" fileSize="6194642" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_ch9.wma" expression="full" duration="774" fileSize="6268317" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_ch9.wmv" expression="full" duration="774" fileSize="170576369" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_2MB_ch9.wmv" expression="full" duration="774" fileSize="222394113" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_Zune_ch9.wmv" expression="full" duration="774" fileSize="109888421" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_512_ch9.png" expression="full" duration="774" fileSize="361117" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/9/4/4/1/4/5/Ping54_2MB_ch9.wmv" length="222394113" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>10</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-54-Windows-Phone-7-Training-Kit-64GB-Zune-Microsoft-helps-electric-cars/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/541449/Trackback.aspx</trackback:ping>
+            <category>electric-cars</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>Windows Phone</category>
+            <category>WP7</category>
+            <category>Zune</category>
+        </item>
+        <item>
+            <title>Ping 53: Stories from MIX, FourSquare, Xbox Game Room, Coachella</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_85_ch9.png" border="0" /&gt;The dream team is back. Well, nobody really calls them the "Dream Team" but they do - anyway, they've rustled up the top stories at Microsoft this week and here they are:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/tags/MIX10/"&gt;What happens in Vegas, happened at MIX!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/posts/LauraFoy/MIX10-Keynote-Windows-Phone-7-FourSquare/"&gt;Laura's Keynote Demo&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://seattletimes.nwsource.com/html/microsoftpri0/2011443106_microsoftaddsfoursquaretobingmaps.html"&gt;FourSquare &amp;amp; Bing, a natural fit&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.techflash.com/seattle/2010/03/the_lessons_of_microsofts_seinfeld_ads.html"&gt;Seinfeld &amp;amp; Gates ads explained&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://www.myspace.com/coachellasweepstakes"&gt;Microsoft goes to Coachella???&lt;br /&gt;
+                &lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.flickr.com/photos/socialwendygroup/4443609206/"&gt;...the furry coat (pre-Laura's capture of it)&lt;/a&gt;&lt;img src="http://channel9.msdn.com/539813/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-53-Stories-from-MIX/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-53-Stories-from-MIX/</link>
+            <pubDate>Tue, 30 Mar 2010 00:02:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_2MB_ch9.wmv</guid>
+            <evnet:views>29770</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/539813/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                The dream team is back. Well, nobody really calls them the "Dream Team" but they do - anyway, they've rustled up the top stories at Microsoft this week and here they are:
+
+                What happens in Vegas, happened at MIX!
+                Laura's Keynote Demo
+                FourSquare &amp;amp; Bing, a natural fit
+                Seinfeld &amp;amp; Gates ads&amp;#8230;
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_ch9.mp4" expression="full" duration="948" fileSize="172473785" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_ch9.mp3" expression="full" duration="948" fileSize="7591043" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_ch9.wma" expression="full" duration="948" fileSize="7677195" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_ch9.wmv" expression="full" duration="948" fileSize="208898807" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_2MB_ch9.wmv" expression="full" duration="948" fileSize="478299208" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_Zune_ch9.wmv" expression="full" duration="948" fileSize="134450859" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_512_ch9.png" expression="full" duration="948" fileSize="313892" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3/1/8/9/3/5/Ping53_2MB_ch9.wmv" length="478299208" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>7</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-53-Stories-from-MIX/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/539813/Trackback.aspx</trackback:ping>
+            <category>bing</category>
+            <category>Coachella</category>
+            <category>FourSquare</category>
+            <category>Game-Room</category>
+            <category>MIX10</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>Xbox</category>
+        </item>
+        <item>
+            <title>Ping 52: Nic Fillingham, Windows Phone 7, XNA and Channel 9 Live</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_85_ch9.png" border="0" /&gt;&lt;p&gt;This week we welcomed special guest host, Nic Fillingham, who not only runs &lt;a href="http://live.visitmix.com"&gt;Channel 9 LIVE at MIX┬á2010&lt;/a&gt; but also brings us these stories:&lt;/p&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="http://www.crn.com/mobile/223500043"&gt;Flash On Windows Phone 7&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.istartedsomething.com/20100301/geosense-for-windows-location-released/"&gt;GeoSense for Windows- go get it!&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://www.tomshardware.com/news/xbox-xna-windows-phone-games,9846.html"&gt;XNA Games for Windows Phone 7&lt;/a&gt; &lt;/li&gt;
+                &lt;li&gt;&lt;a href="http://blog.seattlepi.com/microsoft/archives/196608.asp"&gt;Microsoft sends flowers to IE6 funeral&lt;/a&gt; &lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p&gt;and Just For Fun:┬á &lt;a href="http://www.geekologie.com/2010/03/the_new_dork_song_and_video.php"&gt;New Dork Music Video&lt;/a&gt;&lt;/p&gt;&lt;img src="http://channel9.msdn.com/537319/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-52-Nic-Fillingham-Windows-Phone-7-XNA-and-Channel-9-Live/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-52-Nic-Fillingham-Windows-Phone-7-XNA-and-Channel-9-Live/</link>
+            <pubDate>Tue, 16 Mar 2010 01:53:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_2MB_ch9.wmv</guid>
+            <evnet:views>33088</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/537319/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                This week we welcomed special guest host, Nic Fillingham, who not only runs Channel 9 LIVE at MIX┬á2010 but also brings us these stories:
+
+                Flash On Windows Phone 7
+                GeoSense for Windows- go get it!
+                XNA Games for Windows Phone 7
+                Microsoft sends flowers to IE6 funeral
+
+                and Just For Fun:┬á New Dork Music Video
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_ch9.mp4" expression="full" duration="833" fileSize="151723323" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_ch9.mp3" expression="full" duration="833" fileSize="6666726" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_ch9.wma" expression="full" duration="833" fileSize="6742951" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_ch9.wmv" expression="full" duration="833" fileSize="183617197" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_2MB_ch9.wmv" expression="full" duration="833" fileSize="233666467" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_Zune_ch9.wmv" expression="full" duration="833" fileSize="118737249" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/content/images/Ping52.png" expression="full" duration="833" fileSize="360460" type="image/jpeg" medium="image" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/9/1/3/7/3/5/Ping52_2MB_ch9.wmv" length="233666467" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>3</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-52-Nic-Fillingham-Windows-Phone-7-XNA-and-Channel-9-Live/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/537319/Trackback.aspx</trackback:ping>
+            <category>IE6</category>
+            <category>MIX10</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>Windows Phone</category>
+            <category>WP7</category>
+            <category>XNA</category>
+        </item>
+        <item>
+            <title>Ping 51: TechFest, Ballmer, Xbox, Android &amp; Tina Wood!</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_85_ch9.png" border="0" /&gt;You asked for it, so you got it! This week we have special co-host,┬á&lt;a href="http://channel9.msdn.com/posts/Tina/"&gt;Tina Wood&lt;/a&gt; bringing all the scoop that 'Softies wanna know about.&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://channel9.msdn.com/tags/TechFest/"&gt;TechFest recap&lt;br /&gt;
+                &lt;/a&gt;&lt;a href="http://www.techflash.com/seattle/2010/03/transcript_ballmer_on_bing_google_and_his_secret_twitter_account.html?ana=from_rss&amp;amp;utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+TechFlash+%28TechFlash+-+Seattle%27s+Technology+News+Source%29"&gt;Ballmer Tweets!&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://kotaku.com/5483830/play-a-facebook-game-to-help-the-war-effort-on-your-xbox-360-or-vice-versa"&gt;Xbox &amp;amp; Facebook&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://www.engadget.com/2010/03/04/tag-microsofts-first-android-app-is-it/"&gt;Microsoft &amp;amp; Android..BFF's&lt;/a&gt;&lt;img src="http://channel9.msdn.com/534204/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-51-TechFest-Ballmer-Xbox-Android--Tina-Wood/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-51-TechFest-Ballmer-Xbox-Android--Tina-Wood/</link>
+            <pubDate>Mon, 08 Mar 2010 22:17:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_2MB_ch9.wmv</guid>
+            <evnet:views>30762</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/534204/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                You asked for it, so you got it! This week we have special co-host,┬áTina Wood bringing all the scoop that 'Softies wanna know about.
+
+                TechFest recap
+                Ballmer Tweets!
+                Xbox &amp;amp; Facebook
+                Microsoft &amp;amp; Android..BFF's
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_ch9.mp4" expression="full" duration="809" fileSize="150784273" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_ch9.mp3" expression="full" duration="809" fileSize="6475092" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_ch9.wma" expression="full" duration="809" fileSize="6553699" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_ch9.wmv" expression="full" duration="809" fileSize="178528861" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_2MB_ch9.wmv" expression="full" duration="809" fileSize="239786323" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_Zune_ch9.wmv" expression="full" duration="809" fileSize="114960913" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_512_ch9.png" expression="full" duration="809" fileSize="359182" type="image/jpeg" medium="image" />
+                <media:content url="http://ss.channel9.msdn.com/ch9/4/0/2/4/3/5/PING51Tinaisgreat.ism/Manifest" expression="full" duration="809" type="video/x-ms-wmv" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/4/0/2/4/3/5/PING51Tinaisgreat_2MB_ch9.wmv" length="239786323" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>18</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-51-TechFest-Ballmer-Xbox-Android--Tina-Wood/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/534204/Trackback.aspx</trackback:ping>
+            <category>Android</category>
+            <category>Ballmer</category>
+            <category>TechFest</category>
+            <category>Tina-Wood</category>
+            <category>Xbox</category>
+        </item>
+        <item>
+            <title>Ping 50: Multi-Point Server, IE6 Funeral, 3 Designs for Windows Phone</title>
+            <description>
+                &lt;img src="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_85_ch9.png" border="0" /&gt;Every week Laura &amp;amp; Paul bring you the hottest topics on the minds of Microsofties. Here's the latest from this week:&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://news.moneycentral.msn.com/provider/providerarticle.aspx?feed=PR&amp;amp;date=20100224&amp;amp;id=11150934"&gt;Multi-Point Server Announced&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://news.softpedia.com/news/Three-Windows-Phone-7-Chassis-Specs-Shape-Up-135849.shtml"&gt;3 Designs for Windows Phone 7 Series&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://ie6funeral.com/"&gt;IE6 Funeral&lt;/a&gt;&lt;br /&gt;
+                &lt;a href="http://mashable.com/2010/02/23/windows-7-commercial-parody/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Mashable+%28Mashable%29"&gt;Windows 7 Commercial Parody&lt;/a&gt;&lt;br /&gt;
+                &lt;br /&gt;
+                and finally...&lt;br /&gt;
+                &lt;br /&gt;
+                &lt;a href="http://www.pcworld.com/article/190128/rip_rickrolling_youtube_kills_original_video.html"&gt;RikRolling!&lt;/a&gt;&lt;img src="http://channel9.msdn.com/533311/WebViewBug.aspx?EVT=0" height="1" width="1" alt="" /&gt;
+            </description>
+            <comments>http://channel9.msdn.com/shows/PingShow/Ping-50-Multi-Point-Server-IE6-Funeral-3-Designs-for-Windows-Phone/</comments>
+            <link>http://channel9.msdn.com/shows/PingShow/Ping-50-Multi-Point-Server-IE6-Funeral-3-Designs-for-Windows-Phone/</link>
+            <pubDate>Mon, 01 Mar 2010 20:32:00 GMT</pubDate>
+            <guid isPermaLink="false">http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_2MB_ch9.wmv</guid>
+            <evnet:views>27857</evnet:views>
+            <evnet:viewtrackingurl>http://channel9.msdn.com/533311/WebViewBug.aspx?EVT=0</evnet:viewtrackingurl>
+            <evnet:previewtext>
+                Every week Laura &amp;amp; Paul bring you the hottest topics on the minds of Microsofties. Here's the latest from this week:
+
+                Multi-Point Server Announced
+                3 Designs for Windows Phone 7 Series
+                IE6 Funeral
+                Windows 7 Commercial Parody
+
+                and finally...
+
+                RikRolling!
+            </evnet:previewtext>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_320_ch9.png" height="240" width="320" />
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_85_ch9.png" height="64" width="85" />
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_ch9.mp4" expression="full" duration="745" fileSize="136342605" type="video/mp4" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_ch9.mp3" expression="full" duration="745" fileSize="5967899" type="audio/mp3" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_ch9.wma" expression="full" duration="745" fileSize="6037009" type="audio/x-ms-wma" medium="audio" />
+                <media:content isDefault="true" url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_ch9.wmv" expression="full" duration="745" fileSize="164655963" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_2MB_ch9.wmv" expression="full" duration="745" fileSize="218617939" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_Zune_ch9.wmv" expression="full" duration="745" fileSize="105760015" type="video/x-ms-wmv" medium="video" />
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_512_ch9.png" expression="full" duration="745" fileSize="315707" type="image/jpeg" medium="image" />
+                <media:content url="http://ss.channel9.msdn.com/ch9/1/1/3/3/3/5/Ping50revised.ism/Manifest" expression="full" duration="745" type="video/x-ms-wmv" medium="video" />
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1/1/3/3/3/5/Ping50revised_2MB_ch9.wmv" length="218617939" type="video/x-ms-wmv" />
+            <dc:creator>Laura Foy</dc:creator>
+            <slash:comments>10</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/shows/PingShow/Ping-50-Multi-Point-Server-IE6-Funeral-3-Designs-for-Windows-Phone/RSS/</wfw:commentRss>
+            <trackback:ping>http://channel9.msdn.com/533311/Trackback.aspx</trackback:ping>
+            <category>IE6</category>
+            <category>multi-point-server</category>
+            <category>ping</category>
+            <category>PingShow</category>
+            <category>Rik-Rolling</category>
+            <category>Windows 7</category>
+            <category>Windows Phone</category>
+        </item>
+    </channel>
+</rss>

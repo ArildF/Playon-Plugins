@@ -25,33 +25,41 @@ namespace Rogue.PlayOn.Plugins.Channel9
             var rssString = _downloader.DownloadString(_url);
 
             var doc = XDocument.Parse(rssString);
-            var items = doc.Element("rss").Element("channel").Elements("item");
+            IEnumerable<XElement> items; 
+            try
+            { 
+                items = doc.Element("rss").Element("channel").Elements("item");
+            }
+            catch (NullReferenceException)
+            {
+                throw new InvalidFeedException();
+            }
 
             return from item in items 
-                   let title = item.Element("title").Value 
+                   let title = item.Element("title").ValueOrEmpty()
                    let enclosure = item.Element("enclosure")
                    let mediaContent = 
                         (from content in item.Descendants(Media + "content")
                          let def = content.Attribute("isDefault")
                          where def != null && def.Value == "true"
-                         where content.Attribute("url").Value.EndsWith(".wmv", StringComparison.InvariantCultureIgnoreCase)
+                         where content.Attribute("url").ValueOrEmpty().EndsWith(".wmv", StringComparison.InvariantCultureIgnoreCase)
                          select content
                          ).FirstOrDefault()
                    let url = mediaContent != null ? 
-                        mediaContent.Attribute("url").Value : 
-                        enclosure.Attribute("url").Value 
+                        mediaContent.Attribute("url").ValueOrNull() : 
+                        enclosure.Attribute("url").ValueOrNull()
                    let durationString = mediaContent != null ? 
-                       mediaContent.Attribute("duration").Value :
-                       enclosure.Attribute("length").Value
+                       mediaContent.Attribute("duration").ValueOrNull() :
+                       enclosure.Attribute("length").ValueOrNull()
+                   let duration = durationString != null ? long.Parse(durationString) * 1000 : 0
                    let thumbNail = item.Element(Media + "thumbnail")
-                   let thumbNailUrl = thumbNail != null ? thumbNail.Attribute("url").Value : null
-                   let duration = long.Parse(durationString) * 1000
+                   let thumbNailUrl = thumbNail != null ? thumbNail.Attribute("url").ValueOrNull() : null
                    let pubDate = ParsePubDate(item)
-                   let description = item.Element("description").Value 
+                   let description = item.Element("description").ValueOrEmpty()
                    select new MediaItem(title, url, description, duration, thumbNail: thumbNailUrl, publicationDate: pubDate);
         }
 
-        private DateTime? ParsePubDate(XElement item)
+        private static DateTime? ParsePubDate(XElement item)
         {
             var date = item.Element("pubDate");
             if (date == null)
