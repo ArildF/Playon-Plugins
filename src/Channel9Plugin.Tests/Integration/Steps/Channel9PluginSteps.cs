@@ -4,6 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Xml.XPath;
 using MediaMallTechnologies.Plugin;
 using Moq;
@@ -233,6 +234,14 @@ namespace Channel9Plugin.Tests.Integration.Steps
                     .ToArray();
 
             CollectionAssert.AreEqual(sortedByDate, sortedByPrefixes);
+        }
+
+        [Then(@"the video description should not contain HTML tags")]
+        public void ThenTheDescriptionShouldNotContainHTMLTags()
+        {
+            var regex = new Regex(@"<.*>");
+
+            _video.Description.Satisfies(d => !regex.IsMatch(d));
         }
 
         [When(@"I retrieve the children of the root")]

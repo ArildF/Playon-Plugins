@@ -93,3 +93,8 @@ Scenario: Media XML
 Scenario: Missing duration
     When I retrieve the payload of 'root=>Shows=>Ping!'
     Then there should be 25 children
+
+Scenario: Plain text descriptions
+    When I retrieve the payload of 'root=>RSS'
+    And I examine child #1 as a video file
+    Then the video description should not contain HTML tags

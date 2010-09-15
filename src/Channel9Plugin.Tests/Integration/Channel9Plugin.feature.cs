@@ -364,6 +364,23 @@ testRunner.Then("there should be 25 children");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Plain text descriptions")]
+        public virtual void PlainTextDescriptions()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Plain text descriptions", ((string[])(null)));
+#line 97
+this.ScenarioSetup(scenarioInfo);
+#line 98
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
+#line 99
+testRunner.And("I examine child #1 as a video file");
+#line 100
+testRunner.Then("the video description should not contain HTML tags");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
     }
 }
 #endregion
