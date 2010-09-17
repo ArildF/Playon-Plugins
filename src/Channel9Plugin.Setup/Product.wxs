@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="57f1adeb-bedd-4e32-a76f-2a1e808e3617" Name="Channel 9 (MSDN) PlayOn Plugin" Language="1033" Version="0.0.0.1"
+             Manufacturer="Channel9Plugin.Setup" UpgradeCode="835221ac-9cd7-4fd7-87e0-be33b37e1a37">
+        <Package InstallerVersion="200" Compressed="yes" />
+
+        <Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Name="MediaMall" Id="MediaMallFolder">
+                    <Directory Id="INSTALLLOCATION" Name="plugins">
+                        <Component Id="ProductComponent" Guid="f0cbafc3-17fb-4349-9ea2-f16b7c8739d6">
+                            <File Id="PluginFile" Name="Channel9.Plugin" Source="$(var.Channel9Plugin.TargetPath)"/>
+                            <File Id="AgilityPack" Name="HtmlAgilityPack.dll" Source="$(var.Channel9Plugin.TargetDir)\HtmlAgilityPack.dll"/>
+                        </Component>
+
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Component Id="RestartServiceComponent" Guid="CE8DE18E-196C-4CA6-A822-EA0AB79EF5C7">
+                <ServiceControl Id="StopServiceControl" Stop="both" Name="MediaMall Server"/>
+                <ServiceControl Id="StartServiceControl" Start="both" Name="MediaMall Server"/>
+            </Component>
+        </Directory>
+
+        <Feature Id="ProductFeature" Title="CChannel 9 (MSDN) PlayOn Plugin" Level="1">
+            <ComponentRef Id="ProductComponent" />
+            <ComponentRef Id="RestartServiceComponent"/>
+
+            <!-- Note: The following ComponentGroupRef is required to pull in generated authoring from project references. -->
+            <ComponentGroupRef Id="Product.Generated" />
+        </Feature>
+    </Product>
+</Wix>
