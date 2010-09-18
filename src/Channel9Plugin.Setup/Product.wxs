@@ -11,8 +11,7 @@
                 <Directory Name="MediaMall" Id="MediaMallFolder">
                     <Directory Id="INSTALLLOCATION" Name="plugins">
                         <Component Id="ProductComponent" Guid="f0cbafc3-17fb-4349-9ea2-f16b7c8739d6">
-                            <File Id="PluginFile" Name="Channel9.Plugin" Source="$(var.Channel9Plugin.TargetPath)"/>
-                            <File Id="AgilityPack" Name="HtmlAgilityPack.dll" Source="$(var.Channel9Plugin.TargetDir)\HtmlAgilityPack.dll"/>
+                            <File Id="PluginFile" Name="Channel9.Plugin" Source="$(var.Channel9Plugin.TargetDir)\Channel9Plugin.dll"/>
                         </Component>
 
                     </Directory>
