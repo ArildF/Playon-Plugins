@@ -47,7 +47,8 @@ namespace Rogue.PlayOn.Plugins.Channel9
                          ).FirstOrDefault()
                    let url = mediaContent != null ? 
                         mediaContent.Attribute("url").ValueOrNull() : 
-                        enclosure.Attribute("url").ValueOrNull()
+                        enclosure.IfNotNull(e => e.Attribute("url").ValueOrNull()).Else(null)
+                   where url != null
                    let durationString = mediaContent != null ? 
                        mediaContent.Attribute("duration").ValueOrNull() :
                        enclosure.Attribute("length").ValueOrNull()

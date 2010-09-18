@@ -98,3 +98,8 @@ Scenario: Plain text descriptions
     When I retrieve the payload of 'root=>RSS'
     And I examine child #1 as a video file
     Then the video description should not contain HTML tags
+
+Scenario: Feed item without video
+    Given a file 'NoVideo.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
+    When I retrieve the payload of 'root=>RSS'
+    Then there should be 0 children

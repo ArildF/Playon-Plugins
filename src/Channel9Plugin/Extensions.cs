@@ -16,6 +16,34 @@ namespace Rogue.PlayOn.Plugins.Channel9
             }
         }
 
+        public static ElseClause<T, TRet> IfNotNull<T, TRet>(this T obj, Func<T, TRet> func) where T : class
+        {
+            return new ElseClause<T, TRet>(obj, func);
+        }
+
+        public class ElseClause<T, TRet> where T : class
+        {
+            private readonly T _obj;
+            private readonly Func<T, TRet> _func;
+
+            public ElseClause(T obj, Func<T, TRet> func)
+            {
+                _obj = obj;
+                _func = func;
+            }
+
+            public TRet Else(TRet elseValue)
+            {
+                if (_obj != null)
+                {
+                    return _func(_obj);
+                }
+                return elseValue;
+            }
+
+
+        }
+
         public static IEnumerable<T> DistinctBy<T, TSelector>(
             this IEnumerable<T> list, Func<T, TSelector> selector)
         {

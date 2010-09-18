@@ -102,6 +102,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Channel9Plugin.feature.cs</LastGenOutput>
     </None>
+    <None Include="NoVideo.rss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Ping.rss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

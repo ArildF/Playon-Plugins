@@ -381,6 +381,23 @@ testRunner.Then("the video description should not contain HTML tags");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Feed item without video")]
+        public virtual void FeedItemWithoutVideo()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Feed item without video", ((string[])(null)));
+#line 102
+this.ScenarioSetup(scenarioInfo);
+#line 103
+testRunner.Given("a file \'NoVideo.rss\' at the URL \'http://channel9.msdn.com/Feeds/RSS/\'");
+#line 104
+testRunner.When("I retrieve the payload of \'root=>RSS\'");
+#line 105
+testRunner.Then("there should be 0 children");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
     }
 }
 #endregion

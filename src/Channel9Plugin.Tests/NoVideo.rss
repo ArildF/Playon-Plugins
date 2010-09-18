@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/styles/xslt/rss.xslt"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Channel 9</title>
+        <atom:link rel="self" type="application/rss+xml" href="http://channel9.msdn.com/Feeds/RSS"/>
+        <itunes:summary>Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with. From LINQ to SilverLight &#8211; Watch videos and hear about all the cool technologies coming and the people behind them.</itunes:summary>
+        <itunes:author>Microsoft</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <image>
+            <url>http://mschnlnine.vo.llnwd.net/d1/Dev/App_Themes/C9/images/feedimage.png</url>
+            <title>Channel 9</title>
+            <link>http://channel9.msdn.com/</link>
+        </image>
+        <itunes:image href="http://mschnlnine.vo.llnwd.net/d1/Dev/App_Themes/C9/images/feedimage.png"/>
+        <itunes:category text="Technology"/>
+        <description>Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with. From LINQ to SilverLight &#8211; Watch videos and hear about all the cool technologies coming and the people behind them.</description>
+        <link>http://channel9.msdn.com/</link>
+        <language>en</language>
+        <pubDate>Sat, 18 Sep 2010 10:27:34 GMT</pubDate>
+        <lastBuildDate>Sat, 18 Sep 2010 10:27:34 GMT</lastBuildDate>
+        <generator>Rev9</generator>
+        <item>
+            <title>Welcome to the all new Channel 9</title>
+            <description>
+                <![CDATA[
+<p>Welcome to the all new Channel 9. This is the fifth major release of Channel 9 since our original launch back on April 6, 2004.</p>
+<p>With this major release we focussed on top requests from you in the forums along telemetry data to guide our design. We've made it easier to find content through our
+<a href="http://channel9.msdn.com/browse">browse section</a> and did a dramatic redesign across the board for our popular
+<a href="http://channel9.msdn.com/shows">Channel 9 Shows Area</a>, <a href="http://channel9.msdn.com/forums">
+the forums</a> and <a href="http://channel9.msdn.com/learn">learning</a>.</p>
+<p>Behind the scenes ait has been a complete rewrite of our code, a rebuild of the infrastructure and development methodology.</p>
+<p>This fifth edition of Channel 9 is built using: </p>
+<ul>
+<li>ASP.NET MVC </li><li>SparkView engine </li><li>jQuery </li><li>Silverlight 4 </li><li>Windows Azure, SQL Azure, Azure Table Storage, and memcache </li><li>ECN for the Content Delivery Network (videos) </li></ul>
+<p>For a deeper dive into how we built the site, watch Mike Sampson and Charles Torre
+<a href="http://channel9.msdn.com/shows/Going&#43;Deep/Mike-Sampson-Inside-Rev9/">Go Deep on Rev 9</a>.All of these code improvements have resulted in our page load times improving dramatically and a greater simplication of our server environment too.
+</p>
+<p>With well over a year in planning, development and testing today is the day for us to make the change over to the new Channel 9. We have been humbled by your never ending support, feedback and enthusiasm for Channel 9.
+</p>
+<p>If you have feedback where we can make this a better place for all of us, please leave your feedback over on our
+<a href="http://connect.microsoft.com/site1133/InvitationUse.aspx?ProgramID=6132&amp;InvitationID=C9I-8RV6-6QY7">
+Connect Site</a>. We're listening. </p>
+<p>On behalf of the entire Channel 9 Team , welcome to Rev 9.<br>
+Jeff Sandquist</p>
+]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/C9Team/Welcome-to-the-all-new-Channel-9</comments>
+            <itunes:summary>&#13;&#10;Welcome to the all new Channel 9. This is the fifth major release of Channel 9 since our original launch back on April 6, 2004.&#13;&#10;With this major release we focussed on top requests from you in the forums along telemetry data to guide our design. We&#39;ve made it easier to find content through our&#13;&#10;browse section and did a dramatic redesign across the board for our popular&#13;&#10;Channel 9 Shows Area, &#13;&#10;the forums and learning.&#13;&#10;Behind the scenes ait has been a complete rewrite of our code, a rebuild of the infrastructure and development methodology.&#13;&#10;This fifth edition of Channel 9 is built using&#58; &#13;&#10;&#13;&#10;ASP.NET MVC SparkView engine jQuery Silverlight 4 Windows Azure, SQL Azure, Azure Table Storage, and memcache ECN for the Content Delivery Network &#40;videos&#41; &#13;&#10;For a deeper dive into how we built the site, watch Mike Sampson and Charles Torre&#13;&#10;Go Deep on Rev 9.All of these code improvements have resulted in our page load times improving dramatically and a greater simplication of our server environment too.&#13;&#10;&#13;&#10;With well over a year in planning, development and testing today is the day for us to make the change over to the new Channel 9. We have been humbled by your never ending support, feedback and enthusiasm for Channel 9.&#13;&#10;&#13;&#10;If you have feedback where we can make this a better place for all of us, please leave your feedback over on our&#13;&#10;&#13;&#10;Connect Site. We&#39;re listening. &#13;&#10;On behalf of the entire Channel 9 Team , welcome to Rev 9.&#13;&#10;Jeff Sandquist&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/C9Team/Welcome-to-the-all-new-Channel-9</link>
+            <pubDate>Fri, 17 Sep 2010 17:48:11 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/C9Team/Welcome-to-the-all-new-Channel-9</guid>
+            <dc:creator>Jeff Sandquist</dc:creator>
+            <itunes:author>Jeff Sandquist</itunes:author>
+            <slash:comments>18</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/C9Team/Welcome-to-the-all-new-Channel-9/RSS</wfw:commentRss>
+        </item>
+    </channel>
+</rss>
