@@ -17,89 +17,89 @@ Scenario: Description
     
 
 Scenario: Have an RSS root folder
-	When I retrieve the children of the root
-	Then there should be 2 children
-	And child 0 should be named 'RSS'
-    And child 1 should be named 'Shows'
+	When I browse the root
+	Then there should be 2 items
+	And item 0 should be named 'RSS'
+    And item 1 should be named 'Shows'
 
 Scenario: Retrieve RSS items
-    When I retrieve the payload of 'root=>RSS'
-    Then child 1 should have these attributes:
+    When I browse 'root=>RSS'
+    Then item 1 should have these attributes:
     |Name       |Value                                      |
     |Title       |Visual Studio LightSwitch - Beyond the Basics|
 
 Scenario: RSS item count
-    When I retrieve the payload of 'root=>RSS'
-    Then there should be 25 children
+    When I browse 'root=>RSS'
+    Then there should be 25 items
 
 Scenario: Retrieve RSS items twice
-    When I retrieve the payload of 'root=>RSS'
-    And I retrieve the payload of 'root=>RSS'
-    Then there should be 25 children
+    When I browse 'root=>RSS'
+    And I browse 'root=>RSS'
+    Then there should be 25 items
 
 Scenario: Folders item count
-    When I retrieve the payload of 'root=>Shows'
-    Then there should be 21 children
+    When I browse 'root=>Shows'
+    Then there should be 21 items
 
 Scenario: Retrieve show folders twice
-    When I retrieve the payload of 'root=>Shows'
-    And I retrieve the payload of 'root=>Shows'
-    Then there should be 21 children
+    When I browse 'root=>Shows'
+    And I browse 'root=>Shows'
+    Then there should be 21 items
 
 Scenario: Shows folder title
-    When I retrieve the payload of 'root=>Shows'
-    And I examine child #1 as a folder
+    When I browse 'root=>Shows'
+    And item #1 is a folder
     Then the folder should have a title of 'In the Office'
 
 Scenario: Media URL
-    When I retrieve the payload of 'root=>RSS'
-    And I examine child #1 as a video file
-    Then the video file should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv'
+    When I browse 'root=>RSS'
+    And item #1 is a video file
+    Then the video should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv'
 
 Scenario: Shows media URL
-    When I retrieve the payload of 'root=>Shows=>But Why?'
-    And I examine child #1 as a video file
-    Then the video file should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.wmv'
+    When I browse 'root=>Shows=>But Why?'
+    And item #1 is a video file
+    Then the video should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.wmv'
 
 Scenario: Duration
-    When I retrieve the payload of 'root=>RSS'
-    And I examine child #1 as a video file
-    Then the video file should have a duration of 2604000
+    When I browse 'root=>RSS'
+    And item #1 is a video file
+    Then the video should have a duration of 2604000
 
 Scenario: Thumbnail
-    When I retrieve the payload of 'root=>RSS'
-    And I examine child #1 as a video file
-    Then the video file should have a thumbnail 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_320_ch9.png'
+    When I browse 'root=>RSS'
+    And item #1 is a video file
+    Then the video should have a thumbnail 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_320_ch9.png'
 
 Scenario: Publication date
-    When I retrieve the payload of 'root=>RSS'
-    And I examine child #1 as a video file
-    Then the video file should have a publication date of 'Wed, 11 Aug 2010 19:04:00 GMT'
+    When I browse 'root=>RSS'
+    And item #1 is a video file
+    Then the video should have a publication date of 'Wed, 11 Aug 2010 19:04:00 GMT'
 
 Scenario: Don't retrieve children of media
-    When I retrieve the payload of 'root=>RSS=>1' without children
-    Then the payload should be a media file
+    When I browse 'root=>RSS=>1' without children
+    Then it should be a media file
 
 Scenario: Sort order
-    When I retrieve the payload of 'root=>RSS'
-    Then the children should have sort prefixes ordered by publication date descending
+    When I browse 'root=>RSS'
+    Then the item names should have sort prefixes ordered by publication date descending
 
 Scenario: Media XML
-    When I retrieve media child #1 of 'root=>RSS'
-    And I resolve the item into XML
+    When I browse item #1 of 'root=>RSS'
+    And I examine the item as XML
     Then the xml should contain "/media/url[@type='wmv']"
     And the xml should contain "/media/url[.='http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv']"
 
 Scenario: Missing duration
-    When I retrieve the payload of 'root=>Shows=>Ping!'
-    Then there should be 25 children
+    When I browse 'root=>Shows=>Ping!'
+    Then there should be 25 items
 
 Scenario: Plain text descriptions
-    When I retrieve the payload of 'root=>RSS'
-    And I examine child #1 as a video file
+    When I browse 'root=>RSS'
+    And item #1 is a video file
     Then the video description should not contain HTML tags
 
 Scenario: Feed item without video
     Given a file 'NoVideo.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
-    When I retrieve the payload of 'root=>RSS'
-    Then there should be 0 children
+    When I browse 'root=>RSS'
+    Then there should be 0 items

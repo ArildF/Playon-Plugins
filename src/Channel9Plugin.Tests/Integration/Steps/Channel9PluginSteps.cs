@@ -61,14 +61,14 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _client.Setup(c => c.DownloadString(url)).Returns(_rss);
         }
 
-        [Then(@"child (.*) should be named '(.*)'")]
+        [Then(@"item (.*) should be named '(.*)'")]
         public void ThenItShouldBeNamedRSS(int childNo, string name)
         {
             _payload.Items[childNo].Title.Satisfies(t => t == name);
         }
 
-        [When(@"I retrieve the payload of '(.*)'")]
-        public void WhenIRetrieveThePayloadOfRootRSS(string path)
+        [When(@"I browse '(.*)'")]
+        public void WhenIBrowse(string path)
         {
             var elts = path.Split(new[] {"=>"}, StringSplitOptions.RemoveEmptyEntries);
             var stack = new Queue<string>(elts);
@@ -90,41 +90,41 @@ namespace Channel9Plugin.Tests.Integration.Steps
             }
         }
 
-        [When(@"I retrieve media child \#(\d+) of '(.*)'")]
+        [When(@"I browse item \#(\d+) of '(.*)'")]
         public void WhenIRetrieveChild1OfRootRSS(int num, string path)
         {
-            WhenIRetrieveThePayloadOfRootRSS(path);
+            WhenIBrowse(path);
 
             _fileInfo = (SharedMediaFileInfo) _payload.Items.Skip(num - 1).Take(1).Single();
 
         }
 
-        [When(@"I retrieve the payload of '(.*)' without children")]
-        public void WhenIRetrieveThePayloadOfRootRSS1WithoutChildren(string path)
+        [When(@"I browse '(.*)' without children")]
+        public void WhenIBrowseWithoutChildren(string path)
         {
             string folder = path.Substring(0, path.LastIndexOf("=>"));
 
-            WhenIRetrieveThePayloadOfRootRSS(folder);
+            WhenIBrowse(folder);
 
             int index = int.Parse(path.Substring(folder.Length + "=>".Length));
 
             _payload = _provider.GetSharedMedia(_payload.Items[index -1].Id, false, 0, 0);
         }
 
-        [When(@"I examine child \#(\d+) as a video file")]
+        [When(@"item \#(\d+) is a video file")]
         public void WhenIExamineChild1AsAVideoFile(int childNo)
         {
             _video = (VideoResource) _payload.Items[childNo - 1];
         }
 
-        [When(@"I examine child \#(\d+) as a folder")]
+        [When(@"item \#(\d+) is a folder")]
         public void WhenIExamineChild1AsAFolder(int childNo)
         {
             _folder = (SharedMediaFolderInfo) _payload.Items[childNo - 1];
 
         }
 
-        [When(@"I resolve the item into XML")]
+        [When(@"I examine the item as XML")]
         public void WhenIResolveTheItemIntoXML()
         {
             _xml = _provider.Resolve(_fileInfo);
@@ -147,13 +147,13 @@ namespace Channel9Plugin.Tests.Integration.Steps
             node.Satisfies(n => n != null);
         }
 
-        [Then(@"the video file should have a media URL of '(.*)'")]
+        [Then(@"the video should have a media URL of '(.*)'")]
         public void ThenTheVideoFileShouldHaveAMediaURLOf(string url)
         {
             _video.Path.Satisfies(p => p == url);
         }
 
-        [Then(@"the video file should have a duration of (\d+)")]
+        [Then(@"the video should have a duration of (\d+)")]
         public void ThenTheVideoFileShouldHaveALengthOf12(long duration)
         {
             _video.Duration.Satisfies(fs => fs == duration);
@@ -165,13 +165,13 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _folder.Title.Satisfies(t => t == folder);
         }
 
-        [Then(@"the video file should have a thumbnail '(.*)'")]
+        [Then(@"the video should have a thumbnail '(.*)'")]
         public void ThenTheVideoFileShouldHaveAThumbnail(string url)
         {
             _video.Satisfies(v => v.ThumbnailUrl == url);
         }
 
-        [Then(@"the video file should have a publication date of '(.*)'")]
+        [Then(@"the video should have a publication date of '(.*)'")]
         public void ThenTheVideoFileShouldHaveAPublicationDate(string dateString)
         {
             DateTime dt = DateTime.ParseExact(dateString, "R", CultureInfo.InvariantCulture);
@@ -181,13 +181,13 @@ namespace Channel9Plugin.Tests.Integration.Steps
 
 
 
-        [Then(@"the payload should be a media file")]
+        [Then(@"it should be a media file")]
         public void ThenThePayloadShouldBeAMediaFile()
         {
             _payload.IsContainer.Satisfies(ic => ic == false);
         }
 
-        [Then(@"child (.*) should have these attributes:")]
+        [Then(@"item (.*) should have these attributes:")]
         public void ThenChild1ShouldHaveTheseAttributes(int index, Table table)
         {
             var info = _payload.Items.Skip(index - 1).First();
@@ -219,13 +219,13 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _settings.Satisfies(s => s.Image != null);
         }
 
-        [Then(@"there should be (\d+) children")]
+        [Then(@"there should be (\d+) items")]
         public void ThenThereShouldBe25Children(int num)
         {
             _payload.Items.Count.Satisfies(c => c == num);
         }
 
-        [Then(@"the children should have sort prefixes ordered by publication date descending")]
+        [Then(@"the item names should have sort prefixes ordered by publication date descending")]
         public void ThenTheChildrenShouldHaveSortPrefixesOrderedByPublicationDateDescending()
         {
             var sortedByDate = _payload.Items.Cast<SharedMediaFileInfo>().OrderByDescending(smfi => smfi.Date).ToArray();
@@ -244,8 +244,8 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _video.Description.Satisfies(d => !regex.IsMatch(d));
         }
 
-        [When(@"I retrieve the children of the root")]
-        public void WhenIRetrieveTheChildrenOfTheRoot()
+        [When(@"I browse the root")]
+        public void WhenIBrowseTheRoot()
         {
             _payload = _provider.GetSharedMedia(_provider.ID, true, 0, 0);
 

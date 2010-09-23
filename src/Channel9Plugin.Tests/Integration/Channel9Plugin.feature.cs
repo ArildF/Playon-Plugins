@@ -98,13 +98,13 @@ testRunner.And("the settings should have an image");
 #line 19
 this.ScenarioSetup(scenarioInfo);
 #line 20
-testRunner.When("I retrieve the children of the root");
+testRunner.When("I browse the root");
 #line 21
-testRunner.Then("there should be 2 children");
+testRunner.Then("there should be 2 items");
 #line 22
-testRunner.And("child 0 should be named \'RSS\'");
+testRunner.And("item 0 should be named \'RSS\'");
 #line 23
-testRunner.And("child 1 should be named \'Shows\'");
+testRunner.And("item 1 should be named \'Shows\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -117,7 +117,7 @@ testRunner.And("child 1 should be named \'Shows\'");
 #line 25
 this.ScenarioSetup(scenarioInfo);
 #line 26
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "Name",
@@ -126,7 +126,7 @@ testRunner.When("I retrieve the payload of \'root=>RSS\'");
                         "Title",
                         "Visual Studio LightSwitch - Beyond the Basics"});
 #line 27
-testRunner.Then("child 1 should have these attributes:", ((string)(null)), table1);
+testRunner.Then("item 1 should have these attributes:", ((string)(null)), table1);
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -139,9 +139,9 @@ testRunner.Then("child 1 should have these attributes:", ((string)(null)), table
 #line 31
 this.ScenarioSetup(scenarioInfo);
 #line 32
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 33
-testRunner.Then("there should be 25 children");
+testRunner.Then("there should be 25 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -154,11 +154,11 @@ testRunner.Then("there should be 25 children");
 #line 35
 this.ScenarioSetup(scenarioInfo);
 #line 36
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 37
-testRunner.And("I retrieve the payload of \'root=>RSS\'");
+testRunner.And("I browse \'root=>RSS\'");
 #line 38
-testRunner.Then("there should be 25 children");
+testRunner.Then("there should be 25 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -171,9 +171,9 @@ testRunner.Then("there should be 25 children");
 #line 40
 this.ScenarioSetup(scenarioInfo);
 #line 41
-testRunner.When("I retrieve the payload of \'root=>Shows\'");
+testRunner.When("I browse \'root=>Shows\'");
 #line 42
-testRunner.Then("there should be 21 children");
+testRunner.Then("there should be 21 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -186,11 +186,11 @@ testRunner.Then("there should be 21 children");
 #line 44
 this.ScenarioSetup(scenarioInfo);
 #line 45
-testRunner.When("I retrieve the payload of \'root=>Shows\'");
+testRunner.When("I browse \'root=>Shows\'");
 #line 46
-testRunner.And("I retrieve the payload of \'root=>Shows\'");
+testRunner.And("I browse \'root=>Shows\'");
 #line 47
-testRunner.Then("there should be 21 children");
+testRunner.Then("there should be 21 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -203,9 +203,9 @@ testRunner.Then("there should be 21 children");
 #line 49
 this.ScenarioSetup(scenarioInfo);
 #line 50
-testRunner.When("I retrieve the payload of \'root=>Shows\'");
+testRunner.When("I browse \'root=>Shows\'");
 #line 51
-testRunner.And("I examine child #1 as a folder");
+testRunner.And("item #1 is a folder");
 #line 52
 testRunner.Then("the folder should have a title of \'In the Office\'");
 #line hidden
@@ -220,12 +220,12 @@ testRunner.Then("the folder should have a title of \'In the Office\'");
 #line 54
 this.ScenarioSetup(scenarioInfo);
 #line 55
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 56
-testRunner.And("I examine child #1 as a video file");
+testRunner.And("item #1 is a video file");
 #line 57
-testRunner.Then("the video file should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/62" +
-                    "96/566296/LightSwitchBeyondBasics_ch9.wmv\'");
+testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
+                    "6296/LightSwitchBeyondBasics_ch9.wmv\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -238,12 +238,12 @@ testRunner.Then("the video file should have a media URL of \'http://ecn.channel9
 #line 59
 this.ScenarioSetup(scenarioInfo);
 #line 60
-testRunner.When("I retrieve the payload of \'root=>Shows=>But Why?\'");
+testRunner.When("I browse \'root=>Shows=>But Why?\'");
 #line 61
-testRunner.And("I examine child #1 as a video file");
+testRunner.And("item #1 is a video file");
 #line 62
-testRunner.Then("the video file should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/27" +
-                    "30/562730/Giblets3_ch9.wmv\'");
+testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/2730/56" +
+                    "2730/Giblets3_ch9.wmv\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -256,11 +256,11 @@ testRunner.Then("the video file should have a media URL of \'http://ecn.channel9
 #line 64
 this.ScenarioSetup(scenarioInfo);
 #line 65
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 66
-testRunner.And("I examine child #1 as a video file");
+testRunner.And("item #1 is a video file");
 #line 67
-testRunner.Then("the video file should have a duration of 2604000");
+testRunner.Then("the video should have a duration of 2604000");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -273,12 +273,12 @@ testRunner.Then("the video file should have a duration of 2604000");
 #line 69
 this.ScenarioSetup(scenarioInfo);
 #line 70
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 71
-testRunner.And("I examine child #1 as a video file");
+testRunner.And("item #1 is a video file");
 #line 72
-testRunner.Then("the video file should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/6296/" +
-                    "566296/LightSwitchBeyondBasics_320_ch9.png\'");
+testRunner.Then("the video should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/6296/56629" +
+                    "6/LightSwitchBeyondBasics_320_ch9.png\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -291,11 +291,11 @@ testRunner.Then("the video file should have a thumbnail \'http://ecn.channel9.ms
 #line 74
 this.ScenarioSetup(scenarioInfo);
 #line 75
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 76
-testRunner.And("I examine child #1 as a video file");
+testRunner.And("item #1 is a video file");
 #line 77
-testRunner.Then("the video file should have a publication date of \'Wed, 11 Aug 2010 19:04:00 GMT\'");
+testRunner.Then("the video should have a publication date of \'Wed, 11 Aug 2010 19:04:00 GMT\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -308,9 +308,9 @@ testRunner.Then("the video file should have a publication date of \'Wed, 11 Aug 
 #line 79
 this.ScenarioSetup(scenarioInfo);
 #line 80
-testRunner.When("I retrieve the payload of \'root=>RSS=>1\' without children");
+testRunner.When("I browse \'root=>RSS=>1\' without children");
 #line 81
-testRunner.Then("the payload should be a media file");
+testRunner.Then("it should be a media file");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -323,9 +323,9 @@ testRunner.Then("the payload should be a media file");
 #line 83
 this.ScenarioSetup(scenarioInfo);
 #line 84
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 85
-testRunner.Then("the children should have sort prefixes ordered by publication date descending");
+testRunner.Then("the item names should have sort prefixes ordered by publication date descending");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -338,9 +338,9 @@ testRunner.Then("the children should have sort prefixes ordered by publication d
 #line 87
 this.ScenarioSetup(scenarioInfo);
 #line 88
-testRunner.When("I retrieve media child #1 of \'root=>RSS\'");
+testRunner.When("I browse item #1 of \'root=>RSS\'");
 #line 89
-testRunner.And("I resolve the item into XML");
+testRunner.And("I examine the item as XML");
 #line 90
 testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
 #line 91
@@ -358,9 +358,9 @@ testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn
 #line 93
 this.ScenarioSetup(scenarioInfo);
 #line 94
-testRunner.When("I retrieve the payload of \'root=>Shows=>Ping!\'");
+testRunner.When("I browse \'root=>Shows=>Ping!\'");
 #line 95
-testRunner.Then("there should be 25 children");
+testRunner.Then("there should be 25 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -373,9 +373,9 @@ testRunner.Then("there should be 25 children");
 #line 97
 this.ScenarioSetup(scenarioInfo);
 #line 98
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 99
-testRunner.And("I examine child #1 as a video file");
+testRunner.And("item #1 is a video file");
 #line 100
 testRunner.Then("the video description should not contain HTML tags");
 #line hidden
@@ -392,9 +392,9 @@ this.ScenarioSetup(scenarioInfo);
 #line 103
 testRunner.Given("a file \'NoVideo.rss\' at the URL \'http://channel9.msdn.com/Feeds/RSS/\'");
 #line 104
-testRunner.When("I retrieve the payload of \'root=>RSS\'");
+testRunner.When("I browse \'root=>RSS\'");
 #line 105
-testRunner.Then("there should be 0 children");
+testRunner.Then("there should be 0 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
