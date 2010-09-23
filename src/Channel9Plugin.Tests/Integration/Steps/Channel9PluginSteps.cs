@@ -22,7 +22,6 @@ namespace Channel9Plugin.Tests.Integration.Steps
         private string _rss;
         private Mock<IDownloader> _client;
         private Channel9Provider _provider;
-        private Channel9Settings _settings;
         private Payload _payload;
         private AbstractSharedMediaInfo _current;
         private SharedMediaFileInfo _fileInfo;
@@ -47,12 +46,6 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _provider.SetWebClient(_client.Object);
         }
 
-        [Given(@"a settings object")]
-        public void GivenASettingsObject()
-        {
-            _settings = new Channel9Settings();
-
-        }
 
         [Given(@"a file '(.*)' at the URL '(.*)'")]
         public void GivenAnRSSFileChannel9RssAtUrl(string file, string url)
@@ -97,6 +90,20 @@ namespace Channel9Plugin.Tests.Integration.Steps
 
             _fileInfo = (SharedMediaFileInfo) _payload.Items.Skip(num - 1).Take(1).Single();
 
+        }
+
+        [When(@"I browse (\d+) items starting from index (\d+) of '(.*)'")]
+        public void WhenIBrowse4ItemsStartingFromIndex3OfRootRSS(int count, int start, string path)
+        {
+            WhenIBrowse(path);
+            _payload = _provider.GetSharedMedia(_current.Id, true, start, count);
+        }
+
+        [When(@"I browse the first (\d+) items of '(.*)'")]
+        public void WhenIBrowseTheFirst5ItemsOfRootRSS(int count, string path)
+        {
+            WhenIBrowse(path);
+            _payload = _provider.GetSharedMedia(_current.Id, true, 0, count);
         }
 
         [When(@"I browse '(.*)' without children")]
@@ -207,22 +214,30 @@ namespace Channel9Plugin.Tests.Integration.Steps
             }
         }
 
-        [Then(@"the settings should have a description of '(.*)'")]
-        public void ThenTheSettingsShouldHaveADescriptionOfChannel9MSDN(string desc)
-        {
-            _settings.Satisfies(s => s.Description == desc);
-        }
 
-        [Then(@"the settings should have an image")]
-        public void ThenTheSettingsShouldHaveAnImage()
-        {
-            _settings.Satisfies(s => s.Image != null);
-        }
 
         [Then(@"there should be (\d+) items")]
         public void ThenThereShouldBe25Children(int num)
         {
             _payload.Items.Count.Satisfies(c => c == num);
+        }
+
+        [Then(@"the provider should have an image")]
+        public void ThenTheProviderShouldHaveAnImage()
+        {
+            _provider.Satisfies(p => p.Image != null);
+        }
+
+        [Then(@"the provider should have the name '(.*)'")]
+        public void ThenTheProviderShouldHaveTheNameChannel9MSDN(string name)
+        {
+            _provider.Satisfies(p => p.Name == name);
+        }
+
+        [Then(@"I should get an error when I browse '(.*)'")]
+        public void ThenIShouldGetAnErrorWhenIBrowseRootRSS(string path)
+        {
+            Assert.Throws<InvalidFeedException>(() => WhenIBrowse(path));
         }
 
         [Then(@"the item names should have sort prefixes ordered by publication date descending")]

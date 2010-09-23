@@ -1,25 +1,29 @@
 ﻿Feature: Channel 9 plugin
-	In order to watch Channel 9 videos on my XBox
-	As an XBox owner using the PlayOn media server
-	I want to have a plugin for PlayOn that streams videos from Channel 9 
+    In order to watch Channel 9 videos on my XBox
+    As an XBox owner using the PlayOn media server
+    I want to have a plugin for PlayOn that streams videos from Channel 9 
 
 Background:
-	Given a file 'Channel9.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
+    Given a file 'Channel9.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
     And a file 'Shows_Channel9.htm' at the URL 'http://channel9.msdn.com/shows/'
     And a file 'ButWhy.rss' at the URL 'http://channel9.msdn.com/shows/ButWhy/feed/wmvhigh'
     And a file 'Ping.rss' at the URL 'http://channel9.msdn.com/shows/PingShow/feed/wmvhigh'
-	And a Channel 9 provider
-    And a settings object
+    And a Channel 9 provider
 
-Scenario: Description
-    Then the settings should have a description of 'Channel 9 (MSDN)'
-    And the settings should have an image
     
 
+Scenario: Name and image
+    Then the provider should have an image
+    And the provider should have the name 'Channel 9 (MSDN)'
+
+Scenario: Invalid feed
+    Given a file 'Invalid.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
+    Then I should get an error when I browse 'root=>RSS'
+
 Scenario: Have an RSS root folder
-	When I browse the root
-	Then there should be 2 items
-	And item 0 should be named 'RSS'
+    When I browse the root
+    Then there should be 2 items
+    And item 0 should be named 'RSS'
     And item 1 should be named 'Shows'
 
 Scenario: Retrieve RSS items
@@ -31,6 +35,17 @@ Scenario: Retrieve RSS items
 Scenario: RSS item count
     When I browse 'root=>RSS'
     Then there should be 25 items
+
+Scenario: Restrict number of items returned
+    When I browse the first 5 items of 'root=>RSS'
+    Then there should be 5 items
+
+Scenario: Start at non-zero index
+    When I browse 4 items starting from index 6 of 'root=>RSS'
+    Then there should be 4 items
+    And item 1 should have these attributes:
+    |Name       |Value          |
+    |Title      |Ping 69: Windows Phone 7 adds Voice, Mobile App Match, Bing Taxi, Halo 2600|
 
 Scenario: Retrieve RSS items twice
     When I browse 'root=>RSS'

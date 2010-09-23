@@ -15,7 +15,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
         private readonly Guid _id = new Guid("{BCFD3A35-D13C-41DA-B4FF-A68B6DB6F968}");
         public bool TestLogin(string username, string password)
         {
-            throw new NotImplementedException();
+            throw new NotSupportedException();
         }
 
         public string CheckForUpdate()
@@ -25,7 +25,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         public Control ConfigureOptions(NameValueCollection options, EventHandler changeHandler)
         {
-            throw new NotImplementedException();
+            throw new NotSupportedException();
         }
 
         public Image Image
@@ -35,12 +35,12 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         public string Link
         {
-            get { return "www.testuri.com"; }
+            get { return "http://github.com/ArildF/Channel-9-Playon-Plugin"; }
         }
 
         public string Name
         {
-            get { return "Channel 9"; }
+            get { return "Channel 9 (MSDN)"; }
         }
 
         public string ID
