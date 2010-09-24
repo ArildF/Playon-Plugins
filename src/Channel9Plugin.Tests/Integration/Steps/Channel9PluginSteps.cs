@@ -50,7 +50,9 @@ namespace Channel9Plugin.Tests.Integration.Steps
         [Given(@"a file '(.*)' at the URL '(.*)'")]
         public void GivenAnRSSFileChannel9RssAtUrl(string file, string url)
         {
-            _rss = File.ReadAllText(file);
+            string path = Path.Combine("Resources", file);
+
+            _rss = File.ReadAllText(path);
             _client.Setup(c => c.DownloadString(url)).Returns(_rss);
         }
 

@@ -98,13 +98,6 @@
     <Compile Include="TestBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ButWhy.rss">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Channel9.rss">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Integration\Channel9Plugin.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Channel9Plugin.feature.cs</LastGenOutput>
@@ -113,13 +106,19 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Settings.feature.cs</LastGenOutput>
     </None>
-    <None Include="Invalid.rss">
+    <None Include="Resources\ButWhy.rss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="NoVideo.rss">
+    <None Include="Resources\Channel9.rss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Ping.rss">
+    <None Include="Resources\Invalid.rss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\NoVideo.rss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Ping.rss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -129,11 +128,9 @@
       <Name>Channel9Plugin</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Shows_Channel9.htm">
+    <Content Include="Resources\Shows_Channel9.htm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
