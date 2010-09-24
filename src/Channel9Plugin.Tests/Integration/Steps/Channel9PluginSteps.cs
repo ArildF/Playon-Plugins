@@ -56,6 +56,15 @@ namespace Channel9Plugin.Tests.Integration.Steps
             _client.Setup(c => c.DownloadString(url)).Returns(_rss);
         }
 
+        [Given(@"the following files for URLs:")]
+        public void GivenTheFollowingFilesForURLs(Table table)
+        {
+            foreach (var tableRow in table.Rows)
+            {
+                GivenAnRSSFileChannel9RssAtUrl(tableRow["File"], tableRow["Url"]);
+            }
+        }
+
         [Then(@"item (.*) should be named '(.*)'")]
         public void ThenItShouldBeNamedRSS(int childNo, string name)
         {

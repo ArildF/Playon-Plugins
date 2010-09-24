@@ -73,7 +73,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
             new RssFeed("http://channel9.msdn.com/Feeds/RSS/", _downloader).AddToHierarchy(hierarchy);
 
-            new Shows("http://channel9.msdn.com/shows/", _downloader).AddToHierarchy(hierarchy);
+            new Shows("http://channel9.msdn.com/Browse/Shows?sort=atoz&page=1", _downloader).AddToHierarchy(hierarchy);
 
             return hierarchy;
         }

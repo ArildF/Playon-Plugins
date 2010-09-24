@@ -4,10 +4,16 @@
     I want to have a plugin for PlayOn that streams videos from Channel 9 
 
 Background:
-    Given a file 'Channel9.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
-    And a file 'Shows_Channel9.htm' at the URL 'http://channel9.msdn.com/shows/'
-    And a file 'ButWhy.rss' at the URL 'http://channel9.msdn.com/shows/ButWhy/feed/wmvhigh'
-    And a file 'Ping.rss' at the URL 'http://channel9.msdn.com/shows/PingShow/feed/wmvhigh'
+    Given the following files for URLs:
+    |Url                                                    |File                   |
+    |http://channel9.msdn.com/Feeds/RSS/                    |Channel9.rss           |
+    |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=1 |Shows1.html            |
+    |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=2 |Shows2.html            |
+    |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=3 |Shows3.html            |
+    |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=4 |Shows4.html            |
+    |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=5 |Shows5.html            |
+    |http://channel9.msdn.com/Shows/ButWhy/RSS              |ButWhy.rss             |
+    |http://channel9.msdn.com/Shows/PingShow/RSS            |Ping.rss               |
     And a Channel 9 provider
 
     
@@ -54,17 +60,17 @@ Scenario: Retrieve RSS items twice
 
 Scenario: Folders item count
     When I browse 'root=>Shows'
-    Then there should be 21 items
+    Then there should be 50 items
 
 Scenario: Retrieve show folders twice
     When I browse 'root=>Shows'
     And I browse 'root=>Shows'
-    Then there should be 21 items
+    Then there should be 50 items
 
 Scenario: Shows folder title
     When I browse 'root=>Shows'
     And item #1 is a folder
-    Then the folder should have a title of 'In the Office'
+    Then the folder should have a title of '10-4'
 
 Scenario: Media URL
     When I browse 'root=>RSS'
