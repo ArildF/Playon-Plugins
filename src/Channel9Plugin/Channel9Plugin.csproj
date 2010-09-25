@@ -74,6 +74,7 @@
     <Compile Include="FolderItem.cs" />
     <Compile Include="Hierarchies\RssFeed.cs" />
     <Compile Include="Hierarchies\Shows.cs" />
+    <Compile Include="Hierarchies\ShowsFolderSource.cs" />
     <Compile Include="HierarchyBuilder.cs" />
     <Compile Include="interfaces.cs" />
     <Compile Include="IDownloader.cs" />
