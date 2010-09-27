@@ -13,7 +13,10 @@ Background:
     |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=4 |Shows4.html            |
     |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=5 |Shows5.html            |
     |http://channel9.msdn.com/Shows/ButWhy/RSS              |ButWhy.rss             |
+    |http://channel9.msdn.com/Browse/Tags?page=1            |Tags1.html             |
+    |http://channel9.msdn.com/Browse/Tags?page=2            |Tags2.html             |
     |http://channel9.msdn.com/Shows/PingShow/RSS            |Ping.rss               |
+    |http://channel9.msdn.com/Tags/ajax/RSS                 |Ajax.rss               |
     And a Channel 9 provider
 
     
@@ -28,9 +31,10 @@ Scenario: Invalid feed
 
 Scenario: Have an RSS root folder
     When I browse the root
-    Then there should be 2 items
+    Then there should be 3 items
     And item 0 should be named 'RSS'
     And item 1 should be named 'Shows'
+    And item 2 should be named 'Tags'
 
 Scenario: Retrieve RSS items
     When I browse 'root=>RSS'
@@ -124,3 +128,14 @@ Scenario: Feed item without video
     Given a file 'NoVideo.rss' at the URL 'http://channel9.msdn.com/Feeds/RSS/'
     When I browse 'root=>RSS'
     Then there should be 0 items
+
+Scenario: Browse Tags
+    When I browse 'root=>Tags'
+    Then there should be 54 items
+
+Scenario: Browse Tags videos
+    When I browse 'root=>Tags=>Ajax (42)'
+    Then there should be 12 items
+    And item 2 should have these attributes:
+    |Name       |Value                                      |
+    |Title       |ASP.NET AJAX 4.0 by Fritz Onion           |

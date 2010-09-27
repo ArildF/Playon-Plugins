@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/styles/xslt/rss.xslt"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>Channel 9 - Entries tagged with Ajax</title>
+        <atom:link rel="self" type="application/rss+xml" href="http://channel9.msdn.com/Tags/ajax/RSS"/>
+        <itunes:summary></itunes:summary>
+        <itunes:author>Microsoft</itunes:author>
+        <itunes:subtitle></itunes:subtitle>
+        <image>
+            <url>http://mschnlnine.vo.llnwd.net/d1/Dev/App_Themes/C9/images/feedimage.png</url>
+            <title>Channel 9 - Entries tagged with Ajax</title>
+            <link>http://channel9.msdn.com/Tags/ajax</link>
+        </image>
+        <itunes:image href=""/>
+        <itunes:category text="Technology"/>
+        <description>Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with. From LINQ to SilverLight &#8211; Watch videos and hear about all the cool technologies coming and the people behind them.</description>
+        <link>http://channel9.msdn.com/Tags/ajax</link>
+        <language>en</language>
+        <pubDate>Mon, 27 Sep 2010 21:51:45 GMT</pubDate>
+        <lastBuildDate>Mon, 27 Sep 2010 21:51:45 GMT</lastBuildDate>
+        <generator>Rev9</generator>
+        <item>
+            <title>ARCast.TV - Using jQuery to Improve User Experience in Web Applications</title>
+            <description>
+                <![CDATA[<a shape="rect" href="http://agiledave.wordpress.com/" target="_blank" shape="rect">David Hoerster</a>, Director of Technology for policyIQ at Resources Global Professionals and the co-chair of the Pittsburgh .NET User's Group (<a shape="rect" href="http://codecamppgh.com/" target="_blank" shape="rect">PGHDOTNET</a>),
+ shares his experience and passion on jQuery in this interview with <a shape="rect" href="http://blogs.msdn.com/zxue/" shape="rect">
+Zhiming Xue</a>. <br /><br />Join us to learn what jQuery is and can do, what benefits it brings to web developers and end users, where you can further enhance user experience with jQuery plug-ins, how jQuery works with complementary technologies such as
+<a shape="rect" href="http://asp.net/" target="_blank" shape="rect">ASP.NET</a> AJAX, and why you need not be concerned with the overall application performance, security and technical support when using jQuery.
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:d098cf762d9b48dab4139dea00c0ce3e">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Shows/ARCast.TV/ARCastTV-Using-jQuery-to-Improve-User-Experience-in-Web-Applications</comments>
+            <itunes:summary>David Hoerster, Director of Technology for policyIQ at Resources Global Professionals and the co-chair of the Pittsburgh .NET User&#39;s Group &#40;PGHDOTNET&#41;,&#13;&#10; shares his experience and passion on jQuery in this interview with &#13;&#10;Zhiming Xue. Join us to learn what jQuery is and can do, what benefits it brings to web developers and end users, where you can further enhance user experience with jQuery plug-ins, how jQuery works with complementary technologies such as&#13;&#10;ASP.NET AJAX, and why you need not be concerned with the overall application performance, security and technical support when using jQuery.&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Shows/ARCast.TV/ARCastTV-Using-jQuery-to-Improve-User-Experience-in-Web-Applications</link>
+            <pubDate>Mon, 19 Apr 2010 13:46:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Shows/ARCast.TV/ARCastTV-Using-jQuery-to-Improve-User-Experience-in-Web-Applications</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/469904_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/469904_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_large_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_small_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_2MB_ch9.wmv" expression="full" duration="1277" fileSize="399413724" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_ch9.mp3" expression="full" duration="1277" fileSize="10220178" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_ch9.mp4" expression="full" duration="1277" fileSize="110279885" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_ch9.wma" expression="full" duration="1277" fileSize="20663497" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_ch9.wmv" expression="full" duration="1277" fileSize="78013105" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_Zune_ch9.wmv" expression="full" duration="1277" fileSize="129213085" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="mms://mschnlnine.wmod.llnwd.net/a1809/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_s_ch9.wmv" expression="full" duration="1277" fileSize="224" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://mschnlnine.vo.llnwd.net/d1/ch9/4/0/9/9/6/4/ARCastHoersterOnJQuery_ch9.wmv" length="78013105" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Bob Familiar</dc:creator>
+            <itunes:author>Bob Familiar</itunes:author>
+            <slash:comments>4</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Shows/ARCast.TV/ARCastTV-Using-jQuery-to-Improve-User-Experience-in-Web-Applications/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>ARCast</category>
+            <category>Architects</category>
+            <category>Architecture</category>
+            <category>ASP.NET</category>
+            <category>ASP.NET AJAX</category>
+            <category>jQuery</category>
+            <category>Practical Guidance</category>
+            <category>Resources Global Professionals</category>
+            <category>Zhiming Xue</category>
+        </item>
+        <item>
+            <title>ASP.NET AJAX 4.0 by Fritz Onion</title>
+            <description>
+                <![CDATA[
+<p>This talk looks at the next version of ASP.NET Ajax (4.0) and how it improves your client-side development experience. Specifically, it will cover the new client-side template and data binding model, declarative control instantiation, the new DataView control,
+ markup extensions, and bindings.<br /><img width="214" height="88" width="214" height="88" align="left" alt="62fb4e66-1b96-43e8-b5ce-8642c96afdf8[1]" src="http://channel9.msdn.com/Link/3289f99b-40c9-40f3-9069-d173a1ceb090/">
+</p>
+<p><a shape="rect" href="http://channel9.msdn.com/Link/3efc2e6b-f1c9-475d-865d-17abfa8d8656/" shape="rect"></a></p>
+<p>&nbsp;</p>
+<p>This session is presented by Fritz Onion during Microsoft <a shape="rect" href="http://www.devdays.nl/" shape="rect">
+DevDays</a> 2010 in The Hague in The Netherlands.</p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:ace9ee43806946d0a3ec9deb0021c7fb">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/matthijs/ASPNET-AJAX-40-by-Fritz-Onion</comments>
+            <itunes:summary>&#13;&#10;This talk looks at the next version of ASP.NET Ajax &#40;4.0&#41; and how it improves your client-side development experience. Specifically, it will cover the new client-side template and data binding model, declarative control instantiation, the new DataView control,&#13;&#10; markup extensions, and bindings.&#13;&#10;&#13;&#10;&#13;&#10;&#38;nbsp&#59;&#13;&#10;This session is presented by Fritz Onion during Microsoft &#13;&#10;DevDays 2010 in The Hague in The Netherlands.&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/matthijs/ASPNET-AJAX-40-by-Fritz-Onion</link>
+            <pubDate>Fri, 16 Apr 2010 06:55:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/matthijs/ASPNET-AJAX-40-by-Fritz-Onion</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/542581_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/542581_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_2MB_ch9.wmv" expression="full" duration="3953" fileSize="1304461223" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_ch9.mp3" expression="full" duration="3953" fileSize="31630231" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_ch9.mp4" expression="full" duration="3953" fileSize="266973015" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_ch9.wma" expression="full" duration="3953" fileSize="31973547" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_ch9.wmv" expression="full" duration="3953" fileSize="353484877" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_Zune_ch9.wmv" expression="full" duration="3953" fileSize="311036929" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/1/8/5/2/4/5/dd201081_ch9.wmv" length="353484877" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Matthijs Hoekstra</dc:creator>
+            <itunes:author>Matthijs Hoekstra</itunes:author>
+            <slash:comments>1</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/matthijs/ASPNET-AJAX-40-by-Fritz-Onion/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>ASP.NET</category>
+            <category>ASP.NET 4</category>
+            <category>ASP.NET AJAX</category>
+            <category>DevDays 2010 NL</category>
+            <category>Fritz Onion</category>
+            <category>netherlands</category>
+        </item>
+        <item>
+            <title>Managing Browser History Using Client Script Without ScriptManager</title>
+            <description>
+                <![CDATA[
+<p><a shape="rect" href="http://www.asp.net/ajax/" shape="rect">ASP.NET Ajax</a> has a great feature that helps make it easy to enable back/forward button and bookmarking support in your Ajax applications.&nbsp; However, most people think you need ASP.NET WebForms
+ and the ScriptManager control to take advantage of this feature.&nbsp; Furthermore, most people think you actually have to be using ASP.NET to take advantage of these capabilities.&nbsp; You donÔÇÖt.&nbsp; ThereÔÇÖs a&nbsp;walkthrough on MSDN showing how to use this capability purely
+ from client&nbsp;side JavaScript:</p>
+<p><a shape="rect" href="http://msdn.microsoft.com/en-us/library/cc488538.aspx" shape="rect">Managing Browser History Using Client Script</a>
+</p>
+<p>Basically, the walkthrough shows you how to use <a shape="rect" href="http://msdn.microsoft.com/en-us/library/cc488024.aspx" shape="rect">
+Sys.Application.navigate</a>&nbsp;event and the&nbsp;<a shape="rect" href="http://msdn.microsoft.com/en-us/library/cc488025.aspx" shape="rect">Sys.Application.addHistoryPoint</a>&nbsp;method.&nbsp; Once you understand these two, it is pretty simple.&nbsp;
+</p>
+<p>The challenge with MSDN sample is that it&nbsp;leaves the reader to figure out how to accomplish the same thing without&nbsp;ASP.NET WebForms and the ScriptManager control.&nbsp; In this screencast,
+<a shape="rect" href="http://blogs.msdn.com/devkeydet" shape="rect">Marc&nbsp;</a>takes the guesswork out of it and shows you how&nbsp;implement the sample without the ScriptManager as well as doing it&nbsp;using ASP.NET MVC.</p>
+<p>Sample Download:</p>
+<p><a shape="rect" href="http://blogs.msdn.com/devkeydet/archive/2010/02/09/screencast-managing-browser-history-using-client-script-without-scriptmanager.aspx" shape="rect">http://blogs.msdn.com/devkeydet/archive/2010/02/09/screencast-managing-browser-history-using-client-script-without-scriptmanager.aspx</a><a shape="rect" href="http://tinyurl.com/devkeydetAjaxHistorySamples" shape="rect"></a></p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:f6fb6b4dfc8a4e8a9f249deb00073ddb">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/keydet/Managing-Browser-History-Using-Client-Script-Without-ScriptManager</comments>
+            <itunes:summary>&#13;&#10;ASP.NET Ajax has a great feature that helps make it easy to enable back&#47;forward button and bookmarking support in your Ajax applications.&#38;nbsp&#59; However, most people think you need ASP.NET WebForms&#13;&#10; and the ScriptManager control to take advantage of this feature.&#38;nbsp&#59; Furthermore, most people think you actually have to be using ASP.NET to take advantage of these capabilities.&#38;nbsp&#59; You don&#8217;t.&#38;nbsp&#59; There&#8217;s a&#38;nbsp&#59;walkthrough on MSDN showing how to use this capability purely&#13;&#10; from client&#38;nbsp&#59;side JavaScript&#58;&#13;&#10;Managing Browser History Using Client Script&#13;&#10;&#13;&#10;Basically, the walkthrough shows you how to use &#13;&#10;Sys.Application.navigate&#38;nbsp&#59;event and the&#38;nbsp&#59;Sys.Application.addHistoryPoint&#38;nbsp&#59;method.&#38;nbsp&#59; Once you understand these two, it is pretty simple.&#38;nbsp&#59;&#13;&#10;&#13;&#10;The challenge with MSDN sample is that it&#38;nbsp&#59;leaves the reader to figure out how to accomplish the same thing without&#38;nbsp&#59;ASP.NET WebForms and the ScriptManager control.&#38;nbsp&#59; In this screencast,&#13;&#10;Marc&#38;nbsp&#59;takes the guesswork out of it and shows you how&#38;nbsp&#59;implement the sample without the ScriptManager as well as doing it&#38;nbsp&#59;using ASP.NET MVC.&#13;&#10;Sample Download&#58;&#13;&#10;http&#58;&#47;&#47;blogs.msdn.com&#47;devkeydet&#47;archive&#47;2010&#47;02&#47;09&#47;screencast-managing-browser-history-using-client-script-without-scriptmanager.aspx&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/keydet/Managing-Browser-History-Using-Client-Script-Without-ScriptManager</link>
+            <pubDate>Tue, 09 Feb 2010 18:11:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/keydet/Managing-Browser-History-Using-Client-Script-Without-ScriptManager</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/527026_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/527026_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_2MB_ch9.wmv" expression="full" duration="735" fileSize="30290637" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_ch9.mp3" expression="full" duration="735" fileSize="5883377" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_ch9.mp4" expression="full" duration="735" fileSize="26580772" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_ch9.wma" expression="full" duration="735" fileSize="5952891" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_ch9.wmv" expression="full" duration="735" fileSize="31391817" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_Zune_ch9.wmv" expression="full" duration="735" fileSize="40585887" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/6/2/0/7/2/5/AjaxHistoryNoScriptManager_ch9.wmv" length="31391817" type="video&#47;x-ms-wmv"/>
+            <dc:creator>keydet</dc:creator>
+            <itunes:author>keydet</itunes:author>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/keydet/Managing-Browser-History-Using-Client-Script-Without-ScriptManager/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>ASP.NET</category>
+            <category>ASP.NET AJAX</category>
+            <category>ASP.NET MVC</category>
+            <category>ASP.NET WebForms</category>
+            <category>DPEUSPublicSectorTeam</category>
+        </item>
+        <item>
+            <title>Northeast Roadshow&#58; Tales from the Webside - Web Forms, Script and Ajax</title>
+            <description>
+                <![CDATA[This screencast with&nbsp;<a shape="rect" href="http://blogs.msdn.com/cbowen" shape="rect">Chris Bowen</a>&nbsp;looks at development using ASP.NET Web Forms, scripting,&nbsp;and Ajax.&nbsp; It's based on a session given on the&nbsp;<a shape="rect" href="http://channel9.msdn.com/northeast" shape="rect">Northeast
+ Roadshow</a> and walks through Web Forms, adding client-side behavior with Javascript and jQuery, improving UI interaction with the
+<a shape="rect" href="http://www.asp.net/ajax/" shape="rect">ASP.NET Ajax Library</a>, and concludes with a brief look at what's coming for Web Forms with ASP.NET 4.<br /><br />Outline:<br /><br /><ul>
+<li>Introduction </li><li>[1:59] Demo - Web Forms, ViewState, ClientIDs </li><li>[12:47] Scripting, ASP.NET Ajax Library, and Ajax Control Toolkit </li><li>[20:55] Demo - Javascript, ASP.NET Ajax Library, jQuery, IE8 Developer Tools </li><li>[41:49] ASP.NET 4&nbsp;Web Forms </li><li>[49:32] Resources &amp; Conclusion </li></ul>
+<p>Slides for this session, and other Northeast Roadshow sessions, can be found on the
+<a shape="rect" href="http://code.msdn.com/northeast" shape="rect">Code Gallery</a>.
+</p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:e52f88d6fc5c41fdbb9f9deb001afcb7">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-Tales-from-the-Webside-Web-Forms-Script-and-Ajax</comments>
+            <itunes:summary>This screencast with&#38;nbsp&#59;Chris Bowen&#38;nbsp&#59;looks at development using ASP.NET Web Forms, scripting,&#38;nbsp&#59;and Ajax.&#38;nbsp&#59; It&#39;s based on a session given on the&#38;nbsp&#59;Northeast&#13;&#10; Roadshow and walks through Web Forms, adding client-side behavior with Javascript and jQuery, improving UI interaction with the&#13;&#10;ASP.NET Ajax Library, and concludes with a brief look at what&#39;s coming for Web Forms with ASP.NET 4.Outline&#58;&#13;&#10;Introduction &#91;1&#58;59&#93; Demo - Web Forms, ViewState, ClientIDs &#91;12&#58;47&#93; Scripting, ASP.NET Ajax Library, and Ajax Control Toolkit &#91;20&#58;55&#93; Demo - Javascript, ASP.NET Ajax Library, jQuery, IE8 Developer Tools &#91;41&#58;49&#93; ASP.NET 4&#38;nbsp&#59;Web Forms &#91;49&#58;32&#93; Resources &#38;amp&#59; Conclusion &#13;&#10;Slides for this session, and other Northeast Roadshow sessions, can be found on the&#13;&#10;Code Gallery.&#13;&#10;&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-Tales-from-the-Webside-Web-Forms-Script-and-Ajax</link>
+            <pubDate>Thu, 21 Jan 2010 13:20:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-Tales-from-the-Webside-Web-Forms-Script-and-Ajax</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/518390_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/518390_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_2MB_ch9.wmv" expression="full" duration="3020" fileSize="98800765" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_ch9.mp3" expression="full" duration="3020" fileSize="24166123" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_ch9.mp4" expression="full" duration="3020" fileSize="110766147" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_ch9.wma" expression="full" duration="3020" fileSize="24439507" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_ch9.wmv" expression="full" duration="3020" fileSize="128447807" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_Zune_ch9.wmv" expression="full" duration="3020" fileSize="158231597" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/0/9/3/8/1/5/TalesFromtheWebside_ch9.wmv" length="128447807" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Chris Bowen</dc:creator>
+            <itunes:author>Chris Bowen</itunes:author>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-Tales-from-the-Webside-Web-Forms-Script-and-Ajax/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>ASP.NET</category>
+            <category>ASP.NET 4</category>
+            <category>ASP.NET AJAX</category>
+            <category>Chris Bowen</category>
+            <category>dpeeast</category>
+            <category>jQuery</category>
+            <category>Microsoft Ajax Library</category>
+            <category>northeast</category>
+            <category>webforms</category>
+        </item>
+        <item>
+            <title>Announcing Microsoft Ajax Library Preview 6</title>
+            <description>
+                <![CDATA[I sat down with&nbsp;<a shape="rect" href="http://www.stephenwalther.com" shape="rect">Stephen Walther</a> from the Microsoft Ajax team to talk about their new release - Preview 6 - of the Microsoft Ajax Library.<br /><br />Stephen walks us through the three big enhancements in this release:<br /><br />-&nbsp;Addition of the imperative syntax<br />- The Script Loader<br />- jQuery support enhancements<br /><br />We go on to talk about how this will be the last release before we launch the Microsoft Ajax Library before the upcoming Microsoft PDC conference in November and also mention the new Microsoft Ajax CDN where we now have hosted the Microsoft Ajax Library and
+ jQuery.<br /><br />To download the latest preview and get more information on the Microsoft Ajax Library head over to
+<a shape="rect" href="http://www.asp.net/ajax" shape="rect">http://www.asp.net/ajax</a> and also be sure to check out these related blog posts from the rest of the Microsoft Ajax team:<br /><br /><a shape="rect" href="http://weblogs.asp.net/scottgu/archive/2009/10/15/announcing-microsoft-ajax-library-preview-6-and-the-microsoft-ajax-minifier.aspx" shape="rect">Scott Guthrie&nbsp;has the&nbsp;big announcement</a><br /><a shape="rect" href="http://www.jamessenior.com/post/How-the-Script-Loader-in-the-Microsoft-Ajax-Library-will-make-your-life-wonderful.aspx" shape="rect">James Senior has details on the Script Loader</a><br /><a shape="rect" href="http://weblogs.asp.net/bleroy/archive/2009/10/15/entirely-unobtrusive-and-imperative-templates-with-microsoft-ajax-4-preview-6.aspx" shape="rect">Bertrand Le Roy has a blog post on imperative templates</a>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:f5472c3f50c247abaa6e9deb002dc982">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/jsenior/Announcing-Microsoft-Ajax-Library-Preview-6</comments>
+            <itunes:summary>I sat down with&#38;nbsp&#59;Stephen Walther from the Microsoft Ajax team to talk about their new release - Preview 6 - of the Microsoft Ajax Library.Stephen walks us through the three big enhancements in this release&#58;-&#38;nbsp&#59;Addition of the imperative syntax- The Script Loader- jQuery support enhancementsWe go on to talk about how this will be the last release before we launch the Microsoft Ajax Library before the upcoming Microsoft PDC conference in November and also mention the new Microsoft Ajax CDN where we now have hosted the Microsoft Ajax Library and&#13;&#10; jQuery.To download the latest preview and get more information on the Microsoft Ajax Library head over to&#13;&#10;http&#58;&#47;&#47;www.asp.net&#47;ajax and also be sure to check out these related blog posts from the rest of the Microsoft Ajax team&#58;Scott Guthrie&#38;nbsp&#59;has the&#38;nbsp&#59;big announcementJames Senior has details on the Script LoaderBertrand Le Roy has a blog post on imperative templates&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/jsenior/Announcing-Microsoft-Ajax-Library-Preview-6</link>
+            <pubDate>Fri, 16 Oct 2009 10:47:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/jsenior/Announcing-Microsoft-Ajax-Library-Preview-6</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/497097_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/497097_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_2MB_ch9.wmv" expression="full" duration="1596" fileSize="321128835" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_ch9.mp3" expression="full" duration="1596" fileSize="12771712" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_ch9.mp4" expression="full" duration="1596" fileSize="129771821" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_ch9.wma" expression="full" duration="1596" fileSize="12916163" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_ch9.wmv" expression="full" duration="1596" fileSize="193451871" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_Zune_ch9.wmv" expression="full" duration="1596" fileSize="105386101" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/7/9/0/7/9/4/announcingajaxpreview6_ch9.wmv" length="193451871" type="video&#47;x-ms-wmv"/>
+            <dc:creator>James Senior</dc:creator>
+            <itunes:author>James Senior</itunes:author>
+            <slash:comments>6</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/jsenior/Announcing-Microsoft-Ajax-Library-Preview-6/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>ASP.NET</category>
+            <category>ASP.NET AJAX</category>
+            <category>Javascript</category>
+        </item>
+        <item>
+            <title>Emre Kiciman and Ben Livshits - Doloto&#58; Download Time Optimizer for Web 2.0 Apps</title>
+            <description>
+                <![CDATA[<a shape="rect" href="http://research.microsoft.com/en-us/people/emrek/" shape="rect">Emre Kiciman</a>&nbsp;and&nbsp;<a shape="rect" href="http://research.microsoft.com/en-us/um/people/livshits/" shape="rect">Ben Livshits</a> present the ideas behind
+<a shape="rect" href="http://msdn.microsoft.com/en-us/devlabs/ee423534.aspx" shape="rect">
+<strong>Doloto</strong></a>. Doloto is an AJAX application optimization tool, especially useful for large and complex Web 2.0 applications that contain a lot of code, such as Bing Maps, Hotmail, etc. Doloto analyzes AJAX application workloads and automatically
+ performs code splitting of existing large Web 2.0 applications. <br /><br /><ul>
+<li><a shape="rect" href="http://msdn.microsoft.com/en-us/devlabs/ee423534.aspx" shape="rect"><strong>Download Doloto
+</strong></a><strong>from DevLabs </strong></li><li><a shape="rect" href="http://research.microsoft.com/en-us/projects/doloto/" shape="rect">Doloto Home page</a>&nbsp;@ MSR
+</li><li><a shape="rect" href="http://social.msdn.microsoft.com/Forums/en-US/doloto/threads" shape="rect">Doloto Forums</a>
+</li></ul>
+<i>The&nbsp;</i><a shape="rect" href="http://research.microsoft.com/rise" shape="rect"><i>Research in Software Engineering team</i></a><i> (RiSE) coordinates Microsoft's research in Software Engineering in Redmond, USA.</i>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:08005532a11745059c769deb0018c052">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/Peli/Doloto-Download-Time-Optimizer-for-Web-20-Apps</comments>
+            <itunes:summary>Emre Kiciman&#38;nbsp&#59;and&#38;nbsp&#59;Ben Livshits present the ideas behind&#13;&#10;&#13;&#10;Doloto. Doloto is an AJAX application optimization tool, especially useful for large and complex Web 2.0 applications that contain a lot of code, such as Bing Maps, Hotmail, etc. Doloto analyzes AJAX application workloads and automatically&#13;&#10; performs code splitting of existing large Web 2.0 applications. &#13;&#10;Download Doloto&#13;&#10;from DevLabs Doloto Home page&#38;nbsp&#59;&#64; MSR&#13;&#10;Doloto Forums&#13;&#10;&#13;&#10;The&#38;nbsp&#59;Research in Software Engineering team &#40;RiSE&#41; coordinates Microsoft&#39;s research in Software Engineering in Redmond, USA.&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/Peli/Doloto-Download-Time-Optimizer-for-Web-20-Apps</link>
+            <pubDate>Mon, 05 Oct 2009 22:33:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/Peli/Doloto-Download-Time-Optimizer-for-Web-20-Apps</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/496182_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/496182_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/320/b18d3fb5-f0fe-4468-884a-57db02c2225a.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/85/4cb37180-fa53-4e0e-93b3-35d0841c6594.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_512_ch9.png" height="384" width="512"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_2MB_ch9.wmv" expression="full" duration="1745" fileSize="543415899" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_ch9.mp3" expression="full" duration="1745" fileSize="13968406" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_ch9.mp4" expression="full" duration="1745" fileSize="327416036" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_ch9.wma" expression="full" duration="1745" fileSize="14129779" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_ch9.wmv" expression="full" duration="1745" fileSize="383901957" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_Zune_ch9.wmv" expression="full" duration="1745" fileSize="246573937" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/2/8/1/6/9/4/doloto_ch9.wmv" length="383901957" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Peli de Halleux</dc:creator>
+            <itunes:author>Peli de Halleux</itunes:author>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/Peli/Doloto-Download-Time-Optimizer-for-Web-20-Apps/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>DevLabs</category>
+            <category>rise</category>
+            <category>Software Engineering Research</category>
+            <category>Web</category>
+        </item>
+        <item>
+            <title>Seadragon Ajax Control - Quick Start Guide</title>
+            <description>
+                <![CDATA[
+<p><a shape="rect" href="http://weblogs.asp.net/bleroy/archive/2009/09/30/ajax-control-toolkit-new-controls-bug-fixes.aspx" shape="rect">Bertrand has just written a great post</a>&nbsp;about our new
+<a shape="rect" href="http://www.asp.net/ajax/ajaxcontroltoolkit/Samples/Seadragon/Seadragon.aspx" shape="rect">
+Seadragon Ajax Control</a> which we launched today as part of the <a shape="rect" href="http://ajaxcontroltoolkit.codeplex.com/" shape="rect">
+Ajax Control Toolkit</a>.&nbsp; I spent some time today going through the process of creating a Zeep Zoom Composer project from one of my photos and then bringing it into a web app using the new control.
+</p>
+<p>This screencast walks you through how to do the whole thing from beginning to end.</p>
+<p><b>Links you need</b></p>
+<p>┬À&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a shape="rect" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=457B17B7-52BF-4BDA-87A3-FA8A4673F8BF&amp;displaylang=en" shape="rect">
+Download Deep Zoom Composer</a> </p>
+<p>┬À&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a shape="rect" href="http://ajaxcontroltoolkit.codeplex.com/" shape="rect">
+Download ASP.NET Ajax Control Toolkit</a> </p>
+<p><b>Also of interest:</b></p>
+<p>┬À&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a shape="rect" href="http://livelabs.com/seadragon/" shape="rect">Live Labs Seadragon Homepage</a><br />┬À&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a shape="rect" href="http://msdn.microsoft.com/en-us/library/cc645050%28VS.95%29.aspx" shape="rect">
+How Deep Zoom works<br /></a></p>
+<p>┬À&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a shape="rect" href="http://www.deepzoompix.com/" shape="rect">DeepZoomPix Service</a></p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:cc13d913513b4c8e8f319deb002dd0e9">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/jsenior/Seadragon-Ajax-Control-Quick-Start-Guide</comments>
+            <itunes:summary>&#13;&#10;Bertrand has just written a great post&#38;nbsp&#59;about our new&#13;&#10;&#13;&#10;Seadragon Ajax Control which we launched today as part of the &#13;&#10;Ajax Control Toolkit.&#38;nbsp&#59; I spent some time today going through the process of creating a Zeep Zoom Composer project from one of my photos and then bringing it into a web app using the new control.&#13;&#10;&#13;&#10;This screencast walks you through how to do the whole thing from beginning to end.&#13;&#10;Links you need&#13;&#10;&#183;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59; &#13;&#10;Download Deep Zoom Composer &#13;&#10;&#183;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59; &#13;&#10;Download ASP.NET Ajax Control Toolkit &#13;&#10;Also of interest&#58;&#13;&#10;&#183;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59; Live Labs Seadragon Homepage&#183;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59; &#13;&#10;How Deep Zoom works&#13;&#10;&#183;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59; DeepZoomPix Service&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/jsenior/Seadragon-Ajax-Control-Quick-Start-Guide</link>
+            <pubDate>Thu, 01 Oct 2009 01:42:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/jsenior/Seadragon-Ajax-Control-Quick-Start-Guide</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/495342_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/495342_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_2MB_ch9.wmv" expression="full" duration="658" fileSize="33968035" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_ch9.mp3" expression="full" duration="658" fileSize="5271433" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_ch9.mp4" expression="full" duration="658" fileSize="25244788" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_ch9.wma" expression="full" duration="658" fileSize="5343079" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_ch9.wmv" expression="full" duration="658" fileSize="27278791" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_Zune_ch9.wmv" expression="full" duration="658" fileSize="20414719" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/2/4/3/5/9/4/SeadragonAjaxControl_ch9.wmv" length="27278791" type="video&#47;x-ms-wmv"/>
+            <dc:creator>James Senior</dc:creator>
+            <itunes:author>James Senior</itunes:author>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/jsenior/Seadragon-Ajax-Control-Quick-Start-Guide/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>Ajax Control Toolkit</category>
+            <category>Deep Zoom</category>
+            <category>Seadragon</category>
+        </item>
+        <item>
+            <title>Web Application Toolkit&#58; Bing Search</title>
+            <description>
+                <![CDATA[
+<p>Bing is a powerful new Decision Engine designed to help consumers accomplish tasks and make faster, more informed decisions. The Bing Application Programming Interface (API) provides developers programmatic access to Bing, offering flexible options for building
+ or enhancing your site or applications. This Web Application Toolkit shows how to take advantage of the Bing API to add search capabilities to your Web site by leveraging the various search results that the Bing API provides, including Web content, images,
+ news and videos, among others. Through this Web Application Toolkit you will also discover how to use ASP.NET AJAX and jQuery to provide an enhanced and more interactive end user experience when using the Bing API.<br /><br /><strong>Downloads and Links<br /><br /></strong></p>
+<ul>
+<li><a shape="rect" href="http://go.microsoft.com/fwlink/?LinkId=163657" shape="rect">Download this toolkit here.ÒÇÇ</a>
+</li><li><a shape="rect" href="http://channel9.msdn.com/tags/web&#43;application&#43;toolkit/" shape="rect">For screencasts about other Web Application Toolkits, click here.</a>
+</li><li><a shape="rect" href="http://code.msdn.microsoft.com/Project/ProjectDirectory.aspx?TagName=WebAppToolkits" shape="rect">To download other Web Application Toolkits, click here.</a>
+</li></ul>
+<p><strong>Feedback</strong></p>
+<p>We love to hear your feedback, ideas and comments so&nbsp;drop us an email to <a shape="rect" href="mailto:webapp@microsoft.com" shape="rect">
+webapp@microsoft.com</a>.&nbsp; Keep up-to-date with the latest releases of Web App Toolkits by subscribing to the blog
+<a shape="rect" href="http://blogs.msdn.com/webapptoolkits" shape="rect">http://blogs.msdn.com/webapptoolkits</a> or following us on Twitter here:
+<a shape="rect" href="http://www.twitter.com/microsoftweb" shape="rect">http://www.twitter.com/microsoftweb</a></p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:fc945823b2eb41f5987b9deb002ddbb3">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkit-Bing-Search</comments>
+            <itunes:summary>&#13;&#10;Bing is a powerful new Decision Engine designed to help consumers accomplish tasks and make faster, more informed decisions. The Bing Application Programming Interface &#40;API&#41; provides developers programmatic access to Bing, offering flexible options for building&#13;&#10; or enhancing your site or applications. This Web Application Toolkit shows how to take advantage of the Bing API to add search capabilities to your Web site by leveraging the various search results that the Bing API provides, including Web content, images,&#13;&#10; news and videos, among others. Through this Web Application Toolkit you will also discover how to use ASP.NET AJAX and jQuery to provide an enhanced and more interactive end user experience when using the Bing API.Downloads and Links&#13;&#10;&#13;&#10;Download this toolkit here.&#12288;&#13;&#10;For screencasts about other Web Application Toolkits, click here.&#13;&#10;To download other Web Application Toolkits, click here.&#13;&#10;&#13;&#10;Feedback&#13;&#10;We love to hear your feedback, ideas and comments so&#38;nbsp&#59;drop us an email to &#13;&#10;webapp&#64;microsoft.com.&#38;nbsp&#59; Keep up-to-date with the latest releases of Web App Toolkits by subscribing to the blog&#13;&#10;http&#58;&#47;&#47;blogs.msdn.com&#47;webapptoolkits or following us on Twitter here&#58;&#13;&#10;http&#58;&#47;&#47;www.twitter.com&#47;microsoftweb&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkit-Bing-Search</link>
+            <pubDate>Fri, 25 Sep 2009 20:08:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkit-Bing-Search</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/494103_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/494103_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_2MB_ch9.wmv" expression="full" duration="769" fileSize="72366069" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_ch9.mp3" expression="full" duration="769" fileSize="6158957" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_ch9.mp4" expression="full" duration="769" fileSize="41620120" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_ch9.wma" expression="full" duration="769" fileSize="6235273" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_ch9.wmv" expression="full" duration="769" fileSize="50992351" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_Zune_ch9.wmv" expression="full" duration="769" fileSize="32096279" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/3/0/1/4/9/4/WebAppToolkitBing_ch9.wmv" length="50992351" type="video&#47;x-ms-wmv"/>
+            <dc:creator>James Senior</dc:creator>
+            <itunes:author>James Senior</itunes:author>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkit-Bing-Search/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>bing</category>
+            <category>MS Ajax</category>
+            <category>Web App Toolkit</category>
+            <category>Web Application Toolkit</category>
+        </item>
+        <item>
+            <title>Web Application Toolkits&#58; FAQ</title>
+            <description>
+                <![CDATA[
+<p>The majority of Web sites have the need to display a list of frequently asked questions to their users. Although it's not difficult to create a simple set of FAQ pages, creating a great user experience that supports searching for FAQs, filtering, and paging,
+ can become more difficult. Furthermore, this is often common functionality that has to be implemented repeatedly in multiple Web sites.</p>
+<p>The goal for this Web Application Toolkit is to provide a reusable set of assets, like ASP.NET pages, data access code, and database schemas, for integrating Frequently Asked Questions into your own Web application. The FAQ pages of this Toolkit include
+ the following features:</p>
+<ul>
+<li>Browse and view FAQs organized by topics </li><li>An interactive user experience using <a shape="rect" href="http://jquery.com/" shape="rect">
+jQuery</a> and <a shape="rect" href="http://www.asp.net/ajax/" shape="rect">ASP.NET AJAX</a>
+</li><li>Search for FAQs by keywords </li><li>Access FAQs through friendly URLs (for example /Faq/bidding-and-buying/how-do-i-buy-an-item)
+</li><li>FAQs Ratings </li></ul>
+<p><b>Downloads and Links</b></p>
+<ul>
+<li><a shape="rect" href="http://go.microsoft.com/fwlink/?LinkId=163658" shape="rect">Download this toolkit here.</a><a shape="rect" href="http://go.microsoft.com/fwlink/?LinkId=163657" shape="rect"></a>
+</li><li><a shape="rect" href="http://channel9.msdn.com/tags/web&#43;application&#43;toolkit/" shape="rect">For screencasts about other Web Application Toolkits, click here.</a>
+</li><li><a shape="rect" href="http://code.msdn.microsoft.com/Project/ProjectDirectory.aspx?TagName=WebAppToolkits" shape="rect">To download other Web Application Toolkits, click here.</a>
+</li></ul>
+<p><b>Feedback</b></p>
+<p>We love to hear your feedback, ideas and comments so&nbsp;drop us an email to <a shape="rect" href="mailto:webapp@microsoft.com" shape="rect">
+webapp@microsoft.com</a>.&nbsp; Keep up-to-date with the latest releases of Web App Toolkits by subscribing to the blog
+<a shape="rect" href="http://blogs.msdn.com/webapptoolkits" shape="rect">http://blogs.msdn.com/webapptoolkits</a> or following us on Twitter here:
+<a shape="rect" href="http://www.twitter.com/microsoftweb" shape="rect">http://www.twitter.com/microsoftweb</a></p>
+<p>&nbsp;</p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:a1254abea38b4b37a8e89deb002decd5">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkits-FAQ</comments>
+            <itunes:summary>&#13;&#10;The majority of Web sites have the need to display a list of frequently asked questions to their users. Although it&#39;s not difficult to create a simple set of FAQ pages, creating a great user experience that supports searching for FAQs, filtering, and paging,&#13;&#10; can become more difficult. Furthermore, this is often common functionality that has to be implemented repeatedly in multiple Web sites.&#13;&#10;The goal for this Web Application Toolkit is to provide a reusable set of assets, like ASP.NET pages, data access code, and database schemas, for integrating Frequently Asked Questions into your own Web application. The FAQ pages of this Toolkit include&#13;&#10; the following features&#58;&#13;&#10;&#13;&#10;Browse and view FAQs organized by topics An interactive user experience using &#13;&#10;jQuery and ASP.NET AJAX&#13;&#10;Search for FAQs by keywords Access FAQs through friendly URLs &#40;for example &#47;Faq&#47;bidding-and-buying&#47;how-do-i-buy-an-item&#41;&#13;&#10;FAQs Ratings &#13;&#10;Downloads and Links&#13;&#10;&#13;&#10;Download this toolkit here.&#13;&#10;For screencasts about other Web Application Toolkits, click here.&#13;&#10;To download other Web Application Toolkits, click here.&#13;&#10;&#13;&#10;Feedback&#13;&#10;We love to hear your feedback, ideas and comments so&#38;nbsp&#59;drop us an email to &#13;&#10;webapp&#64;microsoft.com.&#38;nbsp&#59; Keep up-to-date with the latest releases of Web App Toolkits by subscribing to the blog&#13;&#10;http&#58;&#47;&#47;blogs.msdn.com&#47;webapptoolkits or following us on Twitter here&#58;&#13;&#10;http&#58;&#47;&#47;www.twitter.com&#47;microsoftweb&#13;&#10;&#38;nbsp&#59;&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkits-FAQ</link>
+            <pubDate>Thu, 24 Sep 2009 18:05:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkits-FAQ</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/494089_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/494089_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_320_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_512_ch9.png" height="384" width="512"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_85_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_2MB_ch9.wmv" expression="full" duration="767" fileSize="48064993" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_ch9.mp3" expression="full" duration="767" fileSize="6145134" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_ch9.mp4" expression="full" duration="767" fileSize="32930458" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_ch9.wma" expression="full" duration="767" fileSize="6226261" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_ch9.wmv" expression="full" duration="767" fileSize="38304323" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_Zune_ch9.wmv" expression="full" duration="767" fileSize="26448251" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://ecn.channel9.msdn.com/o9/ch9/9/8/0/4/9/4/WebApplicationToolkitsFAQ_ch9.wmv" length="38304323" type="video&#47;x-ms-wmv"/>
+            <dc:creator>James Senior</dc:creator>
+            <itunes:author>James Senior</itunes:author>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/jsenior/Web-Application-Toolkits-FAQ/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>Dynamic Data</category>
+            <category>jQuery</category>
+            <category>MVC</category>
+            <category>Web App Toolkit</category>
+            <category>Web Application Toolkit</category>
+        </item>
+        <item>
+            <title>Ben Livshits and Emre Kiciman - AjaxView, Performance Profiling of AJAX web sites</title>
+            <description>
+                <![CDATA[<a shape="rect" href="http://research.microsoft.com/en-us/um/people/livshits/" shape="rect">Ben Livshits</a>&nbsp;and
+<a shape="rect" href="http://research.microsoft.com/en-us/people/emrek/" shape="rect">
+Emre Kiciman&nbsp;</a>talk about the&nbsp;<a shape="rect" href="http://code.msdn.microsoft.com/AjaxView " shape="rect">Ajax Profiling Extensions</a> (also known as AjaxView), a&nbsp;tool that allows to profile web sites using&nbsp;Ajax. The tool&nbsp;lets you investigate the performance
+ of the client side javascript!&nbsp;Ben and Emre explain how the profiling works, i.e. how&nbsp;they instrument the javascript on the fly, collect execution traces, and so forth. They also&nbsp;show a really cool demo of the tool where they turn on profiling for a couple
+ web pages, then analyze the performance directly in Visual Studio.<br>
+<br>
+<ul>
+<li>Ajax Profiling Extensions @msdn:&nbsp;<a shape="rect" href="http://code.msdn.microsoft.com/AjaxView" shape="rect">http://code.msdn.microsoft.com/AjaxView</a>
+</li><li>AjaxView @MSR: <a shape="rect" href="http://research.microsoft.com/en-us/projects/ajaxview/" shape="rect">
+http://research.microsoft.com/en-us/projects/ajaxview/</a> </li></ul>
+<p><em>(We have a new jingle for the RiSE videos thanks the musical talent of </em>
+<a shape="rect" href="http://research.microsoft.com/en-us/people/tball/" shape="rect"><em>Tom Ball</em></a><em>. The full track of &quot;San Juan Strut&quot;&nbsp;can be found at&nbsp;&nbsp;</em><a shape="rect" href="http://www.themiddlethird.org" shape="rect"><em>www.themiddlethird.org</em></a><em>)</em></p>
+<p><i>The&nbsp;</i><a shape="rect" href="http://research.microsoft.com/rise" shape="rect"><i>Research in Software Engineering team</i></a><i> (RiSE) coordinates Microsoft's research in Software Engineering in Redmond, USA.</i></p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:cc05c7f3cfe641528f279deb00da6987">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/Peli/AjaxView-Performance-Profiling-of-AJAX-web-sites</comments>
+            <itunes:summary>Ben Livshits&#38;nbsp&#59;and&#13;&#10;&#13;&#10;Emre Kiciman&#38;nbsp&#59;talk about the&#38;nbsp&#59;Ajax Profiling Extensions &#40;also known as AjaxView&#41;, a&#38;nbsp&#59;tool that allows to profile web sites using&#38;nbsp&#59;Ajax. The tool&#38;nbsp&#59;lets you investigate the performance&#13;&#10; of the client side javascript&#33;&#38;nbsp&#59;Ben and Emre explain how the profiling works, i.e. how&#38;nbsp&#59;they instrument the javascript on the fly, collect execution traces, and so forth. They also&#38;nbsp&#59;show a really cool demo of the tool where they turn on profiling for a couple&#13;&#10; web pages, then analyze the performance directly in Visual Studio.&#13;&#10;&#13;&#10;&#13;&#10;Ajax Profiling Extensions &#64;msdn&#58;&#38;nbsp&#59;http&#58;&#47;&#47;code.msdn.microsoft.com&#47;AjaxView&#13;&#10;AjaxView &#64;MSR&#58; &#13;&#10;http&#58;&#47;&#47;research.microsoft.com&#47;en-us&#47;projects&#47;ajaxview&#47; &#13;&#10;&#40;We have a new jingle for the RiSE videos thanks the musical talent of &#13;&#10;Tom Ball. The full track of &#38;quot&#59;San Juan Strut&#38;quot&#59;&#38;nbsp&#59;can be found at&#38;nbsp&#59;&#38;nbsp&#59;www.themiddlethird.org&#41;&#13;&#10;The&#38;nbsp&#59;Research in Software Engineering team &#40;RiSE&#41; coordinates Microsoft&#39;s research in Software Engineering in Redmond, USA.&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/Peli/AjaxView-Performance-Profiling-of-AJAX-web-sites</link>
+            <pubDate>Mon, 22 Jun 2009 18:34:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/Peli/AjaxView-Performance-Profiling-of-AJAX-web-sites</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/474638_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/474638_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_large_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_small_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_2MB_ch9.wmv" expression="full" duration="2043" fileSize="361208377" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_ch9.mp3" expression="full" duration="2043" fileSize="16352884" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_ch9.mp4" expression="full" duration="2043" fileSize="180160956" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_ch9.wma" expression="full" duration="2043" fileSize="33061005" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_ch9.wmv" expression="full" duration="2043" fileSize="287521701" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_Zune_ch9.wmv" expression="full" duration="2043" fileSize="160097681" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://mschnlnine.vo.llnwd.net/d1/ch9/8/3/6/4/7/4/ajaxscope_ch9.wmv" length="287521701" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Peli de Halleux</dc:creator>
+            <itunes:author>Peli de Halleux</itunes:author>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/Peli/AjaxView-Performance-Profiling-of-AJAX-web-sites/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>Javascript</category>
+            <category>Power</category>
+            <category>rise</category>
+            <category>Visual Studio</category>
+        </item>
+        <item>
+            <title>Scott Hanselman - NerdDinner.com</title>
+            <description>
+                <![CDATA[Scott Hanselman did an interesting session at MIX09 called &quot;File|New -&gt; Company&quot;, where he essentially started with a blank screen, and using Visual Studio, ASP.NET, Ajax, and Model View Controller he created an entire website called &quot;NerdDinner.com&quot;,
+ which is a social networking sites for... well... nerds, to allow them to coordinate with their friends what restaurants to go to and what to eat.<br>
+<br>
+While we didn't have time in this episode to let Scott repeat this feat, we did get a chance to talk with him about how the various technologies he utilized worked with the tools in order to make it possible.<br>
+<br>
+If you really want to see him take on this challenge, you can watch his session from MIX09:<br>
+<ul>
+<li><a shape="rect" href="http://videos.visitmix.com/MIX09/T49F" target="_blank" shape="rect">File|New -&gt; Company: Creating NerdDinner.com with Microsoft ASP.NET Model View Controller (MVC)</a><a shape="rect" href="http://videos.visitmix.com/MIX09/T49F" shape="rect"></a>
+</li></ul>
+And if you want more details about Scott, NerdDinner.com or Model View Controller, here are some additional links:<br>
+<ul>
+<li><a shape="rect" href="http://hanselman.com" target="_blank" shape="rect">Scott Hanselman's Blog</a>
+</li><li><a shape="rect" href="http://www.nerddinner.com/" target="_blank" shape="rect">NerdDinner.com</a>
+</li><li><a shape="rect" href="http://www.asp.net/mvc " target="_blank" shape="rect">Model View Controller on ASP.NET</a>&nbsp;
+</li></ul>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:34ec17b2f0bb463ca0f39deb00daf03d">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Shows/The+Knowledge+Chamber/Scott-Hanselman-NerdDinnercom</comments>
+            <itunes:summary>Scott Hanselman did an interesting session at MIX09 called &#38;quot&#59;File&#124;New -&#38;gt&#59; Company&#38;quot&#59;, where he essentially started with a blank screen, and using Visual Studio, ASP.NET, Ajax, and Model View Controller he created an entire website called &#38;quot&#59;NerdDinner.com&#38;quot&#59;,&#13;&#10; which is a social networking sites for... well... nerds, to allow them to coordinate with their friends what restaurants to go to and what to eat.&#13;&#10;&#13;&#10;While we didn&#39;t have time in this episode to let Scott repeat this feat, we did get a chance to talk with him about how the various technologies he utilized worked with the tools in order to make it possible.&#13;&#10;&#13;&#10;If you really want to see him take on this challenge, you can watch his session from MIX09&#58;&#13;&#10;&#13;&#10;File&#124;New -&#38;gt&#59; Company&#58; Creating NerdDinner.com with Microsoft ASP.NET Model View Controller &#40;MVC&#41;&#13;&#10;&#13;&#10;And if you want more details about Scott, NerdDinner.com or Model View Controller, here are some additional links&#58;&#13;&#10;&#13;&#10;Scott Hanselman&#39;s Blog&#13;&#10;NerdDinner.com&#13;&#10;Model View Controller on ASP.NET&#38;nbsp&#59;&#13;&#10;&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Shows/The+Knowledge+Chamber/Scott-Hanselman-NerdDinnercom</link>
+            <pubDate>Thu, 04 Jun 2009 23:39:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Shows/The+Knowledge+Chamber/Scott-Hanselman-NerdDinnercom</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/472085_100x75.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/472085_220x165.jpg" height="0" width="0"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_large_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_small_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_2MB_ch9.wmv" expression="full" duration="1224" fileSize="382964967" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_ch9.mp3" expression="full" duration="1224" fileSize="9795838" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_ch9.mp4" expression="full" duration="1224" fileSize="119959676" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_ch9.wma" expression="full" duration="1224" fileSize="19813365" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_ch9.wmv" expression="full" duration="1224" fileSize="170844787" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_Zune_ch9.wmv" expression="full" duration="1224" fileSize="156540767" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="mms://mschnlnine.wmod.llnwd.net/a1809/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_s_ch9.wmv" expression="full" duration="1224" fileSize="221" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/8/0/2/7/4/TKC013ScottHanselman_ch9.wmv" length="170844787" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Robert Hess</dc:creator>
+            <itunes:author>Robert Hess</itunes:author>
+            <slash:comments>2</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Shows/The+Knowledge+Chamber/Scott-Hanselman-NerdDinnercom/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>ASP.NET</category>
+            <category>ASP.NET MVC</category>
+            <category>jQuery</category>
+            <category>MVC</category>
+            <category>Scott Hanselman</category>
+            <category>Virtual Earth</category>
+        </item>
+        <item>
+            <title>Northeast Roadshow - UX Options</title>
+            <description>
+                <![CDATA[
+<p>ThereÔÇÖs no shortage of choice when it comes to building applications on the Microsoft platform ÔÇô traditional desktop application or browser-based application?&nbsp; Web Forms or Win Forms? AJAX or Silverlight?&nbsp; Rich versus reach?&nbsp;
+<br>
+<br>
+This session covers the array of options and offers some insight into selecting the user experience delivery options that are best for your applicationÔÇÖs target audience.&nbsp; Also included is a brief discussion of the software factories and other guidance provided
+ by the patterns &amp; practices team at Microsoft.<br>
+<br>
+You can find slides and samples from the&nbsp;<a shape="rect" href="http://channel9.msdn.com/northeast" shape="rect">Northeast Roadshow</a> events here at the&nbsp;<a shape="rect" href="http://code.msdn.microsoft.com/northeast" shape="rect">Northeast Roadshow Code Gallery
+ Site.</a></p>
+ <img src="http://m.webtrends.com/dcs1wotjh10000w0irc493s0e_6x1g/dcs.gif?dcssip=channel9.msdn.com&dcsuri=http://channel9.msdn.com/Tags/ajax/RSS&WT.entryid=Entry:RSSView:bfecfe0dcdf9431d898d9deb017293f4">]]>
+            </description>
+            <comments>http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-UX-Options</comments>
+            <itunes:summary>&#13;&#10;There&#8217;s no shortage of choice when it comes to building applications on the Microsoft platform &#8211; traditional desktop application or browser-based application&#63;&#38;nbsp&#59; Web Forms or Win Forms&#63; AJAX or Silverlight&#63;&#38;nbsp&#59; Rich versus reach&#63;&#38;nbsp&#59;&#13;&#10;&#13;&#10;&#13;&#10;This session covers the array of options and offers some insight into selecting the user experience delivery options that are best for your application&#8217;s target audience.&#38;nbsp&#59; Also included is a brief discussion of the software factories and other guidance provided&#13;&#10; by the patterns &#38;amp&#59; practices team at Microsoft.&#13;&#10;&#13;&#10;You can find slides and samples from the&#38;nbsp&#59;Northeast Roadshow events here at the&#38;nbsp&#59;Northeast Roadshow Code Gallery&#13;&#10; Site.&#13;&#10;</itunes:summary>
+            <link>http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-UX-Options</link>
+            <pubDate>Tue, 14 Apr 2009 12:50:00 GMT</pubDate>
+            <guid isPermaLink="false">http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-UX-Options</guid>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/100/464475_100x75.jpg" height="75" width="100"/>
+            <media:thumbnail url="http://ecn.channel9.msdn.com/o9/previewImages/220/464475_220x165.jpg" height="165" width="220"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_large_ch9.png" height="240" width="320"/>
+            <media:thumbnail url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_small_ch9.png" height="64" width="85"/>
+            <media:group>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_2MB_ch9.wmv" expression="full" duration="1500" fileSize="39544027" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_ch9.mp3" expression="full" duration="1500" fileSize="643" type="audio&#47;mp3" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_ch9.mp4" expression="full" duration="1500" fileSize="38450415" type="video&#47;mp4" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_ch9.wma" expression="full" duration="1500" fileSize="24277309" type="audio&#47;x-ms-wma" medium="audio"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_ch9.wmv" expression="full" duration="1500" fileSize="42702443" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_Zune_ch9.wmv" expression="full" duration="1500" fileSize="37742423" type="video&#47;x-ms-wmv" medium="video"/>
+                <media:content url="mms://mschnlnine.wmod.llnwd.net/a1809/d1/ch9/5/7/4/4/6/4/UXOptions_s_ch9.wmv" expression="full" duration="1500" fileSize="198" type="video&#47;x-ms-wmv" medium="video"/>
+            </media:group>
+            <enclosure url="http://mschnlnine.vo.llnwd.net/d1/ch9/5/7/4/4/6/4/UXOptions_ch9.wmv" length="42702443" type="video&#47;x-ms-wmv"/>
+            <dc:creator>Brian Johnson</dc:creator>
+            <itunes:author>Brian Johnson</itunes:author>
+            <slash:comments>0</slash:comments>
+            <wfw:commentRss>http://channel9.msdn.com/Blogs/dpeeast/Northeast-Roadshow-UX-Options/RSS</wfw:commentRss>
+            <category>Ajax</category>
+            <category>Design</category>
+            <category>northeast</category>
+            <category>Silverlight</category>
+            <category>UX</category>
+        </item>
+    </channel>
+</rss>
