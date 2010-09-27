@@ -49,7 +49,7 @@ namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
                                  let nextFolderSource = new ShowsFolderSource(uri.ToString(), _downloader)
                                  from folderSource in nextFolderSource.FolderItems()
                                  select folderSource);
-
+            
             return shows;
         }
 

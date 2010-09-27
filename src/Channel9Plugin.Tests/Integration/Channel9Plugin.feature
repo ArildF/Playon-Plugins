@@ -36,11 +36,11 @@ Scenario: Retrieve RSS items
     When I browse 'root=>RSS'
     Then item 1 should have these attributes:
     |Name       |Value                                      |
-    |Title       |Visual Studio LightSwitch - Beyond the Basics|
+    |Title       |TWC9: VB for Windows Phone 7, ASP.NET Vulnerability, WCF Services, String Formatting Cheat Sheet|
 
 Scenario: RSS item count
     When I browse 'root=>RSS'
-    Then there should be 25 items
+    Then there should be 24 items
 
 Scenario: Restrict number of items returned
     When I browse the first 5 items of 'root=>RSS'
@@ -51,12 +51,12 @@ Scenario: Start at non-zero index
     Then there should be 4 items
     And item 1 should have these attributes:
     |Name       |Value          |
-    |Title      |Ping 69: Windows Phone 7 adds Voice, Mobile App Match, Bing Taxi, Halo 2600|
+    |Title      |Don McCrady - Parallelism in C++ Using the Concurrency Runtime|
 
 Scenario: Retrieve RSS items twice
     When I browse 'root=>RSS'
     And I browse 'root=>RSS'
-    Then there should be 25 items
+    Then there should be 24 items
 
 Scenario: Folders item count
     When I browse 'root=>Shows'
@@ -75,27 +75,27 @@ Scenario: Shows folder title
 Scenario: Media URL
     When I browse 'root=>RSS'
     And item #1 is a video file
-    Then the video should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv'
+    Then the video should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_2MB_ch9.wmv'
 
 Scenario: Shows media URL
     When I browse 'root=>Shows=>But Why?'
     And item #1 is a video file
-    Then the video should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_ch9.wmv'
+    Then the video should have a media URL of 'http://ecn.channel9.msdn.com/o9/ch9/2730/562730/Giblets3_2MB_ch9.wmv'
 
 Scenario: Duration
     When I browse 'root=>RSS'
     And item #1 is a video file
-    Then the video should have a duration of 2604000
+    Then the video should have a duration of 946000
 
 Scenario: Thumbnail
     When I browse 'root=>RSS'
     And item #1 is a video file
-    Then the video should have a thumbnail 'http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_320_ch9.png'
+    Then the video should have a thumbnail 'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_100_ch9.jpg'
 
 Scenario: Publication date
     When I browse 'root=>RSS'
     And item #1 is a video file
-    Then the video should have a publication date of 'Wed, 11 Aug 2010 19:04:00 GMT'
+    Then the video should have a publication date of 'Sat, 25 Sep 2010 02:39:41 GMT'
 
 Scenario: Don't retrieve children of media
     When I browse 'root=>RSS=>1' without children
@@ -109,7 +109,7 @@ Scenario: Media XML
     When I browse item #1 of 'root=>RSS'
     And I examine the item as XML
     Then the xml should contain "/media/url[@type='wmv']"
-    And the xml should contain "/media/url[.='http://ecn.channel9.msdn.com/o9/ch9/6296/566296/LightSwitchBeyondBasics_ch9.wmv']"
+    And the xml should contain "/media/url[.='http://ecn.channel9.msdn.com/o9/ch9/18d0/bd9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_2MB_ch9.wmv']"
 
 Scenario: Missing duration
     When I browse 'root=>Shows=>Ping!'

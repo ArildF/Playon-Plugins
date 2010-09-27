@@ -41,8 +41,10 @@ namespace Rogue.PlayOn.Plugins.Channel9
                    let mediaContent = 
                         (from content in item.Descendants(Media + "content")
                          let def = content.Attribute("isDefault")
-                         where def != null && def.Value == "true"
+                         let isDefault = def != null && def.Value == "true"
+                         let fileSize = content.Attribute("fileSize").ValueOrZero()
                          where content.Attribute("url").ValueOrEmpty().EndsWith(".wmv", StringComparison.InvariantCultureIgnoreCase)
+                         orderby isDefault, fileSize descending
                          select content
                          ).FirstOrDefault()
                    let url = mediaContent != null ? 

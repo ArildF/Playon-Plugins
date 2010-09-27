@@ -194,7 +194,7 @@ namespace Channel9Plugin.Tests.Integration.Steps
         {
             DateTime dt = DateTime.ParseExact(dateString, "R", CultureInfo.InvariantCulture);
 
-            _video.Date.Satisfies(d => d == dt);
+            _video.Satisfies(v => v.Date == dt);
         }
 
 

@@ -157,7 +157,8 @@ testRunner.When("I browse \'root=>RSS\'");
                         "Value"});
             table2.AddRow(new string[] {
                         "Title",
-                        "Visual Studio LightSwitch - Beyond the Basics"});
+                        "TWC9: VB for Windows Phone 7, ASP.NET Vulnerability, WCF Services, String Formatt" +
+                            "ing Cheat Sheet"});
 #line 37
 testRunner.Then("item 1 should have these attributes:", ((string)(null)), table2);
 #line hidden
@@ -174,7 +175,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 42
 testRunner.When("I browse \'root=>RSS\'");
 #line 43
-testRunner.Then("there should be 25 items");
+testRunner.Then("there should be 24 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -211,7 +212,7 @@ testRunner.Then("there should be 4 items");
                         "Value"});
             table3.AddRow(new string[] {
                         "Title",
-                        "Ping 69: Windows Phone 7 adds Voice, Mobile App Match, Bing Taxi, Halo 2600"});
+                        "Don McCrady - Parallelism in C++ Using the Concurrency Runtime"});
 #line 52
 testRunner.And("item 1 should have these attributes:", ((string)(null)), table3);
 #line hidden
@@ -230,7 +231,7 @@ testRunner.When("I browse \'root=>RSS\'");
 #line 58
 testRunner.And("I browse \'root=>RSS\'");
 #line 59
-testRunner.Then("there should be 25 items");
+testRunner.Then("there should be 24 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -296,8 +297,8 @@ testRunner.When("I browse \'root=>RSS\'");
 #line 77
 testRunner.And("item #1 is a video file");
 #line 78
-testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
-                    "6296/LightSwitchBeyondBasics_ch9.wmv\'");
+testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd" +
+                    "9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_2MB_ch9.wmv\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -315,7 +316,7 @@ testRunner.When("I browse \'root=>Shows=>But Why?\'");
 testRunner.And("item #1 is a video file");
 #line 83
 testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/2730/56" +
-                    "2730/Giblets3_ch9.wmv\'");
+                    "2730/Giblets3_2MB_ch9.wmv\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -332,7 +333,7 @@ testRunner.When("I browse \'root=>RSS\'");
 #line 87
 testRunner.And("item #1 is a video file");
 #line 88
-testRunner.Then("the video should have a duration of 2604000");
+testRunner.Then("the video should have a duration of 946000");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -349,8 +350,8 @@ testRunner.When("I browse \'root=>RSS\'");
 #line 92
 testRunner.And("item #1 is a video file");
 #line 93
-testRunner.Then("the video should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/6296/56629" +
-                    "6/LightSwitchBeyondBasics_320_ch9.png\'");
+testRunner.Then("the video should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd9d1" +
+                    "134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_100_ch9.jpg\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -367,7 +368,7 @@ testRunner.When("I browse \'root=>RSS\'");
 #line 97
 testRunner.And("item #1 is a video file");
 #line 98
-testRunner.Then("the video should have a publication date of \'Wed, 11 Aug 2010 19:04:00 GMT\'");
+testRunner.Then("the video should have a publication date of \'Sat, 25 Sep 2010 02:39:41 GMT\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -416,8 +417,8 @@ testRunner.And("I examine the item as XML");
 #line 111
 testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
 #line 112
-testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/6296/56" +
-                    "6296/LightSwitchBeyondBasics_ch9.wmv\']\"");
+testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd" +
+                    "9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_2MB_ch9.wmv\']\"");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

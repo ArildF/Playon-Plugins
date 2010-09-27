@@ -60,6 +60,12 @@ namespace Rogue.PlayOn.Plugins.Channel9
             return attribute != null ? attribute.Value : String.Empty;
         }
 
+        public static long ValueOrZero(this XAttribute attribute)
+        {
+            long val;
+            return attribute != null && long.TryParse(attribute.Value, out val) ? val : 0;
+        }
+
         public static string ValueOrNull(this XElement element)
         {
             return element != null ? element.Value : null;
