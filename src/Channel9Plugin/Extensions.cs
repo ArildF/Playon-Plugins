@@ -44,11 +44,11 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
         }
 
-        public static IEnumerable<T> DistinctBy<T, TSelector>(
-            this IEnumerable<T> list, Func<T, TSelector> selector)
-        {
-            return list.Distinct(new SelectorComparer<T, TSelector>(selector));
-        }
+        //public static IEnumerable<T> DistinctBy<T, TSelector>(
+        //    this IEnumerable<T> list, Func<T, TSelector> selector)
+        //{
+        //    return list.Distinct(new SelectorComparer<T, TSelector>(selector));
+        //}
 
         public static string ValueOrNull(this XAttribute attribute)
         {
@@ -76,29 +76,29 @@ namespace Rogue.PlayOn.Plugins.Channel9
             return element != null ? element.Value : String.Empty;
         }
 
-        public class SelectorComparer<T, TSelector> : IEqualityComparer<T>
-        {
-            private readonly Func<T, TSelector> _selector;
+        //public class SelectorComparer<T, TSelector> : IEqualityComparer<T>
+        //{
+        //    private readonly Func<T, TSelector> _selector;
 
-            public SelectorComparer(Func<T, TSelector> selector)
-            {
-                _selector = selector;
-            }
+        //    public SelectorComparer(Func<T, TSelector> selector)
+        //    {
+        //        _selector = selector;
+        //    }
 
-            public bool Equals(T x, T y)
-            {
-                if (y == null)
-                {
-                    return false;
-                }
+        //    public bool Equals(T x, T y)
+        //    {
+        //        if (y == null)
+        //        {
+        //            return false;
+        //        }
 
-                return _selector(x).Equals(_selector(y));
-            }
+        //        return _selector(x).Equals(_selector(y));
+        //    }
 
-            public int GetHashCode(T obj)
-            {
-                return _selector(obj).GetHashCode();
-            }
-        }
+        //    public int GetHashCode(T obj)
+        //    {
+        //        return _selector(obj).GetHashCode();
+        //    }
+        //}
     }
 }

@@ -124,6 +124,9 @@
     <None Include="Resources\Ping.rss">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Resources\Series.rss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Channel9Plugin\Channel9Plugin.csproj">
@@ -133,6 +136,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\Series1.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Shows1.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

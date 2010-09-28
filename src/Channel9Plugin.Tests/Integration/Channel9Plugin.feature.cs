@@ -81,6 +81,9 @@ namespace Channel9Plugin.Tests.Integration
                         "http://channel9.msdn.com/Browse/Shows?sort=atoz&page=5",
                         "Shows5.html"});
             table1.AddRow(new string[] {
+                        "http://channel9.msdn.com/Browse/Series?sort=atoz&page=1",
+                        "Series1.html"});
+            table1.AddRow(new string[] {
                         "http://channel9.msdn.com/Shows/ButWhy/RSS",
                         "ButWhy.rss"});
             table1.AddRow(new string[] {
@@ -95,9 +98,12 @@ namespace Channel9Plugin.Tests.Integration
             table1.AddRow(new string[] {
                         "http://channel9.msdn.com/Tags/ajax/RSS",
                         "Ajax.rss"});
+            table1.AddRow(new string[] {
+                        "http://channel9.msdn.com/Series/History/RSS",
+                        "Series.rss"});
 #line 7
 testRunner.Given("the following files for URLs:", ((string)(null)), table1);
-#line 20
+#line 22
 testRunner.And("a Channel 9 provider");
 #line hidden
         }
@@ -107,11 +113,11 @@ testRunner.And("a Channel 9 provider");
         public virtual void NameAndImage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Name and image", ((string[])(null)));
-#line 24
-this.ScenarioSetup(scenarioInfo);
-#line 25
-testRunner.Then("the provider should have an image");
 #line 26
+this.ScenarioSetup(scenarioInfo);
+#line 27
+testRunner.Then("the provider should have an image");
+#line 28
 testRunner.And("the provider should have the name \'Channel 9 (MSDN)\'");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -122,11 +128,11 @@ testRunner.And("the provider should have the name \'Channel 9 (MSDN)\'");
         public virtual void InvalidFeed()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Invalid feed", ((string[])(null)));
-#line 28
-this.ScenarioSetup(scenarioInfo);
-#line 29
-testRunner.Given("a file \'Invalid.rss\' at the URL \'http://channel9.msdn.com/Feeds/RSS/\'");
 #line 30
+this.ScenarioSetup(scenarioInfo);
+#line 31
+testRunner.Given("a file \'Invalid.rss\' at the URL \'http://channel9.msdn.com/Feeds/RSS/\'");
+#line 32
 testRunner.Then("I should get an error when I browse \'root=>RSS\'");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -137,18 +143,20 @@ testRunner.Then("I should get an error when I browse \'root=>RSS\'");
         public virtual void HaveAnRSSRootFolder()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Have an RSS root folder", ((string[])(null)));
-#line 32
-this.ScenarioSetup(scenarioInfo);
-#line 33
-testRunner.When("I browse the root");
 #line 34
-testRunner.Then("there should be 3 items");
+this.ScenarioSetup(scenarioInfo);
 #line 35
-testRunner.And("item 0 should be named \'RSS\'");
+testRunner.When("I browse the root");
 #line 36
-testRunner.And("item 1 should be named \'Shows\'");
+testRunner.Then("there should be 4 items");
 #line 37
+testRunner.And("item 0 should be named \'RSS\'");
+#line 38
+testRunner.And("item 1 should be named \'Shows\'");
+#line 39
 testRunner.And("item 2 should be named \'Tags\'");
+#line 40
+testRunner.And("item 3 should be named \'Series\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -158,9 +166,9 @@ testRunner.And("item 2 should be named \'Tags\'");
         public virtual void RetrieveRSSItems()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retrieve RSS items", ((string[])(null)));
-#line 39
+#line 42
 this.ScenarioSetup(scenarioInfo);
-#line 40
+#line 43
 testRunner.When("I browse \'root=>RSS\'");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
@@ -170,7 +178,7 @@ testRunner.When("I browse \'root=>RSS\'");
                         "Title",
                         "TWC9: VB for Windows Phone 7, ASP.NET Vulnerability, WCF Services, String Formatt" +
                             "ing Cheat Sheet"});
-#line 41
+#line 44
 testRunner.Then("item 1 should have these attributes:", ((string)(null)), table2);
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -181,11 +189,11 @@ testRunner.Then("item 1 should have these attributes:", ((string)(null)), table2
         public virtual void RSSItemCount()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("RSS item count", ((string[])(null)));
-#line 45
+#line 48
 this.ScenarioSetup(scenarioInfo);
-#line 46
+#line 49
 testRunner.When("I browse \'root=>RSS\'");
-#line 47
+#line 50
 testRunner.Then("there should be 24 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -196,11 +204,11 @@ testRunner.Then("there should be 24 items");
         public virtual void RestrictNumberOfItemsReturned()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Restrict number of items returned", ((string[])(null)));
-#line 49
+#line 52
 this.ScenarioSetup(scenarioInfo);
-#line 50
+#line 53
 testRunner.When("I browse the first 5 items of \'root=>RSS\'");
-#line 51
+#line 54
 testRunner.Then("there should be 5 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -211,11 +219,11 @@ testRunner.Then("there should be 5 items");
         public virtual void StartAtNon_ZeroIndex()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Start at non-zero index", ((string[])(null)));
-#line 53
+#line 56
 this.ScenarioSetup(scenarioInfo);
-#line 54
+#line 57
 testRunner.When("I browse 4 items starting from index 6 of \'root=>RSS\'");
-#line 55
+#line 58
 testRunner.Then("there should be 4 items");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -224,7 +232,7 @@ testRunner.Then("there should be 4 items");
             table3.AddRow(new string[] {
                         "Title",
                         "Don McCrady - Parallelism in C++ Using the Concurrency Runtime"});
-#line 56
+#line 59
 testRunner.And("item 1 should have these attributes:", ((string)(null)), table3);
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -235,13 +243,13 @@ testRunner.And("item 1 should have these attributes:", ((string)(null)), table3)
         public virtual void RetrieveRSSItemsTwice()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retrieve RSS items twice", ((string[])(null)));
-#line 60
-this.ScenarioSetup(scenarioInfo);
-#line 61
-testRunner.When("I browse \'root=>RSS\'");
-#line 62
-testRunner.And("I browse \'root=>RSS\'");
 #line 63
+this.ScenarioSetup(scenarioInfo);
+#line 64
+testRunner.When("I browse \'root=>RSS\'");
+#line 65
+testRunner.And("I browse \'root=>RSS\'");
+#line 66
 testRunner.Then("there should be 24 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -252,11 +260,11 @@ testRunner.Then("there should be 24 items");
         public virtual void FoldersItemCount()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Folders item count", ((string[])(null)));
-#line 65
+#line 68
 this.ScenarioSetup(scenarioInfo);
-#line 66
+#line 69
 testRunner.When("I browse \'root=>Shows\'");
-#line 67
+#line 70
 testRunner.Then("there should be 50 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -267,13 +275,13 @@ testRunner.Then("there should be 50 items");
         public virtual void RetrieveShowFoldersTwice()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retrieve show folders twice", ((string[])(null)));
-#line 69
-this.ScenarioSetup(scenarioInfo);
-#line 70
-testRunner.When("I browse \'root=>Shows\'");
-#line 71
-testRunner.And("I browse \'root=>Shows\'");
 #line 72
+this.ScenarioSetup(scenarioInfo);
+#line 73
+testRunner.When("I browse \'root=>Shows\'");
+#line 74
+testRunner.And("I browse \'root=>Shows\'");
+#line 75
 testRunner.Then("there should be 50 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -284,13 +292,13 @@ testRunner.Then("there should be 50 items");
         public virtual void ShowsFolderTitle()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Shows folder title", ((string[])(null)));
-#line 74
-this.ScenarioSetup(scenarioInfo);
-#line 75
-testRunner.When("I browse \'root=>Shows\'");
-#line 76
-testRunner.And("item #1 is a folder");
 #line 77
+this.ScenarioSetup(scenarioInfo);
+#line 78
+testRunner.When("I browse \'root=>Shows\'");
+#line 79
+testRunner.And("item #1 is a folder");
+#line 80
 testRunner.Then("the folder should have a title of \'10-4\'");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -301,13 +309,13 @@ testRunner.Then("the folder should have a title of \'10-4\'");
         public virtual void MediaURL()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media URL", ((string[])(null)));
-#line 79
-this.ScenarioSetup(scenarioInfo);
-#line 80
-testRunner.When("I browse \'root=>RSS\'");
-#line 81
-testRunner.And("item #1 is a video file");
 #line 82
+this.ScenarioSetup(scenarioInfo);
+#line 83
+testRunner.When("I browse \'root=>RSS\'");
+#line 84
+testRunner.And("item #1 is a video file");
+#line 85
 testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd" +
                     "9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_2MB_ch9.wmv\'");
 #line hidden
@@ -319,13 +327,13 @@ testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn
         public virtual void ShowsMediaURL()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Shows media URL", ((string[])(null)));
-#line 84
-this.ScenarioSetup(scenarioInfo);
-#line 85
-testRunner.When("I browse \'root=>Shows=>But Why?\'");
-#line 86
-testRunner.And("item #1 is a video file");
 #line 87
+this.ScenarioSetup(scenarioInfo);
+#line 88
+testRunner.When("I browse \'root=>Shows=>But Why?\'");
+#line 89
+testRunner.And("item #1 is a video file");
+#line 90
 testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn.com/o9/ch9/2730/56" +
                     "2730/Giblets3_2MB_ch9.wmv\'");
 #line hidden
@@ -337,13 +345,13 @@ testRunner.Then("the video should have a media URL of \'http://ecn.channel9.msdn
         public virtual void Duration()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Duration", ((string[])(null)));
-#line 89
-this.ScenarioSetup(scenarioInfo);
-#line 90
-testRunner.When("I browse \'root=>RSS\'");
-#line 91
-testRunner.And("item #1 is a video file");
 #line 92
+this.ScenarioSetup(scenarioInfo);
+#line 93
+testRunner.When("I browse \'root=>RSS\'");
+#line 94
+testRunner.And("item #1 is a video file");
+#line 95
 testRunner.Then("the video should have a duration of 946000");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -354,13 +362,13 @@ testRunner.Then("the video should have a duration of 946000");
         public virtual void Thumbnail()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Thumbnail", ((string[])(null)));
-#line 94
-this.ScenarioSetup(scenarioInfo);
-#line 95
-testRunner.When("I browse \'root=>RSS\'");
-#line 96
-testRunner.And("item #1 is a video file");
 #line 97
+this.ScenarioSetup(scenarioInfo);
+#line 98
+testRunner.When("I browse \'root=>RSS\'");
+#line 99
+testRunner.And("item #1 is a video file");
+#line 100
 testRunner.Then("the video should have a thumbnail \'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd9d1" +
                     "134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_100_ch9.jpg\'");
 #line hidden
@@ -372,13 +380,13 @@ testRunner.Then("the video should have a thumbnail \'http://ecn.channel9.msdn.co
         public virtual void PublicationDate()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Publication date", ((string[])(null)));
-#line 99
-this.ScenarioSetup(scenarioInfo);
-#line 100
-testRunner.When("I browse \'root=>RSS\'");
-#line 101
-testRunner.And("item #1 is a video file");
 #line 102
+this.ScenarioSetup(scenarioInfo);
+#line 103
+testRunner.When("I browse \'root=>RSS\'");
+#line 104
+testRunner.And("item #1 is a video file");
+#line 105
 testRunner.Then("the video should have a publication date of \'Sat, 25 Sep 2010 02:39:41 GMT\'");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -389,11 +397,11 @@ testRunner.Then("the video should have a publication date of \'Sat, 25 Sep 2010 
         public virtual void DonTRetrieveChildrenOfMedia()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Don\'t retrieve children of media", ((string[])(null)));
-#line 104
+#line 107
 this.ScenarioSetup(scenarioInfo);
-#line 105
+#line 108
 testRunner.When("I browse \'root=>RSS=>1\' without children");
-#line 106
+#line 109
 testRunner.Then("it should be a media file");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -404,11 +412,11 @@ testRunner.Then("it should be a media file");
         public virtual void SortOrder()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Sort order", ((string[])(null)));
-#line 108
+#line 111
 this.ScenarioSetup(scenarioInfo);
-#line 109
+#line 112
 testRunner.When("I browse \'root=>RSS\'");
-#line 110
+#line 113
 testRunner.Then("the item names should have sort prefixes ordered by publication date descending");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -419,15 +427,15 @@ testRunner.Then("the item names should have sort prefixes ordered by publication
         public virtual void MediaXML()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Media XML", ((string[])(null)));
-#line 112
-this.ScenarioSetup(scenarioInfo);
-#line 113
-testRunner.When("I browse item #1 of \'root=>RSS\'");
-#line 114
-testRunner.And("I examine the item as XML");
 #line 115
-testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
+this.ScenarioSetup(scenarioInfo);
 #line 116
+testRunner.When("I browse item #1 of \'root=>RSS\'");
+#line 117
+testRunner.And("I examine the item as XML");
+#line 118
+testRunner.Then("the xml should contain \"/media/url[@type=\'wmv\']\"");
+#line 119
 testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn.com/o9/ch9/18d0/bd" +
                     "9d1134-7051-4bc3-a562-9dfa013a18d0/TWC9Sept24_2MB_ch9.wmv\']\"");
 #line hidden
@@ -439,11 +447,11 @@ testRunner.And("the xml should contain \"/media/url[.=\'http://ecn.channel9.msdn
         public virtual void MissingDuration()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Missing duration", ((string[])(null)));
-#line 118
+#line 121
 this.ScenarioSetup(scenarioInfo);
-#line 119
+#line 122
 testRunner.When("I browse \'root=>Shows=>Ping!\'");
-#line 120
+#line 123
 testRunner.Then("there should be 25 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -454,13 +462,13 @@ testRunner.Then("there should be 25 items");
         public virtual void PlainTextDescriptions()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Plain text descriptions", ((string[])(null)));
-#line 122
-this.ScenarioSetup(scenarioInfo);
-#line 123
-testRunner.When("I browse \'root=>RSS\'");
-#line 124
-testRunner.And("item #1 is a video file");
 #line 125
+this.ScenarioSetup(scenarioInfo);
+#line 126
+testRunner.When("I browse \'root=>RSS\'");
+#line 127
+testRunner.And("item #1 is a video file");
+#line 128
 testRunner.Then("the video description should not contain HTML tags");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -471,13 +479,13 @@ testRunner.Then("the video description should not contain HTML tags");
         public virtual void FeedItemWithoutVideo()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Feed item without video", ((string[])(null)));
-#line 127
-this.ScenarioSetup(scenarioInfo);
-#line 128
-testRunner.Given("a file \'NoVideo.rss\' at the URL \'http://channel9.msdn.com/Feeds/RSS/\'");
-#line 129
-testRunner.When("I browse \'root=>RSS\'");
 #line 130
+this.ScenarioSetup(scenarioInfo);
+#line 131
+testRunner.Given("a file \'NoVideo.rss\' at the URL \'http://channel9.msdn.com/Feeds/RSS/\'");
+#line 132
+testRunner.When("I browse \'root=>RSS\'");
+#line 133
 testRunner.Then("there should be 0 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -488,11 +496,11 @@ testRunner.Then("there should be 0 items");
         public virtual void BrowseTags()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Browse Tags", ((string[])(null)));
-#line 132
+#line 135
 this.ScenarioSetup(scenarioInfo);
-#line 133
+#line 136
 testRunner.When("I browse \'root=>Tags\'");
-#line 134
+#line 137
 testRunner.Then("there should be 54 items");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -503,11 +511,11 @@ testRunner.Then("there should be 54 items");
         public virtual void BrowseTagsVideos()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Browse Tags videos", ((string[])(null)));
-#line 136
+#line 139
 this.ScenarioSetup(scenarioInfo);
-#line 137
+#line 140
 testRunner.When("I browse \'root=>Tags=>Ajax (42)\'");
-#line 138
+#line 141
 testRunner.Then("there should be 12 items");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
@@ -516,8 +524,38 @@ testRunner.Then("there should be 12 items");
             table4.AddRow(new string[] {
                         "Title",
                         "ASP.NET AJAX 4.0 by Fritz Onion"});
-#line 139
+#line 142
 testRunner.And("item 2 should have these attributes:", ((string)(null)), table4);
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Browse Series")]
+        public virtual void BrowseSeries()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Browse Series", ((string[])(null)));
+#line 146
+this.ScenarioSetup(scenarioInfo);
+#line 147
+testRunner.When("I browse \'root=>Series\'");
+#line 148
+testRunner.Then("there should be 3 items");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Browse Series videos")]
+        public virtual void BrowseSeriesVideos()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Browse Series videos", ((string[])(null)));
+#line 150
+this.ScenarioSetup(scenarioInfo);
+#line 151
+testRunner.When("I browse \'root=>Series=>The History of Microsoft\'");
+#line 152
+testRunner.Then("there should be 25 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

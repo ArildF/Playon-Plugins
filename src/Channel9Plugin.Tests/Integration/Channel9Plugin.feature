@@ -12,11 +12,13 @@ Background:
     |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=3 |Shows3.html            |
     |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=4 |Shows4.html            |
     |http://channel9.msdn.com/Browse/Shows?sort=atoz&page=5 |Shows5.html            |
+    |http://channel9.msdn.com/Browse/Series?sort=atoz&page=1    |Series1.html            |
     |http://channel9.msdn.com/Shows/ButWhy/RSS              |ButWhy.rss             |
     |http://channel9.msdn.com/Browse/Tags?page=1            |Tags1.html             |
     |http://channel9.msdn.com/Browse/Tags?page=2            |Tags2.html             |
     |http://channel9.msdn.com/Shows/PingShow/RSS            |Ping.rss               |
     |http://channel9.msdn.com/Tags/ajax/RSS                 |Ajax.rss               |
+    |http://channel9.msdn.com/Series/History/RSS            |Series.rss             |
     And a Channel 9 provider
 
     
@@ -31,10 +33,11 @@ Scenario: Invalid feed
 
 Scenario: Have an RSS root folder
     When I browse the root
-    Then there should be 3 items
+    Then there should be 4 items
     And item 0 should be named 'RSS'
     And item 1 should be named 'Shows'
     And item 2 should be named 'Tags'
+    And item 3 should be named 'Series'
 
 Scenario: Retrieve RSS items
     When I browse 'root=>RSS'
@@ -139,3 +142,11 @@ Scenario: Browse Tags videos
     And item 2 should have these attributes:
     |Name       |Value                                      |
     |Title       |ASP.NET AJAX 4.0 by Fritz Onion           |
+
+Scenario: Browse Series
+    When I browse 'root=>Series'
+    Then there should be 3 items
+
+Scenario: Browse Series videos
+    When I browse 'root=>Series=>The History of Microsoft'
+    Then there should be 25 items

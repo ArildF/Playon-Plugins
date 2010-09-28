@@ -75,6 +75,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
 
             new Shows("http://channel9.msdn.com/Browse/Shows?sort=atoz&page=1", _downloader).AddToHierarchy(hierarchy);
             new Tags("http://channel9.msdn.com/Browse/Tags?page=1", _downloader).AddToHierarchy(hierarchy);
+            new Series("http://channel9.msdn.com/Browse/Series?sort=atoz&page=1", _downloader).AddToHierarchy(hierarchy);
 
             return hierarchy;
         }
