@@ -559,6 +559,23 @@ testRunner.Then("there should be 25 items");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Html entities should be stripped")]
+        public virtual void HtmlEntitiesShouldBeStripped()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Html entities should be stripped", ((string[])(null)));
+#line 154
+this.ScenarioSetup(scenarioInfo);
+#line 155
+testRunner.When("I browse \'root=>Series=>The History of Microsoft\'");
+#line 156
+testRunner.And("item #1 is a video file");
+#line 157
+testRunner.Then("the video description should not contain HTML entities");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
     }
 }
 #endregion

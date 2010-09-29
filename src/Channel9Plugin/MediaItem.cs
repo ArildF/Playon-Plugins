@@ -9,6 +9,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
     public class MediaItem
     {
         private static readonly Regex HtmlStripper = new Regex(@"<.*?>");
+        private static readonly Regex NonBreakingSpaceStripper = new Regex(@"&.*?;");
         public DateTime? PublicationDate { get; private set; }
         public string Title { get; private set; }
         public string Url { get; private set; }
@@ -28,7 +29,8 @@ namespace Rogue.PlayOn.Plugins.Channel9
             ThumbNail = thumbNail;
             PublicationDate = publicationDate;
 
-            DescriptionPlainText = HtmlStripper.Replace(Description, "");
+            DescriptionPlainText = NonBreakingSpaceStripper.Replace(
+                HtmlStripper.Replace(Description, ""), " ");
         }
     }
 }

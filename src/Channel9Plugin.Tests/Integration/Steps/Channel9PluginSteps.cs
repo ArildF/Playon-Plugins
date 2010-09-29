@@ -225,6 +225,13 @@ namespace Channel9Plugin.Tests.Integration.Steps
             }
         }
 
+        [Then(@"the video description should not contain HTML entities")]
+        public void ThenTheVideoDescriptionShouldNotContainHTMLEntities()
+        {
+            var rex = new Regex(@"&.*?;");
+
+            rex.IsMatch(_video.Description).Satisfies(match => match == false);
+        }
 
 
         [Then(@"there should be (\d+) items")]

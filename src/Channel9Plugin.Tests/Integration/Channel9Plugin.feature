@@ -150,3 +150,8 @@ Scenario: Browse Series
 Scenario: Browse Series videos
     When I browse 'root=>Series=>The History of Microsoft'
     Then there should be 25 items
+
+Scenario: Html entities should be stripped
+    When I browse 'root=>Series=>The History of Microsoft'
+    And item #1 is a video file
+    Then the video description should not contain HTML entities
