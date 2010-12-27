@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 
-namespace Rogue.PlayOn.Plugins.Channel9
+namespace Rogue.PlayOnPlugins
 {
     public static class Extensions
     {

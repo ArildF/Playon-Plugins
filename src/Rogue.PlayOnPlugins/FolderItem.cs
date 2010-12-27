@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Rogue.PlayOn.Plugins.Channel9
+namespace Rogue.PlayOnPlugins
 {
     public class FolderItem : IMediaItemSource, IFolderSource
     {

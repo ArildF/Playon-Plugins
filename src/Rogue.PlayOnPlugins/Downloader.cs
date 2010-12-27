@@ -1,9 +1,8 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 
-namespace Rogue.PlayOn.Plugins.Channel9
+namespace Rogue.PlayOnPlugins
 {
-    internal class Downloader : IDownloader
+	public class Downloader : IDownloader
     {
         private readonly WebClient _client = new WebClient();
         public string DownloadString(string url)

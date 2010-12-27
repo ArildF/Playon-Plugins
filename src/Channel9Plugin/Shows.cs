@@ -1,7 +1,7 @@
-﻿using System.Text;
-using System.Text.RegularExpressions;
+﻿using Rogue.PlayOnPlugins;
+using Rogue.PlayOnPlugins.Hierarchies;
 
-namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
+namespace Rogue.PlayOn.Plugins.Channel9
 {
     internal class Shows
     {

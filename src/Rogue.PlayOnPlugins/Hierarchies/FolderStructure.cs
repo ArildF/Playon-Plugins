@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
+﻿namespace Rogue.PlayOnPlugins.Hierarchies
 {
     public class FolderStructure
     {

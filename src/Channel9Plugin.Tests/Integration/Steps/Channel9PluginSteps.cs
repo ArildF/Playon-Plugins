@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.XPath;
 using MediaMallTechnologies.Plugin;
 using Moq;
 using NUnit.Framework;
 using Rogue.PlayOn.Plugins.Channel9;
+using Rogue.PlayOnPlugins;
 using TechTalk.SpecFlow;
 using Satisfyr;
 

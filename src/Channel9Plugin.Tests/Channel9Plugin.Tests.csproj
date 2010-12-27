@@ -133,6 +133,10 @@
       <Project>{B2BAFE7D-3F20-4251-A144-70D327623D34}</Project>
       <Name>Channel9Plugin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Rogue.PlayOnPlugins\Rogue.PlayOnPlugins.csproj">
+      <Project>{1E5A3D30-23FE-46C3-95AA-26C1A5A80C87}</Project>
+      <Name>Rogue.PlayOnPlugins</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

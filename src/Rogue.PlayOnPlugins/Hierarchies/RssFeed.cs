@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
+﻿namespace Rogue.PlayOnPlugins.Hierarchies
 {
-    internal class RssFeed
+    public class RssFeed
     {
         private readonly string _url;
         private readonly IDownloader _downloader;

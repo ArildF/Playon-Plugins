@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace Rogue.PlayOn.Plugins.Channel9
+namespace Rogue.PlayOnPlugins
 {
     public class RssParser : IMediaItemSource
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rogue.PlayOn.Plugins.Channel9
+namespace Rogue.PlayOnPlugins
 {
     public class InvalidFeedException : Exception
     {

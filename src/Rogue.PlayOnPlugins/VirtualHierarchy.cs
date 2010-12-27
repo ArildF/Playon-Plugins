@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using MediaMallTechnologies.Plugin;
 using System.Linq;
+using MediaMallTechnologies.Plugin;
 
-namespace Rogue.PlayOn.Plugins.Channel9
+namespace Rogue.PlayOnPlugins
 {
-    internal abstract class HierarchyNode
+	public abstract class HierarchyNode
     {
         public string ParentId { get; private set; }
         public string Title { get; private set; }
@@ -24,7 +24,7 @@ namespace Rogue.PlayOn.Plugins.Channel9
         public abstract AbstractSharedMediaInfo ToMedia();
     }
 
-    internal class VirtualHierarchy
+	public class VirtualHierarchy
     {
         private readonly Dictionary<string, HierarchyNode> _nodes = new Dictionary<string, HierarchyNode>();
         private readonly string _root;

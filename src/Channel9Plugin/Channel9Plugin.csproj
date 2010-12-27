@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Rogue.PlayOn.Plugins.Channel9</RootNamespace>
-    <AssemblyName>Channel9Plugin</AssemblyName>
+    <AssemblyName>Channel9Plugin.dev</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
@@ -69,41 +69,36 @@
   <ItemGroup>
     <Compile Include="Channel9Provider.cs" />
     <Compile Include="Channel9Settings.cs" />
-    <Compile Include="Downloader.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="FolderItem.cs" />
-    <Compile Include="Hierarchies\FolderStructure.cs" />
-    <Compile Include="Hierarchies\RssFeed.cs" />
-    <Compile Include="Hierarchies\Series.cs" />
-    <Compile Include="Hierarchies\Shows.cs" />
-    <Compile Include="Hierarchies\ShowsFolderSource.cs" />
-    <Compile Include="Hierarchies\Tags.cs" />
-    <Compile Include="HierarchyBuilder.cs" />
-    <Compile Include="interfaces.cs" />
-    <Compile Include="IDownloader.cs" />
-    <Compile Include="InvalidFeedException.cs" />
-    <Compile Include="MediaItem.cs" />
+    <Compile Include="Series.cs" />
+    <Compile Include="Shows.cs" />
+    <Compile Include="ShowsFolderSource.cs" />
+    <Compile Include="Tags.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RssParser.cs" />
-    <Compile Include="VirtualHierarchy.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="logo.png" />
   </ItemGroup>
   <ItemGroup>
     <MergeAsm Include="$(TargetDir)\Channel9Plugin.dll" />
     <MergeAsm Include="$(TargetDir)\HtmlAgilityPack.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rogue.PlayOnPlugins\Rogue.PlayOnPlugins.csproj">
+      <Project>{1E5A3D30-23FE-46C3-95AA-26C1A5A80C87}</Project>
+      <Name>Rogue.PlayOnPlugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -114,4 +109,7 @@
     <ILMerge InputAssemblies="@(MergeAsm)" OutputFile="$(TargetDir)\Channel9Plugin.dll" />
     <Copy SourceFiles="$(TargetDir)\Channel9Plugin.dll" DestinationFiles="$(TargetDir)\Channel9.plugin" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>ilmerge /out:Channel9Plugin.dll $(TargetPath) $(TargetDir)\Rogue.PlayOnPlugins.dll</PostBuildEvent>
+  </PropertyGroup>
 </Project>

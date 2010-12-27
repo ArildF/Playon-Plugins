@@ -1,4 +1,7 @@
-﻿namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
+﻿using Rogue.PlayOnPlugins;
+using Rogue.PlayOnPlugins.Hierarchies;
+
+namespace Rogue.PlayOn.Plugins.Channel9
 {
     class Series
     {

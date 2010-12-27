@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using HtmlAgilityPack;
+using Rogue.PlayOnPlugins;
+using Rogue.PlayOnPlugins.Hierarchies;
 
-namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
+namespace Rogue.PlayOn.Plugins.Channel9
 {
     internal class ShowsFolderSource : IFolderSource
     {

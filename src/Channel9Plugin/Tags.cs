@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Rogue.PlayOnPlugins;
+using Rogue.PlayOnPlugins.Hierarchies;
 
-namespace Rogue.PlayOn.Plugins.Channel9.Hierarchies
+namespace Rogue.PlayOn.Plugins.Channel9
 {
     class Tags
     {
